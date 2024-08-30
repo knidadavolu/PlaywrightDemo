@@ -1,0 +1,27 @@
+{
+
+ "url":"https://adactinhotelapp.com/",
+ "username":"Hariharan2727",
+ "password":"Hariharan@123",
+ "accountUser":"Hello Hariharan2727!",
+ "Location":"Sydney",
+ "Hotel":"Hotel Creek",
+ "RoomType":"Standard",
+ "NumberofRooms":"3 - Three",
+ "getCheckInDate":"16/08/2024",
+ "getCheckOutDate":"17/08/2024",
+ "getAdultsPerRoom":"2",
+ "getChildrensPerRoom":"2",
+ "path":"C:/Users/hariharan2/.js/Screenshots",
+ "firstName":"Hariharan",
+ "lastName":"K",
+ "billingAddress":"1234 block bengaluru",
+ "creditCardNo":"7329934567454545",
+ "cardType":"VISA",
+ "expMonth":"4",
+ "expYear":"2026",
+ "cvv":"234"
+    
+    
+ 
+}

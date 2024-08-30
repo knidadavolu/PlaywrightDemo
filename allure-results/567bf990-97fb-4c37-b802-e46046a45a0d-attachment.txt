@@ -1,0 +1,14 @@
+TypeError: Cannot read properties of undefined (reading 'get')
+    at ApiUtils.getRequest (c:\Users\hariharan2\PlaywrightDemo\utils\ApiUtils.spec.ts:17:49)
+    at c:\Users\hariharan2\PlaywrightDemo\mytest\APiTesting.spec.ts:10:34
+    at c:\Users\hariharan2\PlaywrightDemo\node_modules\playwright\lib\worker\workerMain.js:339:9
+    at c:\Users\hariharan2\PlaywrightDemo\node_modules\playwright\lib\worker\testInfo.js:296:11
+    at TimeoutManager.withRunnable (c:\Users\hariharan2\PlaywrightDemo\node_modules\playwright\lib\worker\timeoutManager.js:53:14)
+    at TestInfoImpl._runAsStage (c:\Users\hariharan2\PlaywrightDemo\node_modules\playwright\lib\worker\testInfo.js:294:7)
+    at c:\Users\hariharan2\PlaywrightDemo\node_modules\playwright\lib\worker\workerMain.js:331:7
+    at c:\Users\hariharan2\PlaywrightDemo\node_modules\playwright\lib\worker\testInfo.js:296:11
+    at TimeoutManager.withRunnable (c:\Users\hariharan2\PlaywrightDemo\node_modules\playwright\lib\worker\timeoutManager.js:41:27)
+    at TestInfoImpl._runAsStage (c:\Users\hariharan2\PlaywrightDemo\node_modules\playwright\lib\worker\testInfo.js:294:7)
+    at WorkerMain._runTest (c:\Users\hariharan2\PlaywrightDemo\node_modules\playwright\lib\worker\workerMain.js:281:5)
+    at WorkerMain.runTestGroup (c:\Users\hariharan2\PlaywrightDemo\node_modules\playwright\lib\worker\workerMain.js:205:11)
+    at process.<anonymous> (c:\Users\hariharan2\PlaywrightDemo\node_modules\playwright\lib\common\process.js:95:22)

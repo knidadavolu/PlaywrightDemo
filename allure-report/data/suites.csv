@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","18694","launchingBrowserUsingPom","chromium","Sat Aug 17 23:39:15 IST 2024","passed","Sat Aug 17 23:39:34 IST 2024","","PomClassLaunch.spec.ts","",""

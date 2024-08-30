@@ -1,0 +1,42 @@
+name: Individual Test Case Execution
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+jobs:
+    test:
+        timeout-minutes: 60
+        runs-on: windows-latest
+
+        steps:
+        - uses: actions/checkout@v4
+
+        - uses: actions/setup-node@v4
+
+          with:
+            node-version: lts/*
+
+        - name: Install dependencies
+          run: npm ci
+          
+        - name: Install Playwright Browsers
+          run: npx playwright install --with-deps
+
+        - name: Run Playwright tests
+          run: npx playwright test AdactinHotelBooking
+
+        - uses: actions/upload-artifact@v4
+          if: always()
+          with:
+            name: test-report
+            path: allure-report/
+            if-no-files-found: ignore 
+            retention-days: 30
+        
+
+        
+    
+
+
+
