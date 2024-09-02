@@ -1,6 +1,6 @@
 import { test, expect, Browser, Page, Locator } from '@playwright/test'
 import { chromium } from '@playwright/test'
-import { POManager } from '../pageObject/POManager';
+import { POManager } from '../src/pageObjectManager/POManager';
 import { insuranceDrop } from '../pageObject/insuranceDrop';
 
 const data = JSON.parse(JSON.stringify(require("../testData/orderDetails.json")));

@@ -7,7 +7,7 @@ export class Wrapper {
 
   //click
 
-  async click(locator:Locator){
+  async click(locator: Locator) {
     await locator.waitFor();
     await locator.click();
   }
@@ -103,32 +103,27 @@ export class Wrapper {
     return await locator.getAttribute(attribute);
   }
 
+  //hovering
 
-  //hovering 
-
-  async hover(locator:Locator){
+  async hover(locator: Locator) {
     await locator.waitFor();
     await locator.hover();
   }
-  
+
   //clear text
-  async clear(locator:Locator){
+  async clear(locator: Locator) {
     await locator.waitFor();
     await locator.clear();
   }
 
   //  getTitle
-  async getTitle():Promise<string>{
+  async getTitle(): Promise<string> {
     return this.page.title();
   }
 
   //Drag and drop
 
-  async dragAndDrop(sourceLocator:Locator,targerLocator:Locator){
+  async dragAndDrop(sourceLocator: Locator, targerLocator: Locator) {
     await sourceLocator.dragTo(targerLocator);
   }
-
-
-
-
 }

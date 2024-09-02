@@ -1,10 +1,10 @@
-import { BrandSelection } from "./BrandSelection";
-import { LoginPage } from "./LoginPage";
-import { SearchProduct } from "./SearchProduct";
+import { BrandSelection } from "../../pageObject/BrandSelection";
+import { LoginPage } from "../../pageObject/LoginPage";
+import { SearchProduct } from "../../pageObject/SearchProduct";
 import { Page } from "playwright/test";
-import { SelectProducts } from "./SelectProduct";
-import { AddingToCart } from "./AdddingToCart";
-import { CartPage } from "./CartPage";
+import { SelectProducts } from "../../pageObject/SelectProduct";
+import { AddingToCart } from "../../pageObject/AdddingToCart";
+import { CartPage } from "../../pageObject/CartPage";
 
 
 export class POManager {
