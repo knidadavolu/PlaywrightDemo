@@ -39,7 +39,7 @@ export default class BaseCommands {
         await this.page.keyboard.up(key);
     }
 
-    //types text eg: typeText('Hi, there!')    
+    //type text eg: typeText('Hi, there!')    
     async typeText(text: string): Promise<void> {
         await this.page.keyboard.type(text);
     }
