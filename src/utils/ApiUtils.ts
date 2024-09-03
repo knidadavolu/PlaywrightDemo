@@ -2,7 +2,6 @@ import { APIRequestContext } from "playwright/test";
 
 export class ApiUtils {
 
-
     requestContext: APIRequestContext;
     public response: any;
     constructor(requestContext: APIRequestContext) {
@@ -26,7 +25,6 @@ export class ApiUtils {
         this.response = await this.requestContext.put(url, { data: payload });
         return this.response;
     }
-
 
     async getStatusCode() {
         const statuscode = await this.response.status();
