@@ -16,6 +16,5 @@ test('api postResquest',async()=>{
     const response=await api.postRequest('https://reqres.in/api/users','{"name": "morpheus","job": "leader"}');
     api.getStatusCode();
     api.getResponse();
-
  })
 

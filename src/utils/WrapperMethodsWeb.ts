@@ -1,7 +1,7 @@
 import { expect, Locator, Page } from "playwright/test";
 import { Browser, BrowserContext, BrowserType, LaunchOptions, chromium, firefox, webkit } from "playwright/test";
 
-export default class BaseCommands {
+export default class WrapperMethodsWeb {
     public page!: Page;
 
     async launchAndTestBrowser(browserType: string, headless: boolean, options: LaunchOptions): Promise<Page> {
