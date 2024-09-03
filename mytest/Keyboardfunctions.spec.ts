@@ -1,5 +1,5 @@
 import{test,Browser, chromium, Page, expect} from '@playwright/test'
-import BaseCommands from "../utils/WrapperMethodsWeb";
+import BaseCommands from "../utils/BaseCommands";
 test('HandlesAlert',async()=>{
     const basecommands =await new BaseCommands();
     const page:Page=await basecommands.launchAndTestBrowser("chrome",false,{})

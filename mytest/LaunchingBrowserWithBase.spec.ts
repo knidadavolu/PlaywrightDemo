@@ -1,5 +1,5 @@
 import test, {Browser, chromium, Page}from '@playwright/test';
-import BaseCommands from '../utils/WrapperMethodsWeb';
+import BaseCommands from '../utils/BaseCommands';
 import { PageObjectManager } from '../PageObjectManager/PageObjectManager';
 const testdata = JSON.parse(JSON.stringify(require('../testdata.json')))
 

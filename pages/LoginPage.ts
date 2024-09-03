@@ -1,5 +1,5 @@
 import { expect, type Locator, type Page } from "playwright/test";
-import BaseCommands from "../utils/WrapperMethodsWeb";
+import BaseCommands from "../utils/BaseCommands";
 export class LoginPage {
   readonly page: Page;
   readonly getuserName: Locator;
@@ -25,7 +25,7 @@ export class LoginPage {
     //this.getLoginButton.click();`
     await this.basecommands.inputValueElement(this.getuserName, username);
     await this.basecommands.inputValueElement(this.getpassword, password);
-    await this.basecommands.click(this.getLoginButton,"click");
+    await this.basecommands.clickOnElement(this.getLoginButton,"click");
 
   }
 
