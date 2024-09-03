@@ -1,7 +1,7 @@
 import {test, Locator} from '@playwright/test';
 import { Wrapper } from '../src/utils/Wrapper';
 import { SearchProduct } from '../src/pages/SearchProduct';
-const data = JSON.parse(JSON.stringify(require("../src/data/orderDetails.json")));
+const data = JSON.parse(JSON.stringify(require("../src/testData/orderDetails.json")));
 
 test('wrapper class test', async ({page})=>{
    const wrapper = new Wrapper(page);

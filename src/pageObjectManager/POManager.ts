@@ -16,6 +16,7 @@ export class POManager {
   selectProducts: SelectProducts;
   addingToCart: AddingToCart | undefined;
   cartPage: CartPage | undefined;
+   static getserachProduct: any;
 
   constructor(page: Page) {
     this.page = page;
