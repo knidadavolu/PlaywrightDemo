@@ -1,7 +1,7 @@
 
 import { test, Browser, chromium, Page, expect } from '@playwright/test'
 import{PageObjectManager} from '../PageObjectManager/PageObjectManager'
-import BaseCommands from '../utils/BaseCommands';
+import BaseCommands from '../utils/WrapperMethodsWeb';
 const testdata = JSON.parse(JSON.stringify(require('../testdata.json')))
 
 test('Book Hotel', async () => {

@@ -1,7 +1,7 @@
 import{test, Page,Locator ,Browser, chromium, expect} from '@playwright/test'
 import { basename } from 'path';
 import { WebKitBrowser,ChromiumBrowser } from 'playwright'
-import { BaseCommands } from '../utils/BaseCommands';
+import { BaseCommands } from '../utils/WrapperMethodsWeb';
 
 test('browserLaunch',async()=>{
 const browser :Browser=await chromium.launch({headless:false,channel:'chrome'});

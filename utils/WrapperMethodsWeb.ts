@@ -66,16 +66,32 @@ export default class BaseCommands {
         console.log("Url is :" + url);
         return url;
     }
+    //waiting for element to visible
+
+    async waitForVisibility(element: Locator) {
+        await element.waitFor({ state: "visible" });
+    }
+
+    //waiting for an element to be hidden
+
+    async waitForInvisibility(element: Locator) {
+        await element.waitFor({ state: "hidden" });
+    }
+    //taking a screenshot
+
+    async takeScreenshot(path: string) {
+        await this.page.screenshot({ path });
+    }
 
     // get element Text 
-    public async getElementText(locator: Locator) {
-        const text = await locator.textContent();
+    public async getText(element: Locator) {
+        const text = await element.textContent();
         console.log("Text of the  Element is :" + text);
         return text;
     }
 
     //to click the element 
-    public async click(element: Locator, type: string) {
+    public async clickOnElement(element: Locator, type: string) {
         switch (type.toLowerCase()) {
             case "click":
                 await element.click({});
@@ -93,15 +109,64 @@ export default class BaseCommands {
 
     //to pass the value 
     public async inputValueElement(element: Locator, value: string) {
+        await element.waitFor();
         await element.fill(value);
     }
     //clear the text field
     public async clear(element: Locator) {
         await element.clear();
     }
+    //  getTitle
+    async getTitle(): Promise<string> {
+        return this.page.title();
+    }
+
+    //checking a checkbox
+    async check(locator: Locator) {
+        await locator.waitFor();
+        await locator.check();
+    }
+
+    //Unchecking a checkbox
+    async unCheck(element: Locator) {
+        await element.waitFor();
+        await element.uncheck();
+    }
+
+    //isChecked
+    async isChecked(element: Locator): Promise<boolean> {
+        await element.waitFor();
+        return await element.isChecked();
+    }
+
+    //isVisible
+    async isVisible(element: Locator): Promise<boolean> {
+        await element.waitFor();
+        return await element.isVisible();
+    }
+
+    //isHidden
+    async isHidden(element: Locator): Promise<boolean> {
+        await element.waitFor();
+        return await element.isHidden();
+    }
+
+    //isDisabled
+    async isDisable(element: Locator): Promise<boolean> {
+        await element.waitFor();
+        return await element.isDisabled();
+    }
+
+    //getting attribute value
+
+    async getAttribute(element: Locator, attribute: string) {
+        return await element.getAttribute(attribute);
+    }
+
 
     //Mouse hover
     public async mouseHover(element: Locator) {
+        await element.waitFor();
         await element.hover();
     }
 
@@ -128,7 +193,7 @@ export default class BaseCommands {
                 break;
         }
     }
-    
+
     async alerts() {
         this.page.on('dialog', async dialog => {
             console.log(`Dialog message: ${dialog.message()}`);

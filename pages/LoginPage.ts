@@ -1,5 +1,5 @@
 import { expect, type Locator, type Page } from "playwright/test";
-import BaseCommands from "../utils/BaseCommands";
+import BaseCommands from "../utils/WrapperMethodsWeb";
 export class LoginPage {
   readonly page: Page;
   readonly getuserName: Locator;
