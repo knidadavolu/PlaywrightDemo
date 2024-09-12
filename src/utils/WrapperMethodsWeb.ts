@@ -23,6 +23,11 @@ export default class WrapperMethodsWeb {
         this.page = await browser.newPage();
         return this.page;
     }
+    //goTOURL
+    public async goToURL(url:string){
+        await this.page.goto(url);
+
+    }
 
     //to go back the browser 
     public async goBack() {
