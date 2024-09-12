@@ -1,31 +1,29 @@
-import { BrandSelection } from "../../pageObject/BrandSelection";
-import { LoginPage } from "../../pageObject/LoginPage";
-import { SearchProduct } from "../../pageObject/SearchProduct";
-import { Page } from "playwright/test";
-import { SelectProducts } from "../../pageObject/SelectProduct";
-import { AddingToCart } from "../../pageObject/AdddingToCart";
-import { CartPage } from "../../pageObject/CartPage";
 
+import { LoginPage } from "../pages/LoginPage";
+import { SearchProduct } from "../pages/SearchProduct";
+import { Page } from "playwright/test";
+import { SelectProducts } from "../pages/SelectProduct";
+import { AddingToCart } from "../pages/AdddingToCart";
+import { CartPage } from "../pages/CartPage";
+import { BrandSelection } from "../pages/BrandSelection";
 
 export class POManager {
   page: Page;
-  newPage: Page | undefined;
   loginPage: LoginPage;
   searchProduct: SearchProduct;
   brand: BrandSelection;
   selectProducts: SelectProducts;
-  addingToCart: AddingToCart | undefined;
-  cartPage: CartPage | undefined;
-   static getserachProduct: any;
-
+  addingToCart: AddingToCart ;
+  cartPage: CartPage;
+  
   constructor(page: Page) {
     this.page = page;
     this.loginPage = new LoginPage(this.page);
     this.searchProduct = new SearchProduct(this.page);
-    this.brand = new BrandSelection(page);
-    this.selectProducts = new SelectProducts(page);
-    this.addingToCart = undefined;
-    this.cartPage = undefined;
+    this.brand = new BrandSelection(this.page);
+    this.selectProducts = new SelectProducts(this.page);
+    this.addingToCart = new AddingToCart(this.page);
+    this.cartPage = new CartPage(this.page);
   }
 
   setNewPage(newPage: Page) {
