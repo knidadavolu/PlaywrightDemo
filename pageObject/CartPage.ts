@@ -15,6 +15,7 @@ export class CartPage {
         this.cartPage_price = page.locator(".a-unordered-list span.sc-price");
         this.cartPage_quantity = page.locator("span.a-dropdown-prompt");
         this.cartPage_total = page.locator("#sc-subtotal-amount-activecart");     
+            
 
     }
 
