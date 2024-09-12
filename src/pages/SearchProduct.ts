@@ -1,16 +1,15 @@
 import { test, expect, Page, Locator } from "@playwright/test";
-import { Wrapper } from "../utils/Wrapper";
-
+import WrapperMethodsWeb from "../utils/WrapperMethodsWeb";
 export class SearchProduct {
-  wrapper: Wrapper;
+  wrapper: WrapperMethodsWeb;
   search_product: Locator;
   search_btn: Locator;
   search_ItemResult: Locator;
   page: Page;
 
-  constructor(wrapper:Wrapper ,page: Page) {
+  constructor(page: Page) {
     this.page = page;
-    this.wrapper = wrapper;
+    this.wrapper= new WrapperMethodsWeb;
     this.search_product = page.locator("#twotabsearchtextbox");
     this.search_btn = page.locator("#nav-search-submit-button");
     this.search_ItemResult = page.locator(".a-color-state");
@@ -21,10 +20,10 @@ export class SearchProduct {
   }
 
   async productSearch(productName: string) {
-    await this.search_product.clear();
-    await this.wrapper.typeText(this.search_product,productName)
+    await this.wrapper.clear(this.search_product);
+    await this.wrapper.inputValueElement(this.search_product,productName)
   //  await this.search_product.fill(productName);
-    await this.search_btn.click();
+    await this.wrapper.clickOnElement(this.search_btn,"click");
   }
 
   async validateSearchItem(productName: string) {

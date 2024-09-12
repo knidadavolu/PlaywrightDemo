@@ -45,7 +45,7 @@ export default class WrapperMethodsWeb {
     }
 
     //type text eg: typeText('Hi, there!')    
-    async typeText(text: string): Promise<void> {
+    async typeText(search_product: Locator, text: string): Promise<void> {
         await this.page.keyboard.type(text);
     }
 

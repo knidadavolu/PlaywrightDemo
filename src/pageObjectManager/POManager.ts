@@ -1,11 +1,10 @@
-import { BrandSelection } from "../../pageObject/BrandSelection";
-import { LoginPage } from "../../pageObject/LoginPage";
-import { SearchProduct } from "../../pageObject/SearchProduct";
 import { Page } from "playwright/test";
-import { SelectProducts } from "../../pageObject/SelectProduct";
-import { AddingToCart } from "../../pageObject/AdddingToCart";
-import { CartPage } from "../../pageObject/CartPage";
-
+import { BrandSelection } from "../pages/BrandSelection";
+import { LoginPage } from "../pages/LoginPage";
+import { SearchProduct } from "../pages/SearchProduct";
+import { SelectProducts } from "../pages/SelectProduct";
+import { AddingToCart } from "../pages/AdddingToCart";
+import { CartPage } from "../pages/CartPage";
 
 export class POManager {
   page: Page;
@@ -16,7 +15,7 @@ export class POManager {
   selectProducts: SelectProducts;
   addingToCart: AddingToCart | undefined;
   cartPage: CartPage | undefined;
-   static getserachProduct: any;
+  static getserachProduct: any;
 
   constructor(page: Page) {
     this.page = page;
@@ -32,7 +31,6 @@ export class POManager {
     this.newPage = newPage;
     this.addingToCart = new AddingToCart(this.newPage);
     this.cartPage = new CartPage(this.newPage);
-
   }
 
   getLoginPage(): LoginPage {
@@ -60,7 +58,5 @@ export class POManager {
 
   getCartPage(): CartPage | undefined {
     return this.cartPage;
-
   }
-
 }
