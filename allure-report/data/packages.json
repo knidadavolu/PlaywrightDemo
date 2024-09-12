@@ -1,1 +1,1 @@
-{"uid":"83edc06c07f9ae9e47eb6dd1b683e4e2","children":[{"name":"PomClassLaunch.spec.ts","children":[{"name":"launchingBrowserUsingPom","uid":"358106ff352374fd","parentUid":"fbd65268c1415eed1c2200b57e4b6633","status":"passed","time":{"start":1723918155938,"stop":1723918174632,"duration":18694},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["chromium"],"tags":[]}],"uid":"PomClassLaunch.spec.ts"}],"name":"packages"}
+{"uid":"83edc06c07f9ae9e47eb6dd1b683e4e2","name":"packages","children":[]}
