@@ -1,6 +1,6 @@
 
 import { test, expect, Page, Locator } from '@playwright/test';
-
+import WrapperMethodsWeb from '../utils/WrapperMethodsWeb';
 export class LoginPage {
     signIn_Hover: Locator;
     signIn_click: Locator;
@@ -9,12 +9,12 @@ export class LoginPage {
     password: Locator;
     signIn_submit: Locator;
     page: Page;
-
+   base:WrapperMethodsWeb
 
 
     constructor(page: Page) {
         this.page = page;
-
+        this.base = new WrapperMethodsWeb();
         this.signIn_Hover = page.locator("#nav-link-accountList-nav-line-1");
         this.signIn_click = page.locator("#nav-flyout-ya-signin .nav-action-inner");
         this.signIn_emailId = page.locator("#ap_email_login");
@@ -23,17 +23,13 @@ export class LoginPage {
         this.signIn_submit = page.locator("#signInSubmit");
     }
 
-    async goTo() {
-        await this.page.goto("https://www.amazon.in/");
-
-    }
-    async login(useremail: string, password: string) {
-        await this.signIn_Hover.hover();
-        await this.signIn_click.click();
-        await this.signIn_emailId.fill(useremail);
-        await this.continue_btn.click();
-        await this.password.fill(password);
-        await this.signIn_submit.click();
+    async login() {
+        await this.base.mouseHover(this.signIn_Hover)
+        await this.base.clickOnElement(this.signIn_click,"click");
+        await this.base.inputValueElement(this.signIn_emailId,"venkatcruze777@gmail.com");
+        await this.base.clickOnElement(this.continue_btn,"click");
+        await this.base.inputValueElement(this.password,"Venkateh@123");
+        await this.base.clickOnElement(this.signIn_submit,"click");
     }
     async loginValidation() {
         const currentPage_title: string = await this.page.title();
