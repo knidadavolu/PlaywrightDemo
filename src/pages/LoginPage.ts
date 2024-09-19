@@ -9,7 +9,7 @@ export class LoginPage {
     password: Locator;
     signIn_submit: Locator;
     page: Page;
-   base:WrapperMethodsWeb
+    base:WrapperMethodsWeb
 
 
     constructor(page: Page) {
@@ -23,7 +23,7 @@ export class LoginPage {
         this.signIn_submit = page.locator("#signInSubmit");
     }
 
-    async login() {
+    async login(useremail: any, password: any) {
         await this.base.mouseHover(this.signIn_Hover)
         await this.base.clickOnElement(this.signIn_click,"click");
         await this.base.inputValueElement(this.signIn_emailId,"venkatcruze777@gmail.com");

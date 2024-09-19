@@ -5,6 +5,7 @@ import { CartPage } from "../pages/CartPage";
 import { LoginPage } from "../pages/LoginPage";
 import { SearchProduct } from "../pages/SearchProduct";
 import { SelectProducts } from "../pages/SelectProduct";
+import WrapperMethodsWeb from "../utils/WrapperMethodsWeb";
 
 
 export class POManager {
@@ -15,13 +16,13 @@ export class POManager {
   selectProducts: SelectProducts;
   addingToCart: AddingToCart | undefined;
   cartPage: CartPage | undefined;
-   static getserachProduct: any;
   newPage: Page | undefined;
+  wrapper!: WrapperMethodsWeb;
 
   constructor(page: Page) {
     this.page = page;
     this.loginPage = new LoginPage(this.page);
-    this.searchProduct = new SearchProduct(this.page);
+    this.searchProduct = new SearchProduct(this.wrapper,this.page);
     this.brand = new BrandSelection(this.page);
     this.selectProducts = new SelectProducts(this.page);
     this.addingToCart = new AddingToCart(this.page);

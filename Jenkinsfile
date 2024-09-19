@@ -1,58 +1,65 @@
-pipline {
-    agent any
-    environment{
-        NODE_ENV = 'test'
-    }
-    tools{
-        nodejs 'NodeJS'
+pipeline {
+
+    agent { label 'playwright' }
+
+    environment {
+
+        PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD = '1'
+
     }
 
-    stages{
-        stage('Checkout'){
-            steps{
-                git branch: 'frameWorkDevelopment', url: 'https://github.com/knidadavolu/PlaywrightDemo.git'
+    tools {
+
+        nodejs 'NodeJS 14'
+
+    }
+
+    stages {
+
+        stage('Clone Repository') {
+
+            steps {
+
+                git branch: 'venkatesh', 
+
+                    credentialsId: 'git-token', 
+
+                    url: 'https://github.com/knidadavolu/PlaywrightDemo.git'
+
             }
+
         }
 
-        stage('Install Dependencies'){
-            steps{
-                script{
-                    bat 'npm install'
+        stage('Install Dependencies') {
+
+            steps {
+
+                script {
+
+                    bat 'npm ci' 
+
                 }
+
             }
+
         }
 
-        stage('Run test'){
-        steps{
-         script{
-            bat 'npx playwright test'
-          }
-         }
-         }
-    }
+        stage('Run Playwright Tests') {
 
-    post{
-        always{
+            steps {
 
-            cleanWs()
-            
-            publishHTML([
-                reportDir:'playwright-report',
-                reportFiles:'index.html',
-                name:'Playwright Test Report'
-            ])
+                script {
 
-            
+                    bat 'npx playwright install'  
+
+                    bat 'npx playwright test'    
+
+                }
+
+            }
+
         }
-        
-
-
-         
-
 
     }
-
-
-    
 
 }

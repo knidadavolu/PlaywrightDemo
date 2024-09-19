@@ -16,7 +16,9 @@ export class SearchProduct {
     this.search_ItemResult = page.locator(".a-color-state");
   }
 
-  
+  async goToSearch(){
+    await this.page.goto('/') 
+   }
 
   async productSearch(productName: string) {
     await this.search_product.clear();

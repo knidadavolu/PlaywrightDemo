@@ -1,26 +1,37 @@
 import { test, expect, Browser, Page, Locator } from "@playwright/test";
-import { chromium } from "@playwright/test";
 import { POManager } from "../src/pageObjectManager/POManager";
 import WrapperMethodsWeb from "../src/utils/WrapperMethodsWeb";
 
 const data = JSON.parse(
-  JSON.stringify(require("../src/testData/orderDetails.json"))
-);
-
-test("Amazon Web Page", async () => {
-   const wrapperMethodsWeb =new WrapperMethodsWeb();
-   const page:Page=await wrapperMethodsWeb.launchAndTestBrowser("chrome",false,{})
-   const pomMaager: POManager = new POManager(page);
+  JSON.stringify(require("../src/testData/orderDetails.json")));
 
 
-  // Login Page
+const authFile= "src/config/auth.json";
 
-     /* 
+let wrapperMethodsWeb:WrapperMethodsWeb;
+let page:Page;
+let pomMaager:POManager;
+
+test.beforeAll(async()=>{
+const wrapperMethodsWeb =new WrapperMethodsWeb();
+const page:Page=await wrapperMethodsWeb.launchAndTestBrowser("chrome",false,{})
+const pomMaager: POManager = new POManager(page)
+});
+test("Amazon login Page", async () => {
      const loginPage = pomMaager.getLoginPage();
-     await loginPage.goTo();
+     await page.goto("");
      await loginPage.login(data.useremail,data.password);
      await loginPage.loginValidation();
-     */
+     await page.context().storageState({path:authFile})
+});
+
+/*test("Login with auth file",async({browser})=>{
+  const context = await browser.newContext({storageState:authFile});
+  const page = await context.newPage();
+  await page.goto("");
+});*/
+
+test("Amazon Page Order Flow ", async () => {
 
   // Search Page
   const searchProduct = pomMaager.getserachProduct();
