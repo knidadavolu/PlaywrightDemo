@@ -1,0 +1,20 @@
+print the item name POCO
+count of product is  16
+Product 0: POCO C65 (Pastel Blue 4GB RAM 128GB Storage)
+Product 1: POCO C65 (Matte Black 4GB RAM 128GB Storage)
+Product 2: POCO C65 (Pastel Green 4GB RAM 128GB Storage)
+Product 3: POCO M6 Pro 5G (Power Black, 4GB RAM, 128GB Storage) | Snapdragon 4 Gen 2 | 6.79" Large Screen with 90Hz Refresh Rate | 50 MP Dual AI Camera
+Product 4: POCO M6 5G (Orion Blue, 6GB RAM, 128GB Storage)
+Product 5: POCO C61 Ethereal Blue 4GB RAM 64GB ROM
+Product 6: POCO C61 Diamond Dust Black 4GB RAM 64GB ROM
+Product 7: POCO M6 5G (Galactic Black,6GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G Processor | 5000 mAh Battery + 18W Fast Charging | 50 MP AI Dual-Camera System & Side Fingerprint Sensor
+Product 8: POCO M6 Pro 5G (128 GB) (6 GB RAM) (Power Black)
+Product 9: POCO C61 Mystical Green 4GB RAM 64GB ROM
+Product 10: POCO M6 5G (Polaris Green, 6GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G Processor | 5000 mAh Battery + 18W Fast Charging | 50 MP AI Dual-Camera System & Side Fingerprint Sensor
+Product 11: POCO M6 5G (Orion Blue, 4GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G Processor | 5000 mAh Battery + 18W Fast Charging | 50 MP AI Dual-Camera System & Side Fingerprint Sensor
+Product 12: POCO X6 5G (Snowstorm White, 8 GB RAM 256 GB Storage)
+Product 13: iQOO Z9 Lite 5G (Aqua Flow, 6GB RAM, 128GB Storage) | Dimensity 6300 5G | 50MP Sony AI Camera | Charger in The Box
+Product 14: POCO M6 5G (Galactic Black, 8GB RAM, 256GB Storage) | MediaTek Dimensity 6100+ 5G Processor | 5000 mAh Battery + 18W Fast Charging | 50 MP AI Dual-Camera System & Side Fingerprint Sensor
+Product 15: POCO X6 Neo 5G (Martian Orange, 8GB RAM, 128GB Storage) | Dimensity 6080 Processor | 5000 mAh Battery + 33W Fast Charging | 108MP + 2MP Rear Camera & 16MP Front Camera
+no matching product
+new page is : undefined

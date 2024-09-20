@@ -1,5 +1,5 @@
 import {test} from '@playwright/test';
-import { ExcelUtils } from '../src/utils/ExcelUtils';
+import { ExcelUtils } from '../../src/utils/ExcelUtils';
 
 test('data driven excel utiles', ()=>{
    

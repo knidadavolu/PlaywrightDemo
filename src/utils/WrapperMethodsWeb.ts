@@ -1,7 +1,7 @@
 import { expect, Locator, Page } from "playwright/test";
 import { Browser, BrowserContext, BrowserType, LaunchOptions, chromium, firefox, webkit } from "playwright/test";
 
-export default class BaseCommands {
+export default class WrapperMethodsWeb {
     public page!: Page;
 
     async launchAndTestBrowser(browserType: string, headless: boolean, options: LaunchOptions): Promise<Page> {
@@ -23,6 +23,11 @@ export default class BaseCommands {
         this.page = await browser.newPage();
         return this.page;
     }
+    //goTOURL
+    public async goToURL(url:string){
+        await this.page.goto(url);
+
+    }
 
     //to go back the browser 
     public async goBack() {
@@ -40,10 +45,9 @@ export default class BaseCommands {
     }
 
     //type text eg: typeText('Hi, there!')    
-    async typeText(text: string): Promise<void> {
+    async typeText(search_product: Locator, text: string): Promise<void> {
         await this.page.keyboard.type(text);
     }
-
 
     //to refresh the page
     public async refresh() {
@@ -66,19 +70,18 @@ export default class BaseCommands {
         console.log("Url is :" + url);
         return url;
     }
+    
     //waiting for element to visible
-
     async waitForVisibility(element: Locator) {
         await element.waitFor({ state: "visible" });
     }
 
     //waiting for an element to be hidden
-
     async waitForInvisibility(element: Locator) {
         await element.waitFor({ state: "hidden" });
     }
+    
     //taking a screenshot
-
     async takeScreenshot(path: string) {
         await this.page.screenshot({ path });
     }
@@ -112,10 +115,12 @@ export default class BaseCommands {
         await element.waitFor();
         await element.fill(value);
     }
+    
     //clear the text field
     public async clear(element: Locator) {
         await element.clear();
     }
+    
     //  getTitle
     async getTitle(): Promise<string> {
         return this.page.title();
@@ -194,6 +199,7 @@ export default class BaseCommands {
         }
     }
 
+    //handling alert
     async alerts() {
         this.page.on('dialog', async dialog => {
             console.log(`Dialog message: ${dialog.message()}`);

@@ -1,72 +1,73 @@
-import { test, expect, Browser, Page, Locator } from '@playwright/test'
-import { chromium } from '@playwright/test'
-import { POManager } from '../src/pageObjectManager/POManager';
-import { insuranceDrop } from '../pageObject/insuranceDrop';
+import { test, expect, Browser, Page, Locator } from "@playwright/test";
 
-const data = JSON.parse(JSON.stringify(require("../testData/orderDetails.json")));
+import { POManager } from "../src/pageObjectManager/POManager";
+import WrapperMethodsWeb from "../src/utils/WrapperMethodsWeb";
+
+const data = JSON.parse(
+  JSON.stringify(require("../src/testData/orderDetails.json")));
+
+
+const authFile= "src/config/auth.json";
+
+
+/*test("Login with auth file",async({browser})=>{
+  const context = await browser.newContext({storageState:authFile});
+  const page = await context.newPage();
+  await page.goto("");
+});*/
 
 test('Amazon Web Page', async ({ page }) => {
-    const pomMaager: POManager = new POManager(page);
+  const pomMaager: POManager = new POManager(page);
 
-    // Login Page
-    
-    /* 
-     const loginPage = pomMaager.getLoginPage();
-     await loginPage.goTo();
-     await loginPage.login(data.useremail,data.password);
-     await loginPage.loginValidation();
-     */
-    
-    
-     // Search Page
-     const searchProduct = pomMaager.getserachProduct();
-     await searchProduct.goToSearch();
-     await searchProduct.productSearch(data.productName);
-     await searchProduct.validateSearchItem(data.productName);
+  const loginPage = pomMaager.getLoginPage();
+  await page.goto("https://www.amazon.in/");
+  await loginPage.login(data.useremail,data.password);
+  await loginPage.loginValidation();
+  await page.context().storageState({path:authFile})
 
-    // Select Product page and Cart to Cart Page
-    const selectProductPage = pomMaager.getProductPage();
-    const newPage = await selectProductPage.selectProduct(data.modelName);
-    console.log('new page is :', newPage);
-    if (newPage) {
-        console.log(" print 1234 ")
-        pomMaager.setNewPage(newPage);
-        const addingProductToCart = pomMaager.getaddingToCartPage();
-        if (addingProductToCart) {
-            console.log('print6');
-            await addingProductToCart.selectQuality(data.qualityNumber);
-            await addingProductToCart.validateTiltle();
-            await addingProductToCart.validatePrice();
-            await addingProductToCart.addToCart();
-            await addingProductToCart.addToCartClose();
+  
+   // Search Page
+   const searchProduct = pomMaager.getserachProduct();
+   await searchProduct.goToSearch();
+   await searchProduct.productSearch(data.productName);
+   await searchProduct.validateSearchItem(data.productName);
 
-            const cartPagevalidation = pomMaager.getCartPage();
-            if (cartPagevalidation) {
-                await cartPagevalidation.goToCartPage();
-                await cartPagevalidation.validateCartPage();
-                //await cartPagevalidation.validateCartPage_title(data.modelName);
-                //await cartPagevalidation.validateTotalPrice(data.qualityNumber);
-            }
+  // Select Product page and Cart to Cart Page
+  const selectProductPage = pomMaager.getProductPage();
+  const newPage = await selectProductPage.selectProduct(data.modelName);
+  console.log('new page is :', newPage);
+  if (newPage) {
+      console.log(" print 1234 ")
+      pomMaager.setNewPage(newPage);
+      const addingProductToCart = pomMaager.getaddingToCartPage();
+      if (addingProductToCart) {
+          console.log('print6');
+          await addingProductToCart.selectQuality(data.qualityNumber);
+          await addingProductToCart.validateTiltle();
+          await addingProductToCart.validatePrice();
+          await addingProductToCart.addToCart();
+          await addingProductToCart.addToCartClose();
 
-        }
+          const cartPagevalidation = pomMaager.getCartPage();
+          if (cartPagevalidation) {
+              await cartPagevalidation.goToCartPage();
+              await cartPagevalidation.validateCartPage();
+              //await cartPagevalidation.validateCartPage_title(data.modelName);
+              //await cartPagevalidation.validateTotalPrice(data.qualityNumber);
+          }
 
-        else {
-            throw new Error('addingToCart is not initialized');
-        }
+      }
 
-    }
+      else {
+          throw new Error('addingToCart is not initialized');
+      }
 
-    else {
-        throw new Error('new tab did not open as expected');
-    }
+  }
+
+  else {
+      throw new Error('new tab did not open as expected');
+  }
 
 
-
-});
-
-test.only('insurance', async ({ page }) => {
-    const health:insuranceDrop= new insuranceDrop(page);
-
-    await health.selectDropdown("carrier");
 
 });
