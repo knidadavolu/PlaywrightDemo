@@ -1,5 +1,5 @@
 import { request,test,expect } from "playwright/test";
-import { ApiUtils } from "../../src/utils/ApiUtils";
+import { ApiUtils } from "utils/ApiUtils";
 
 test('api getRequest',async()=>{
 const requestContext=await request.newContext();
