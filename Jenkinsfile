@@ -56,13 +56,13 @@ pipeline {
             parallel{
                 stage ('Run Web Tests'){
                     steps {
-                        bat 'npx playwright test --config=web-palywright.config.ts'
+                        bat 'npx playwright test --config=web-playwright.config.ts'
                     }
                 }
                 stage ('Run Mobile Tests'){
                     steps {
                         
-                            bat 'npx playwright test --config=mobile-palywright.config.ts'
+                            bat 'npx playwright test --config=mobile-playwright.config.ts'
                              
                         }
                     }
