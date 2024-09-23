@@ -11,7 +11,7 @@ pipeline {
 
     tools {
 
-        nodejs 'NodeJS 14'
+        nodejs 'NodeJS_18'
 
     }
 
@@ -42,7 +42,7 @@ pipeline {
             steps {
 
                 script {
-                    
+                    bat 'npm install'
                     bat 'npx playwright install'  
 
 
