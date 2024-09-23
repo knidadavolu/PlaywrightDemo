@@ -19,14 +19,12 @@ const authFile= "src/config/auth.json";
 test('Amazon Web Page', async ({ page }) => {
   const pomMaager: POManager = new POManager(page);
 
-  const loginPage = pomMaager.getLoginPage();
+  /*const loginPage = pomMaager.getLoginPage();
   await page.goto("https://www.amazon.in/");
   await loginPage.login(data.useremail,data.password);
   await loginPage.loginValidation();
-  await page.context().storageState({path:authFile})
+  await page.context().storageState({path:authFile})*/
 
-  
-   // Search Page
    const searchProduct = pomMaager.getserachProduct();
    await searchProduct.goToSearch();
    await searchProduct.productSearch(data.productName);
