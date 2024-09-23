@@ -54,7 +54,7 @@ pipeline {
         }
 
         stage('Run Playwright Tests In Parallell') {
-            Parallell{
+            parallell{
                 stage ('Run Web Tests'){
                     steps {
                         script {
