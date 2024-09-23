@@ -42,8 +42,7 @@ pipeline {
             steps {
 
                 script {
-
-                    bat 'npm ci' 
+                    
                     bat 'npx playwright install'  
 
 
