@@ -53,8 +53,8 @@ pipeline {
 
         }
 
-        stage('Run Playwright Tests In Parallell') {
-            parallell{
+        stage('Run Playwright Tests In Parallel') {
+            parallel{
                 stage ('Run Web Tests'){
                     steps {
                         bat 'npx playwright test --config=web-palywright.config.ts'
