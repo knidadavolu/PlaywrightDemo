@@ -80,8 +80,41 @@ pipeline {
 
         stage ('Display Allure Report'){
             steps{
-                allure includeProperties: false,jdk: '',results:[[path:"${ALLURE_RESULTS_DIR}"]]
+                bat 'npx playwright show-report'
+
+                allure( [
+                    includeProperties: false,
+                    jdk: '',
+                    results:[[path:"${ALLURE_RESULTS_DIR}"]]
+                    ])
             }
+        }
+    }
+
+    post{
+         failure {
+                allure( [
+                    includeProperties: false,
+                    jdk: '',
+                    results:[[path:"${ALLURE_RESULTS_DIR}"]]
+                    ])
+             
+               emailext attachmentsPattern: 'target/test-output/index.html',
+               subject: 'Status Service Tests Failed' + "For Branch " + env.BRANCH_NAME + "with build id" + BUILD_ID,
+               body: "$env.BUILD_URL/console",
+               to: ''
+               }
+           success {
+                    allure( [
+                    includeProperties: false,
+                    jdk: '',
+                    results:[[path:"${ALLURE_RESULTS_DIR}"]]
+                    ])
+
+              emailext attachmentsPattern: 'target/test-output/index.html',
+              subject: 'Status Service Tests Passed' + "For Branch " + env.BRANCH_NAME + "with build id" + BUILD_ID,
+              body: "$env.BUILD_URL/console",
+              to: ''
         }
 
     }

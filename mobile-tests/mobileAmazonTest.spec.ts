@@ -4,5 +4,5 @@ import mobilePlaywrightConfig from "../mobile-playwright.config";
 test.use(mobilePlaywrightConfig.use || {});
 
 test('Mobile Test',async({page})=>{
-
+   
 });
