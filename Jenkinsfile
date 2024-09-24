@@ -82,6 +82,8 @@ pipeline {
 
             echo 'Generate Allure Report!!!!'
 
+            bat 'npm install -g allure-commandline --save-dev'
+
             bat 'allure generate allure-results --clean -o allure-report'
 
             //  echo 'Display Allure Report!!!!'
@@ -104,15 +106,15 @@ pipeline {
          failure {
              
                emailext attachmentsPattern: 'target/test-output/index.html',
-               subject: 'Status Service Tests Failed' + "For Branch " + env.BRANCH_NAME + "with build id" + BUILD_ID,
+               subject: 'Status Tests Failed' ,
                body: "$env.BUILD_URL/console",
-               to: ''
+               to: 'venkatesh.ramasubbu@ascension-external.org'
                }
            success {
               emailext attachmentsPattern: 'target/test-output/index.html',
-              subject: 'Status Service Tests Passed' + "For Branch " + env.BRANCH_NAME + "with build id" + BUILD_ID,
+              subject: 'Status Tests Passed',
               body: "$env.BUILD_URL/console",
-              to: ''
+              to: 'venkatesh.ramasubbu@ascension-external.org'
         }
 
     }
