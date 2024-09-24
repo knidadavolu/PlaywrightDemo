@@ -74,19 +74,13 @@ pipeline {
     post{
         always{
 
-            stage ('Generate Test Report'){
-            steps{
-                script{
-                    bat 'npx allure generate ${ALLURE_RESULTS_DIR} --clean'
-                }
-            }
-        }
+            echo 'Generate Allure Report!!!!'
 
-        stage ('Display Allure Report'){
-            steps{
-                bat 'allure open allure-report'
-            }
-        }
+            bat 'npx allure generate allure-results --clean -o allure-report'
+
+            echo 'Display Allure Report!!!!'
+
+            bat 'allure open allure-report'
         }
         
          failure {
