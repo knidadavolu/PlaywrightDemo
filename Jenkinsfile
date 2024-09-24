@@ -69,8 +69,12 @@ pipeline {
             }    
 
         }
+    }
 
-        stage ('Generate Test Report'){
+    post{
+        always{
+
+            stage ('Generate Test Report'){
             steps{
                 script{
                     bat 'npx allure generate ${ALLURE_RESULTS_DIR} --clean'
@@ -81,17 +85,10 @@ pipeline {
         stage ('Display Allure Report'){
             steps{
                 bat 'allure open allure-report'
-
-                allure( [
-                    includeProperties: false,
-                    jdk: '',
-                    results:[[path:"${ALLURE_RESULTS_DIR}"]]
-                    ])
             }
         }
-    }
-
-    post{
+        }
+        
          failure {
                 allure( [
                     includeProperties: false,
