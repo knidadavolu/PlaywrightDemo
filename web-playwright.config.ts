@@ -12,6 +12,6 @@ export default defineConfig({
         },
     ],
   testDir: './web-tests',
-  reporter:[['allure-playwright']],
+  reporter:'allure-playwright',
   
 });

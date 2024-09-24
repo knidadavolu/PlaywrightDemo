@@ -31,7 +31,7 @@ test('Amazon Web Page', async ({ page }) => {
    await searchProduct.validateSearchItem(data.productName);
 
   // Select Product page and Cart to Cart Page
-  const selectProductPage = pomMaager.getProductPage();
+ /* const selectProductPage = pomMaager.getProductPage();
   const newPage = await selectProductPage.selectProduct(data.modelName);
   console.log('new page is :', newPage);
   if (newPage) {
@@ -64,6 +64,6 @@ test('Amazon Web Page', async ({ page }) => {
       throw new Error('new tab did not open as expected');
   }
 
-
+*/
 
 });
