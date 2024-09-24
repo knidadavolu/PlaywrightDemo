@@ -12,6 +12,7 @@ pipeline {
     tools {
 
         nodejs 'NodeJS_18'
+        allure 'Allure CLI'
 
     }
 
