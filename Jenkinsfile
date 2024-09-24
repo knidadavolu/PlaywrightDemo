@@ -80,7 +80,7 @@ pipeline {
 
         stage ('Display Allure Report'){
             steps{
-                bat 'npx playwright show-report'
+                bat 'allure open allure-report'
 
                 allure( [
                     includeProperties: false,
