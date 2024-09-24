@@ -70,23 +70,23 @@ pipeline {
 
         }
 
-        stage ('Generate Allure Report'){
+        /*stage ('Generate Allure Report'){
             steps{
                             bat 'allure generate allure-results --clean -o allure-report'
             }
-        }
+        }*/
     }
 
     post{
         always{
 
-           // echo 'Generate Allure Report!!!!'
+            echo 'Generate Allure Report!!!!'
 
-          //  bat 'npx allure generate allure-results --clean -o allure-report'
+            bat 'allure generate allure-results --clean -o allure-report'
 
-          //  echo 'Display Allure Report!!!!'
+            //  echo 'Display Allure Report!!!!'
 
-          //  bat 'allure open allure-report'
+            //  bat 'allure open allure-report'
 
             //display allure report in jenkins 
 
