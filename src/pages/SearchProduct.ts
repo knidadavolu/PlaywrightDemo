@@ -15,13 +15,12 @@ export class SearchProduct {
   }
 
   async goToSearch(){
-    await this.page.goto('/') 
+    await this.page.goto('https://www.amazon.in/') 
    }
 
   async productSearch(productName: string) {
     await this.search_product.clear();
     await this.search_product.fill(productName);
-  //  await this.search_product.fill(productName);
     await this.search_btn.click();
   }
 

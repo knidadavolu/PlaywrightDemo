@@ -35,11 +35,9 @@ test('Amazon Web Page', async ({ page }) => {
   const newPage = await selectProductPage.selectProduct(data.modelName);
   console.log('new page is :', newPage);
   if (newPage) {
-      console.log(" print 1234 ")
       pomMaager.setNewPage(newPage);
       const addingProductToCart = pomMaager.getaddingToCartPage();
       if (addingProductToCart) {
-          console.log('print6');
           await addingProductToCart.selectQuality(data.qualityNumber);
           await addingProductToCart.validateTiltle();
           await addingProductToCart.validatePrice();
