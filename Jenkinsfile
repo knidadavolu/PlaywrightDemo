@@ -81,14 +81,21 @@ pipeline {
             echo 'Display Allure Report!!!!'
 
             bat 'allure open allure-report'
+
+            //display allure report in jenkins 
+
+            allure( [
+
+                includeProperties: false,
+                jdk: '',
+                properties: [],
+                reportBuildPolicy: 'ALWAYS',
+                results:[[path:"allure-results"]]
+             ])
+
         }
         
          failure {
-                allure( [
-                    includeProperties: false,
-                    jdk: '',
-                    results:[[path:"${ALLURE_RESULTS_DIR}"]]
-                    ])
              
                emailext attachmentsPattern: 'target/test-output/index.html',
                subject: 'Status Service Tests Failed' + "For Branch " + env.BRANCH_NAME + "with build id" + BUILD_ID,
@@ -96,12 +103,6 @@ pipeline {
                to: ''
                }
            success {
-                    allure( [
-                    includeProperties: false,
-                    jdk: '',
-                    results:[[path:"${ALLURE_RESULTS_DIR}"]]
-                    ])
-
               emailext attachmentsPattern: 'target/test-output/index.html',
               subject: 'Status Service Tests Passed' + "For Branch " + env.BRANCH_NAME + "with build id" + BUILD_ID,
               body: "$env.BUILD_URL/console",
