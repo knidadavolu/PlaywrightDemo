@@ -84,7 +84,10 @@ pipeline {
 
             bat 'npm install -g allure-commandline --save-dev'
 
+            bat 'allure --version'
+
             bat 'allure generate allure-results --clean -o allure-report'
+
 
             //  echo 'Display Allure Report!!!!'
 
