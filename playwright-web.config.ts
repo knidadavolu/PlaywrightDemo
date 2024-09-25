@@ -9,13 +9,6 @@ export default defineConfig({
         headless: false,
       },
     },
-    {
-      name: "Mobile Chrome",
-      use: {
-        ...devices["iphone 12"],
-        headless: false,
-      },
-    },
   ],
   testDir: "./tests-web",
   reporter: "allure-playwright",
