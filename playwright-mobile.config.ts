@@ -7,11 +7,12 @@ export default defineConfig({
             name:'iphone 12',
             use:{
                 ...devices['iphone 12'],
+                viewport : {width:390,height:844},
                 headless: false,
             },
         },
     ],
-  testDir: './mobile-tests',
+  testDir: './tests-mobile',
   reporter:[['allure-playwright']],
   
 });

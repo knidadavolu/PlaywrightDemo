@@ -57,13 +57,13 @@ pipeline {
             parallel{
                 stage ('Run Web Tests'){
                     steps {
-                        bat 'npx playwright test --config=web-playwright.config.ts'
+                        bat 'npx playwright test --config=playwright-web.config.ts'
                     }
                 }
                 stage ('Run Mobile Tests'){
                     steps {
                         
-                            bat 'npx playwright test --config=mobile-playwright.config.ts'
+                            bat 'npx playwright test --config=playwright-mobile.config.ts'
                              
                         }
                     }
@@ -71,11 +71,6 @@ pipeline {
 
         }
 
-        /*stage ('Generate Allure Report'){
-            steps{
-                            bat 'allure generate allure-results --clean -o allure-report'
-            }
-        }*/
     }
 
     post{
@@ -90,11 +85,6 @@ pipeline {
             bat 'allure generate allure-results --clean -o allure-report'
 
 
-            //  echo 'Display Allure Report!!!!'
-
-            //  bat 'allure open allure-report'
-
-            //display allure report in jenkins 
 
             allure( [
 
