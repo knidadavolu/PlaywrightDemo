@@ -1,4 +1,4 @@
-import { defineConfig, devices } from "@playwright/test";
+import { defineConfig, devices, webkit } from "@playwright/test";
 
 export default defineConfig({
   projects: [
@@ -9,7 +9,23 @@ export default defineConfig({
         headless: false,
       },
     },
+
+    {
+      name:"firefox",
+      use:{
+        browserName:"firefox",
+        headless:false,
+      },
+    },
+
+    {
+      name:"webkit",
+      use:{
+        browserName:"webkit",
+        headless:false,
+      }
+    }
   ],
   testDir: "./tests-web",
-  reporter: "allure-playwright",
+  reporter: [["allure-playwright"]],
 });

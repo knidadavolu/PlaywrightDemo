@@ -28,7 +28,7 @@ pipeline {
 
             steps {
 
-                git branch: 'venkatesh', 
+                 git branch: 'venkatesh', 
 
                     credentialsId: 'git-token', 
 
@@ -87,12 +87,11 @@ pipeline {
 
 
             allure( [
-
                 includeProperties: false,
                 jdk: '',
                 properties: [],
                 reportBuildPolicy: 'ALWAYS',
-                results:[[path:"allure-results"]]
+                results:[[path:"allure-results"]]    
              ])
 
         }

@@ -1,14 +1,13 @@
 import { test, expect, Browser, Page, Locator } from "@playwright/test";
 
 import { POManager } from "../src/pageObjectManager/POManager";
-import WrapperMethodsWeb from "../src/utils/WrapperMethodsWeb";
+import path from "path";
 
 const data = JSON.parse(
-  JSON.stringify(require("../src/testData/orderDetails.json")));
+  JSON.stringify(require("../src/testData/orderDetails.json"))
+);
 
-
-const authFile= "src/config/auth.json";
-
+const authFile = "src/config/auth.json";
 
 /*test("Login with auth file",async({browser})=>{
   const context = await browser.newContext({storageState:authFile});
@@ -16,7 +15,19 @@ const authFile= "src/config/auth.json";
   await page.goto("");
 });*/
 
-test('Amazon Web Page', async ({ page }) => {
+test.afterEach(async ({ page }, testInfo) => {
+  if (testInfo.status == "failed") {
+    const screenshotPath = path.join(
+      __dirname,
+      `./screenshots/${testInfo.title.replace(/\s+/g, "_")}_failed.png`
+    );
+    await page.screenshot({
+      path: screenshotPath,
+      fullPage: true,
+    });
+  }
+});
+test("Amazon Web Page", async ({ page }) => {
   const pomMaager: POManager = new POManager(page);
 
   /*const loginPage = pomMaager.getLoginPage();
@@ -25,13 +36,13 @@ test('Amazon Web Page', async ({ page }) => {
   await loginPage.loginValidation();
   await page.context().storageState({path:authFile})*/
 
-   const searchProduct = pomMaager.getserachProduct();
-   await searchProduct.goToSearch();
-   await searchProduct.productSearch(data.productName);
-   await searchProduct.validateSearchItem(data.productName);
+  const searchProduct = pomMaager.getserachProduct();
+  await searchProduct.goToSearch();
+  await searchProduct.productSearch(data.productName);
+  await searchProduct.validateSearchItem(data.productName);
 
   // Select Product page and Cart to Cart Page
- /* const selectProductPage = pomMaager.getProductPage();
+  /* const selectProductPage = pomMaager.getProductPage();
   const newPage = await selectProductPage.selectProduct(data.modelName);
   console.log('new page is :', newPage);
   if (newPage) {
@@ -65,5 +76,4 @@ test('Amazon Web Page', async ({ page }) => {
   }
 
 */
-
 });
