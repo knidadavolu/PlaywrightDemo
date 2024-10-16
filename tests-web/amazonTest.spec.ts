@@ -16,6 +16,8 @@ const authFile = "src/config/auth.json";
 });*/
 
 test.afterEach(async ({ page }, testInfo) => {
+
+  
   if (testInfo.status == "failed") {
     const screenshotPath = path.join(
       __dirname,
