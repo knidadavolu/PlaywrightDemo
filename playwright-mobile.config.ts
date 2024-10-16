@@ -12,5 +12,11 @@ export default defineConfig({
     },
   ],
   testDir: "./tests-mobile",
-  reporter: [["allure-playwright"]],
+  reporter: [
+    ['list'],
+    ["allure-playwright"]
+  ],
+  use:{
+    screenshot:'only-on-failure'
+  },
 });

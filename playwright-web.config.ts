@@ -27,5 +27,11 @@ export default defineConfig({
     }
   ],
   testDir: "./tests-web",
-  reporter: [["allure-playwright"]],
+  reporter: [
+    ['list'],
+    ["allure-playwright"]
+  ],
+  use:{
+    screenshot:'only-on-failure'
+  },
 });
