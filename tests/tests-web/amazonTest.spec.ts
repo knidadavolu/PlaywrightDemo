@@ -4,7 +4,7 @@ import { POManager } from "../../src/pageObjectManager/POManager";
 import path from "path";
 
 const data = JSON.parse(
-  JSON.stringify(require("../src/testData/orderDetails.json"))
+  JSON.stringify(require("src/testData/orderDetails.json"))
 );
 
 const authFile = "src/config/auth.json";

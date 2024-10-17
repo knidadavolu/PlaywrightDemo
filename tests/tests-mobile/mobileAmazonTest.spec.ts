@@ -13,7 +13,7 @@ import path from "path";
 test.use(mobilePlaywrightConfig);
 
 const data = JSON.parse(
-  JSON.stringify(require("../src/testData/orderDetails.json"))
+  JSON.stringify(require("src/testData/orderDetails.json"))
 );
 
 test.afterEach(async ({ page }, testInfo) => {
