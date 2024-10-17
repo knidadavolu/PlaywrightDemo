@@ -26,7 +26,7 @@ export default defineConfig({
       }
     }
   ],
-  testDir: "./tests-web",
+  testDir: "./tests/tests-web",
   reporter: [
     ['list'],
     ["allure-playwright"]

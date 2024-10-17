@@ -1,6 +1,6 @@
 import { test, expect, Browser, Page, Locator } from "@playwright/test";
 
-import { POManager } from "../src/pageObjectManager/POManager";
+import { POManager } from "../../src/pageObjectManager/POManager";
 import path from "path";
 
 const data = JSON.parse(

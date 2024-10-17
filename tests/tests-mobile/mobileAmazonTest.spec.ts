@@ -6,7 +6,7 @@ import {
   Locator,
   devices,
 } from "@playwright/test";
-import mobilePlaywrightConfig from "../playwright-mobile.config";
+import mobilePlaywrightConfig from "../../playwright-mobile.config";
 import { POManager } from "pageObjectManager/POManager";
 import path from "path";
 
