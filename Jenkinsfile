@@ -97,7 +97,7 @@ pipeline {
 
         }
         
-         failure {
+        /* failure {
              
                emailext attachmentsPattern: 'target/test-output/index.html',
                subject: 'Status Tests Failed' ,
@@ -109,7 +109,7 @@ pipeline {
               subject: 'Status Tests Passed',
               body: "$env.BUILD_URL/console",
               to: 'venkatesh.ramasubbu@ascension-external.org'
-        }
+        }*/
 
     }
 
