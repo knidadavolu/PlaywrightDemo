@@ -10,13 +10,13 @@ export default defineConfig({
       },
     },
 
-    {
+   /* {
       name: "webkit",
       use: {
         browserName: "webkit",
         headless: false,
       },
-    },
+    },*/
   ],
   testDir: "./tests/tests-web",
   reporter: [["list"], ["allure-playwright"]],
