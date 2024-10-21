@@ -1,0 +1,31 @@
+print the item name POCO C65
+count of product is  20
+Product 0: POCO C65 (Matte Black 4GB RAM 128GB Storage)
+matching product found POCO C65 (Matte Black 4GB RAM 128GB Storage)
+Product 1: Lava Yuva 3 (Cosmic Lavender, 4+4*GB + 128GB)|Segment's Most Affordable Smartphone with 128 GB (UFS 2.2) Storage | 90Hz Punch Hole Display|13MP AI Triple Camera|Side Fingerprint Sensor |Bloatware Free
+Product 2: POCO C65 (Pastel Blue 4GB RAM 128GB Storage)
+matching product found POCO C65 (Pastel Blue 4GB RAM 128GB Storage)
+Product 3: POCO C65 (Matte Black 4GB RAM 128GB Storage)
+matching product found POCO C65 (Matte Black 4GB RAM 128GB Storage)
+Product 4: POCO C65 (Pastel Green 4GB RAM 128GB Storage)
+matching product found POCO C65 (Pastel Green 4GB RAM 128GB Storage)
+Product 5: POCO C61 Ethereal Blue 4GB RAM 64GB ROM
+Product 6: POCO C61 Diamond Dust Black 4GB RAM 64GB ROM
+Product 7: Samsung Galaxy A35 5G (Awesome Lilac, 8GB RAM, 256GB Storage) | Premium Glass Back | 50 MP Main Camera (OIS) | Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED with Vision Booster
+Product 8: POCO C61 Mystical Green 4GB RAM 64GB ROM
+Product 9: (Refurbished) POCO C65 Matte Black 4GB RAM 128GB ROM
+matching product found (Refurbished) POCO C65 Matte Black 4GB RAM 128GB ROM
+Product 10: Samsung Galaxy S23 Ultra 5G AI Smartphone (Green, 12GB, 256GB Storage)
+Product 11: Oneplus Nord CE4 (Celadon Marble, 8GB RAM, 256GB Storage)
+Product 12: Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger
+Product 13: Samsung Galaxy A35 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) | Premium Glass Back | 50 MP Main Camera (OIS) | Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED with Vision Booster
+Product 14: Redmi 13C (Starshine Green, 6GB RAM, 128GB Storage) | Powered by 4G MediaTek Helio G85 | 90Hz Display | 50MP AI Triple Camera
+Product 15: POCO M6 5G (Galactic Black,6GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G Processor | 5000 mAh Battery + 18W Fast Charging | 50 MP AI Dual-Camera System & Side Fingerprint Sensor
+Product 16: realme NARZO N65 5G (Deep Green 6GB RAM, 128GB Storage) India's 1st D6300 5G Chipset | Ultra Slim Design | 120Hz Eye Comfort Display | 50MP AI Camera| Charger in The Box
+Product 17: Redmi 13C 5G (Startrail Green, 4GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G | 90Hz Display
+Product 18: realme C65 5G (Feather Green, 128 GB) (6 GB RAM)
+Product 19: Realme C65, Glowing Black , 6GB + 128GB
+cart page price value is  6999
+ cart page quantity value is  5
+expected totla is  34995
+ actual totla amount 34995

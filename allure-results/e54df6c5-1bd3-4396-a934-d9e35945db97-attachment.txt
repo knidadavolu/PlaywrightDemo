@@ -1,0 +1,21 @@
+print the item name POCO
+count of product is  17
+Product 0: Oneplus Nord CE4 (Dark Chrome, 8GB RAM, 128GB Storage)
+Product 1: POCO C65 (Pastel Blue 4GB RAM 128GB Storage)
+Product 2: POCO C65 (Matte Black 4GB RAM 128GB Storage)
+Product 3: POCO C61 Ethereal Blue 4GB RAM 64GB ROM
+Product 4: POCO C65 (Pastel Green 4GB RAM 128GB Storage)
+Product 5: POCO M6 5G (Galactic Black,6GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G Processor | 5000 mAh Battery + 18W Fast Charging | 50 MP AI Dual-Camera System & Side Fingerprint Sensor
+Product 6: POCO C61 Diamond Dust Black 4GB RAM 64GB ROM
+Product 7: POCO C61 Mystical Green 4GB RAM 64GB ROM
+Product 8: POCO X6 Neo 5G (Martian Orange, 8GB RAM, 128GB Storage) | Dimensity 6080 Processor | 5000 mAh Battery + 33W Fast Charging | 108MP + 2MP Rear Camera & 16MP Front Camera
+Product 9: POCO X6 5G (Mirror Black, 12 GB RAM 512 GB Storage)
+Product 10: POCO M6 Pro 5G (Power Black, 4GB RAM, 128GB Storage) | Snapdragon 4 Gen 2 | 6.79" Large Screen with 90Hz Refresh Rate | 50 MP Dual AI Camera
+Product 11: POCO M6 5G (Orion Blue, 6GB RAM, 128GB Storage)
+Product 12: POCO M6 Pro 5G (128 GB) (6 GB RAM) (Power Black)
+Product 13: POCO X6 Neo 5G (Horizon Blue, 8GB RAM, 128GB Storage) | Dimensity 6080 Processor | 5000 mAh Battery + 33W Fast Charging | 108MP + 2MP Rear Camera & 16MP Front Camera
+Product 14: (Refurbished) POCO C55 (Cool Blue, 128 GB) (6 GB RAM)
+Product 15: POCO X6 Neo 5G (Astral Black, 8GB RAM, 128GB Storage) | Dimensity 6080 Processor | 5000 mAh Battery + 33W Fast Charging | 108MP + 2MP Rear Camera & 16MP Front Camera
+Product 16: POCO X6 5G (Mirror Black, 8 GB RAM 256 GB Storage)
+no matching product
+new page is : undefined

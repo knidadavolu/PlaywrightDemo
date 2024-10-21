@@ -7,7 +7,6 @@ import { SearchProduct } from "../pages/SearchProduct";
 import { SelectProducts } from "../pages/SelectProduct";
 import WrapperMethodsWeb from "../utils/WrapperMethodsWeb";
 
-
 export class POManager {
   page: Page;
   loginPage: LoginPage;

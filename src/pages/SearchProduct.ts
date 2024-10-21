@@ -14,17 +14,20 @@ export class SearchProduct {
     this.search_ItemResult = page.locator(".a-color-state");
   }
 
-  async goToSearch(){
-    await this.page.goto('https://www.amazon.in/') 
-   }
+  async goToSearch() {
+    await this.page.goto("https://www.amazon.in/");
+  }
 
   async productSearch(productName: string) {
+    await this.search_product.waitFor({ state: "visible" });
     await this.search_product.clear();
     await this.search_product.fill(productName);
+    await this.search_btn.waitFor({ state: "visible" });
     await this.search_btn.click();
   }
 
   async validateSearchItem(productName: string) {
+    await this.search_ItemResult.waitFor({ state: "visible" });
     const itemvalue: any = await this.search_ItemResult.textContent();
     const received_itemvalue: string = itemvalue.replace(/["\\]/g, "").trim();
     console.log("print the item name " + received_itemvalue);

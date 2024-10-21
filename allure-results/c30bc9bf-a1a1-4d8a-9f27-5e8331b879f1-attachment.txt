@@ -1,0 +1,8 @@
+print the item name POCO C65
+count of product is  20
+Product 0: POCO C65 (Matte Black 4GB RAM 128GB Storage)
+matching product found POCO C65 (Matte Black 4GB RAM 128GB Storage)
+Error selecting product page.waitForLoadState: Test ended.
+    at SelectProducts.selectProduct (c:\Users\vramasubbu\Framework\PlaywrightDemo\src\pages\SelectProduct.ts:36:23)
+    at c:\Users\vramasubbu\Framework\PlaywrightDemo\tests\tests-web\amazonTest.spec.ts:48:19
+new page is : undefined

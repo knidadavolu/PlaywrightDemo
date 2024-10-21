@@ -1,0 +1,2331 @@
+print the item name POCO C65
+count of product is  20
+Product 0: POCO C65 (Matte Black 4GB RAM 128GB Storage)
+matching product found POCO C65 (Matte Black 4GB RAM 128GB Storage)
+new page is : <ref *1> Page {
+  _events: [Object: null prototype] {
+    close: [Function: bound onceWrapper] { listener: [Function (anonymous)] },
+    crash: [Function: bound onceWrapper] { listener: [Function (anonymous)] }
+  },
+  _eventsCount: 2,
+  _maxListeners: 0,
+  _connection: <ref *2> Connection {
+    _events: [Object: null prototype] { close: [Array] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    _objects: Map(64) {
+      '' => [Root],
+      'browser@028a693fe4d6009a80478554b9c5166a' => [Browser],
+      'android@fd2eade013558e06830ec523c8d641a2' => [Android],
+      'browser-type@1cbba29bf755e137a74dc86ca7b20d20' => [BrowserType],
+      'browser-type@9c75bee17cbdbb729c133e57774aa369' => [BrowserType],
+      'browser-type@106761c8ab835268622d6f4a51e47461' => [BrowserType],
+      'electron@34675c56dd7300797a742d474d5c027e' => [Electron],
+      'selectors@53b15eda511b3c1c2caa242a2e2347fb' => [SelectorsOwner],
+      'Playwright' => [Playwright],
+      'tracing@568d1bb4535354b03d63bcea560e0ce5' => [Tracing],
+      'request-context@d013705b6e4e9a7a5b6bc83a6c34e98b' => [APIRequestContext],
+      'browser-context@7408f97257107a826d54573a8c3ad63a' => [BrowserContext],
+      'frame@dfec721b0946792c6502a5293d8fecb7' => [Frame],
+      'page@f9050680ac582e130efc638426fdda9b' => [Page],
+      'worker@7d115a0f5cdeb096abcc92b36a03cedd' => [Worker],
+      'worker@3c4844946a2256dede02ac40c14b24d6' => [Worker],
+      'worker@39ace9d79b986c7b77ecc3787dc12dc5' => [Worker],
+      'request@efeb2069f7e95aed06324130258908cf' => [Request],
+      'response@97c189d16aa5c17cf5efbdd3c0fefd6f' => [Response],
+      'worker@20adeb2320225ecb68db91271a4f4fe6' => [Worker],
+      'request@e9305e4bfac26fc2b567d94cefa38e66' => [Request],
+      'frame@137756695df4d004d40cc5b95fc59d55' => [Frame],
+      'request@31bffc7c628302b7a88ddc88ce47e36f' => [Request],
+      'response@1600df698cd716f9a3eed5cf0c6d4eba' => [Response],
+      'request@064ae5225ca5fadfc28170a6f2c602ad' => [Request],
+      'response@81ad0b80f68c2ce410a79d2399a2679f' => [Response],
+      'frame@6464c0b7fb9ada871f67193f387ff204' => [Frame],
+      'request@25e520fb8b699b94f787287fd69543c5' => [Request],
+      'frame@24d5fe010c57811f0859d05f128ac8e1' => [Frame],
+      'frame@800fe3af3eb93800a9b95286e62f8853' => [Frame],
+      'frame@fa04ac74dd1dcf0f63b7d24f2974f652' => [Frame],
+      'frame@acaaeabe822a0e0e8388bfa828a7ef1d' => [Frame],
+      'request@1f07b13212563d4ab549421026c44bb3' => [Request],
+      'response@5a99ced3d738fc9c5c0bbdf567663a06' => [Response],
+      'request@3423e0ba45e91681b62f5b5502dc2321' => [Request],
+      'response@de1016c232bad4a4b617c4d2cdf045eb' => [Response],
+      'page@f4a19a0330cf8098b3b6e3c52ccf99f3' => [Circular *1],
+      'frame@90567e134235e174b8ead06f54ff304f' => [Frame],
+      'request@ff0f6a3f32bd1e776bf779403f6bcf40' => [Request],
+      'frame@7d95f31cb6b3eac9ffafe229b2ba526c' => [Frame],
+      'request@2d16ccf9a8324a4c849a7cf9cc39570b' => [Request],
+      'response@339855721f9352e857108f64b675ca4e' => [Response],
+      'response@3d4a2ac217abda12afc6461d15639158' => [Response],
+      'response@891e236ae9ddf241cacf3ab3a7b0bca6' => [Response],
+      'frame@e538e6a66153d943e4dbf6c372c1e23d' => [Frame],
+      'request@6fc73dd0b3ec00d39012b7126c286059' => [Request],
+      'frame@a1f15c77fb5f21e1b0c8bdc2ae60aeb8' => [Frame],
+      'request@2e2bcca5fc298cef2e0458a3f98ddc6f' => [Request],
+      'response@4acf8bbb8bc68e4d2590b774e1b5bbb4' => [Response],
+      'frame@818ba02ffc249f57d9d1b3a594b07b69' => [Frame],
+      'request@d910123e6547273234015b6ad274d713' => [Request],
+      'response@e6fa771e75d1a9b7503af4711943e47a' => [Response],
+      'frame@c605c312dff3e5a1a89414a8a858fd9d' => [Frame],
+      'request@ed839d88317e39bc53b5c6c41e0bd738' => [Request],
+      'response@80e2fa3ef7e7627aa5adee5417d31717' => [Response],
+      'frame@ba32ae71ddb430991fe06b6af26bd2ce' => [Frame],
+      'request@370503283f9ef8e1bbb2c15fb6d41089' => [Request],
+      'response@322eab2fc0ae607f760979d6292641d2' => [Response],
+      'frame@1880ddbb5da9c0ecc826aa9bf0b254a1' => [Frame],
+      'request@274c7f78130462441cab463a7c45a100' => [Request],
+      'response@dcd83cc72d6385cdd0be59c74335e6e6' => [Response],
+      'frame@eb188941f315195e1569ef7fce1e27d3' => [Frame],
+      'frame@a9b6e3bda74c4074f41cd75315e153c7' => [Frame],
+      'frame@ef5f6d323bc59d6ed7434a1f6f5c934a' => [Frame]
+    },
+    onmessage: [Function (anonymous)],
+    _lastId: 25,
+    _callbacks: Map(2) { 24 => [Object], 25 => [Object] },
+    _rootObject: Root {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Circular *2],
+      _parent: undefined,
+      _objects: [Map],
+      _type: 'Root',
+      _guid: '',
+      _channel: [EventEmitter],
+      _initializer: {},
+      _logger: undefined,
+      _instrumentation: undefined,
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _closedError: undefined,
+    _isRemote: true,
+    _localUtils: LocalUtils {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Root],
+      _objects: [Map],
+      _type: 'LocalUtils',
+      _guid: 'localUtils',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      devices: [Object],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _rawBuffers: false,
+    toImpl: undefined,
+    _tracingCount: 0,
+    _instrumentation: {},
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  },
+  _parent: <ref *3> BrowserContext {
+    _events: [Object: null prototype] { close: [Function] },
+    _eventsCount: 1,
+    _maxListeners: 0,
+    _connection: <ref *2> Connection {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      _objects: [Map],
+      onmessage: [Function (anonymous)],
+      _lastId: 25,
+      _callbacks: [Map],
+      _rootObject: [Root],
+      _closedError: undefined,
+      _isRemote: true,
+      _localUtils: [LocalUtils],
+      _rawBuffers: false,
+      toImpl: undefined,
+      _tracingCount: 0,
+      _instrumentation: {},
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _parent: Browser {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Root],
+      _objects: [Map],
+      _type: 'Browser',
+      _guid: 'browser@028a693fe4d6009a80478554b9c5166a',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _contexts: [Set],
+      _isConnected: true,
+      _closedPromise: [Promise],
+      _shouldCloseConnectionOnClose: true,
+      _browserType: [BrowserType],
+      _options: {},
+      _name: 'chromium',
+      _path: undefined,
+      _connectHeaders: [Array],
+      _closeReason: undefined,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _objects: Map(8) {
+      'request-context@d013705b6e4e9a7a5b6bc83a6c34e98b' => [APIRequestContext],
+      'tracing@568d1bb4535354b03d63bcea560e0ce5' => [Tracing],
+      'page@f9050680ac582e130efc638426fdda9b' => [Page],
+      'worker@7d115a0f5cdeb096abcc92b36a03cedd' => [Worker],
+      'worker@3c4844946a2256dede02ac40c14b24d6' => [Worker],
+      'worker@39ace9d79b986c7b77ecc3787dc12dc5' => [Worker],
+      'worker@20adeb2320225ecb68db91271a4f4fe6' => [Worker],
+      'page@f4a19a0330cf8098b3b6e3c52ccf99f3' => [Circular *1]
+    },
+    _type: 'BrowserContext',
+    _guid: 'browser-context@7408f97257107a826d54573a8c3ad63a',
+    _channel: EventEmitter {
+      _events: [Object: null prototype],
+      _eventsCount: 13,
+      _maxListeners: undefined,
+      _object: [Circular *3],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _initializer: {
+      isChromium: true,
+      requestContext: [EventEmitter],
+      tracing: [EventEmitter]
+    },
+    _logger: undefined,
+    _instrumentation: {},
+    _eventToSubscriptionMapping: Map(6) {
+      'console' => 'console',
+      'dialog' => 'dialog',
+      'request' => 'request',
+      'response' => 'response',
+      'requestfinished' => 'requestFinished',
+      'requestfailed' => 'requestFailed'
+    },
+    _wasCollected: false,
+    _pages: Set(2) { [Page], [Circular *1] },
+    _routes: [],
+    _browser: Browser {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Root],
+      _objects: [Map],
+      _type: 'Browser',
+      _guid: 'browser@028a693fe4d6009a80478554b9c5166a',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _contexts: [Set],
+      _isConnected: true,
+      _closedPromise: [Promise],
+      _shouldCloseConnectionOnClose: true,
+      _browserType: [BrowserType],
+      _options: {},
+      _name: 'chromium',
+      _path: undefined,
+      _connectHeaders: [Array],
+      _closeReason: undefined,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _browserType: BrowserType {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Root],
+      _objects: Map(0) {},
+      _type: 'BrowserType',
+      _guid: 'browser-type@769af71770b3c98af9f56123f23083b0',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _serverLauncher: [BrowserServerLauncherImpl],
+      _contexts: [Set],
+      _playwright: [Playwright],
+      _defaultContextOptions: [Object],
+      _defaultContextTimeout: 0,
+      _defaultContextNavigationTimeout: 0,
+      _defaultLaunchOptions: [Object],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _bindings: Map(0) {},
+    _timeoutSettings: TimeoutSettings {
+      _parent: undefined,
+      _defaultTimeout: 0,
+      _defaultNavigationTimeout: 0
+    },
+    _ownerPage: undefined,
+    _closedPromise: Promise {
+      <pending>,
+      [Symbol(async_id_symbol)]: 683,
+      [Symbol(trigger_async_id_symbol)]: 681,
+      [Symbol(kResourceStore)]: undefined
+    },
+    _options: {
+      acceptDownloads: 'accept',
+      bypassCSP: false,
+      colorScheme: 'light',
+      hasTouch: false,
+      ignoreHTTPSErrors: false,
+      isMobile: false,
+      javaScriptEnabled: true,
+      locale: 'en-US',
+      offline: false,
+      viewport: [Object],
+      serviceWorkers: 'allow',
+      noDefaultViewport: false,
+      extraHTTPHeaders: undefined,
+      storageState: undefined,
+      recordHar: undefined,
+      reducedMotion: undefined,
+      forcedColors: undefined,
+      clientCertificates: undefined
+    },
+    request: APIRequestContext {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *3],
+      _objects: Map(0) {},
+      _type: 'APIRequestContext',
+      _guid: 'request-context@d013705b6e4e9a7a5b6bc83a6c34e98b',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _request: undefined,
+      _tracing: [Tracing],
+      _closeReason: undefined,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    tracing: Tracing {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *3],
+      _objects: Map(0) {},
+      _type: 'Tracing',
+      _guid: 'tracing@568d1bb4535354b03d63bcea560e0ce5',
+      _channel: [EventEmitter],
+      _initializer: {},
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _includeSources: false,
+      _tracesDir: undefined,
+      _stacksId: undefined,
+      _isTracing: false,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    clock: Clock { _browserContext: [Circular *3] },
+    _backgroundPages: Set(0) {},
+    _serviceWorkers: Set(4) { [Worker], [Worker], [Worker], [Worker] },
+    _isChromium: true,
+    _harRecorders: Map(0) {},
+    _closeWasCalled: false,
+    _closeReason: undefined,
+    _harRouters: [],
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kReusedContext)]: true
+  },
+  _objects: Map(14) {
+    'frame@acaaeabe822a0e0e8388bfa828a7ef1d' => Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: [Map],
+      _type: 'Frame',
+      _guid: 'frame@acaaeabe822a0e0e8388bfa828a7ef1d',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: null,
+      _url: 'https://www.amazon.in/POCO-C65-Matte-Black-128GB/dp/B0CQG9N4Z3/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.j_ERC5eY9QkdG8uK4wKe_Sq5WFm6iXe5GVz4VtURsDcN-RZ9rAaonK96EGbB603kNBv7vJvZBpLYaR5tdZCwl2Ad2Y9Yn50U_ZBuFNU1UsxWTjdi5O1C3lFQFgidAJvVq0wAoyU_x4Ibun1OKwky1WE_H2YEr_n0StxAJ60NlvaF5JiGqHMTS3b1b39-9WmZOrR9iSFQrkVXGcBYH3TUc_rKGkzFImuZguAhN7-bRJ0.CTWnDqjg36M6XUpMxhFHIoMP_eVu3DGDZiBhX5qfyXk&dib_tag=se&keywords=POCO+C65&nsdOptOutParam=true&qid=1729331507&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1',
+      _name: '',
+      _detached: false,
+      _childFrames: [Set],
+      _page: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    'frame@90567e134235e174b8ead06f54ff304f' => Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: Map(0) {},
+      _type: 'Frame',
+      _guid: 'frame@90567e134235e174b8ead06f54ff304f',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: [Frame],
+      _url: 'https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/sf-1.50.ca4a82db.html',
+      _name: '        {\n' +
+        '            "placementName" :   "Detail_ams-detail-right-v2_desktop",\n' +
+        '            "renderingId":      "905f7149-b6dc-414e-aba0-c29ae5fcddc9",\n' +
+        '            "creative": {"flow":"XSP_CLIENT_SIDE","url":"https://aax-eu.amazon.in/e/xsp/getAd?placementId=34cf2689-d2ff-4ee1-a85d-479e92b51189&src=511&rj=%7B%7D&slot=ams-detail-right-v2&rid=0101597918ddcd969957e9f935fee201c08df159d7f2c49fff0d348be88b307867ff","size":{"height":250,"width":244},"mediaType":"D"},\n' +
+        '            "pageType":         "Detail",\n' +
+        '            "subPageType":      "desktop",\n' +
+        '            "slotName" :        "ams-detail-right-v2",\n' +
+        '            "arid" :            "b45f80d49542403f8dd7b88f5c1692b7",\n' +
+        '                "placementId":     "34cf2689-d2ff-4ee1-a85d-479e92b51189",\n' +
+        '            "size" :            {\n' +
+        '                                    "width": "244",\n' +
+        '                                    "height" : "250"\n' +
+        '                                },\n' +
+        '            "allowedSizes" :    [{"width":"100%","height":"135px"}, {"width":"100%","height":"250px"}, {"width":"245px","height":"135px"}, {"width":"244px","height":"250px"},  {"width":"245px","height":"250px"}],\n' +
+        '            "firePixelsAfter" : "A:ready",\n' +
+        '            "isCardsFlow": false,\n' +
+        '                "btrPixelUrl":      "https://aes.eu-west.ono.axp.amazon-adsystem.com/x/px?t=btr&bi=v1_CGrnR0kY-fjsxwqbX_gN_AvXflUkSeQKr4h9nmHTrpOtApxn1q0iAc8X5QFKmhKO24cG0otank-WhQr8Py5_XmEb_0_jNqiJThFVNh8vFgr7Rdgm4GUmx6c1DxS-YLz5GdbSY0-t6ZZPRhJ_wgqDFhocaBRSXZ0mVQk9BPBiBkHYn7bo0AprAQblYMWxa-ZsA28AaY6bz55bQ3V2ZcFWY_INjs-01tQ8RRXMNegh0QYNsYMulremAVIpl068tj4mYSSwb7qT7F80jxBcZ444pXr4BAGZnDTtEduS3JjPHbgDFhXxuNuv9juDVSrfE6Oi6-MB1rk9D7mC-bfUEvC1DZXXvF_2iilgvqcqqT67Sk0J0Og%3D&c=${AAX_PAYLOAD}",\n' +
+        '            "aaxInstrPixelUrl": "",\n' +
+        '            "fallbackStaticAdImgUrl": "",\n' +
+        '            "fallbackStaticAdClickUrl": "",\n' +
+        '            "fallbackStaticAdExtraStyle": "",\n' +
+        '            "adFeedbackInfo":         {\n' +
+        '            "adProgramId": "1004", \n' +
+        '            "endPoint": "/af/feedback-link",\n' +
+        '            "boolFeedback": true,\n' +
+        `            "sponsoredText": "Sponsored         <b id=\\"ape_Detail_ams-detail-right-v2_desktop_feedbackIcon\\" style=\\"display: inline-block;\\n                                         vertical-align: text-bottom;\\n                                         margin: 1px 0px;\\n                                         width: 14px;\\n                                         height: 12px;\\n                                         background: url('https://m.media-amazon.com/images/G/01/ad-feedback/info_icon_1Xsprite.png') 0px 0px no-repeat scroll transparent;\\"/>\\n",\n` +
+        '            "adFeedbackOnTop":false\n' +
+        '        }\n' +
+        ',\n' +
+        '            "adPlacementMetaData":         {\n' +
+        '            "pageUrl": "aHR0cHM6Ly93d3cuYW1hem9uLmluL1BPQ08tQzY1LU1hdHRlLUJsYWNrLTEyOEdCL2RwL0IwQ1FHOU40WjMvcmVmPXNyXzFfMV9zc3BhP2RpYj1leUoySWpvaU1TSjkual9FUkM1ZVk5UWtkRzh1SzR3S2VfU3E1V0ZtNmlYZTVHVno0VnRVUnNEY04tUlo5ckFhb25LOTZFR2JCNjAza05Cdjd2SnZaQnBMWWFSNXRkWkN3bDJBZDJZOVluNTBVX1pCdUZOVTFVc3hXVGpkaTVPMUMzbEZRRmdpZEFKdlZxMHdBb3lVX3g0SWJ1bjFPS3dreTFXRV9IMllFcl9uMFN0eEFKNjBObHZhRjVKaUdxSE1UUzNiMWIzOS05V21aT3JSOWlTRlFya1ZYR2NCWUgzVFVjX3JLR2t6RkltdVpndUFoTjctYlJKMC5DVFduRHFqZzM2TTZYVXBNeGhGSElvTVBfZVZ1M0RHRFppQmhYNXFmeVhrJmRpYl90YWc9c2Uma2V5d29yZHM9UE9DTytDNjUmbnNkT3B0T3V0UGFyYW09dHJ1ZSZwc2M9MSZxaWQ9MTcyOTMzMTUwNyZzcF9jc2Q9ZDJsa1oyVjBUbUZ0WlQxemNGOWhkR1kmc3I9OC0xLXNwb25z",\n' +
+        '            "adElementId": "ape_Detail_ams-detail-right-v2_desktop_placement",\n' +
+        '            "pageType": "Detail",\n' +
+        '            "slotName": "ams-detail-right-v2"\n' +
+        '        }\n' +
+        ',\n' +
+        '            "adCreativeMetaData":         {\n' +
+        '            "adProgramId": "1004",\n' +
+        '            "adCreativeId": "591711630946038013",\n' +
+        '            "adId": "580866592162528542",\n' +
+        '            "adCreativeDetails": [],\n' +
+        '            "adNetwork": "cs"\n' +
+        '        }\n' +
+        ',\n' +
+        '            "advertisementStyle":     {\n' +
+        '        "position": "absolute",\n' +
+        '        "top": "4.5px",\n' +
+        '        "right": "0px",\n' +
+        '        "display": "inline-block",\n' +
+        '        "font": "11px \\"Amazon Ember Regular\\", \\"Amazon Ember\\", Arial",\n' +
+        '        "color": "rgb(85,85,85)",\n' +
+        '        "text-align": "right"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "feedbackDivStyle":     {\n' +
+        '        "position": "relative",\n' +
+        '        "height": "14px",\n' +
+        '        "top": "2px"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "abpStatus": "0",\n' +
+        '            "abpAcceptable": "true",\n' +
+        '                "mediaType": "D",\n' +
+        '                "brandNameEncoded": "Apple",\n' +
+        '            "adUnitPlacementId":"ape_Detail_ams-detail-right-v2_desktop_placement",\n' +
+        '            "adUnitIframeId":"ape_Detail_ams-detail-right-v2_desktop_iframe",\n' +
+        '                "defaultSize":"245x250",\n' +
+        '            "weblabTreatments":"{\\"ADPT_SF_LIGHTADS_REFACTOR_903064\\":\\"C\\",\\"ADPT_SF_ADSP_VIDEO_833419\\":\\"C\\",\\"A2I_HOMEPAGE_CARD_THEMING_360311\\":\\"T1\\",\\"ADPT_SF_CLIENT_LATENCY_2023Q3_737747\\":\\"C\\",\\"ADPT_SF_CLIENT_LATENCY_2023Q1_632539\\":\\"C\\",\\"ADPT_SF_APE_WW_MOBILE_SEARCH_ZOETROPE_EPB_EXP_792200\\":\\"C\\",\\"ADPT_SF_H1_VIDEO_ADS_MOCK_940184\\":\\"C\\",\\"ADPT_SF_PLACEMENT_STYLESHEET_1047425\\":\\"C\\",\\"ADPT_SF_BTR_PIXEL_997225\\":\\"C\\",\\"ADPT_SF_SERVER_SIDE_SPONSORED_LABEL_998980\\":\\"C\\",\\"ADPT_SF_UNIQUE_DIV_ID_1012703\\":\\"T1\\",\\"ADPT_SF_MASH_API_DEPRECATION_1051249\\":\\"C\\",\\"ADPT_SF_RESIZE_ASPECT_RATIO_909226\\":\\"T1\\",\\"ADPT_SF_USE_ADDETAILS_SCOPE_1025572\\":\\"T1\\",\\"ADPT_SF_DEFAULT_SPONSORED_LABEL_863363\\":\\"C\\",\\"ADPT_SF_ADREPORTER_1058579\\":\\"C\\",\\"ADPT_SF_ENABLE_BLANKADS_DETECTION_990833\\":\\"C\\",\\"ADPT_SF_WD1_VIDEO_ADS_MOCK_1037066\\":\\"C\\",\\"ADPT_SF_TRANSPARENCY_INFO_MANDATORY_FOR_EU_712921\\":\\"C\\"}",\n' +
+        '            "blankAdsConfig":     {\n' +
+        '      "blankAdsScriptUrl": "https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/blankAds/blankAds.37728466.js"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "scope": "Detail_ams-detail-right-v2_desktop"\n' +
+        '        }\n',
+      _detached: false,
+      _childFrames: Set(0) {},
+      _page: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    'request@ff0f6a3f32bd1e776bf779403f6bcf40' => Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: [Map],
+      _type: 'Request',
+      _guid: 'request@ff0f6a3f32bd1e776bf779403f6bcf40',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _redirectedFrom: null,
+      _redirectedTo: null,
+      _failureText: null,
+      _provisionalHeaders: [RawHeaders],
+      _actualHeadersPromise: undefined,
+      _timing: [Object],
+      _fallbackOverrides: {},
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    'frame@7d95f31cb6b3eac9ffafe229b2ba526c' => Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: Map(0) {},
+      _type: 'Frame',
+      _guid: 'frame@7d95f31cb6b3eac9ffafe229b2ba526c',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: [Frame],
+      _url: 'https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/sf-1.50.ca4a82db.html',
+      _name: '        {\n' +
+        '            "placementName" :   "Detail_hero-quick-promo_Desktop",\n' +
+        '            "renderingId":      "666b78e7-20bd-4f22-b85f-c862cd3b3472",\n' +
+        '            "creative": {"flow":"SERVER_SIDE","url":null,"size":null,"mediaType":"D"},\n' +
+        '            "pageType":         "Detail",\n' +
+        '            "subPageType":      "Desktop",\n' +
+        '            "slotName" :        "hero-quick-promo",\n' +
+        '            "arid" :            "0211f3213fff41cd95675b1af0e94c27",\n' +
+        '                "placementId":     "09f69e71-4fc0-456b-8215-188e3bb2c49e",\n' +
+        '            "size" :            {\n' +
+        '                                    "width": "100%",\n' +
+        '                                    "height" : "130px"\n' +
+        '                                },\n' +
+        '            "allowedSizes" :    [{"width":"650px","height":"130px"}, {"width":"100%","height":"169px"}, {"width":"300px","height":"250px"}],\n' +
+        '            "firePixelsAfter" : "A:ready",\n' +
+        '            "isCardsFlow": false,\n' +
+        '                "aaxImpPixelUrl":      "https://aax-eu.amazon.in/e/xsp/imp?b=REKnkX2O3a5CirlPitVoWrwAAAGSpDDRNQMAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICCuh55-",\n' +
+        '            "aaxInstrPixelUrl": "https://aax-eu.amazon.in/x/px/REKnkX2O3a5CirlPitVoWrwAAAGSpDDRNQMAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICCuh55-/",\n' +
+        '                "htmlContentEncoded": "\\u003C!doctype html>\\n<html lang=\\"en\\" class=\\"\\">\\n<head>\\n    <meta charset=\\"UTF-8\\">\\n    <title><\\/title>\\n    <link rel=\\"stylesheet\\" href=\\"https://m.media-amazon.com/images/I/517R0bLEnxL.css\\">\\n\\n<link rel=\\"stylesheet\\" href=\\"https://m.media-amazon.com/images/I/31fN1YiGgQL.css\\">\\n    <style>#ad { visibility: hidden; }<\\/style>\\n    \\n<\\/head>\\n<body>\\n\\n<script>\\n    var PerformanceEventManager;(()=>{var e={};{var t=e;Object.defineProperty(t,\\"__esModule\\",{value:!0}),t.default=t.VISUAL_COMPLETENESS_LATENCY=t.UNCAUGHT_ERROR=t.CREATIVE_LOAD_LATENCY=void 0;let r=t.UNCAUGHT_ERROR=\\"uncaughtError\\";t.CREATIVE_LOAD_LATENCY=\\"creativeLoadLatency\\",t.VISUAL_COMPLETENESS_LATENCY=\\"visualCompletenessLatency\\",t.default=class{constructor(e){if(this.events={[r]:{}},this.timers={},this.onNewError=()=>{},this.window=e&&e.window||\\"undefined\\"!=typeof window&&window,!this.window||!this.window.document)throw new Error(\\"Window and/or document is not defined\\");this.trackLoadLatency(),this.trackVisualCompletenessLatency(),this.addErrorListener()}trackLoadLatency(){this.timers.creativeLoadLatency=new Date}trackVisualCompletenessLatency(){this.timers.visualCompletenessLatency=new Date}addErrorListener(){let e=this.events[r];this.addListener(this.window,\\"error\\",(t=>{let r=t.message;t.error&&t.error.stack&&(r=(t=t.message+\\" : \\"+t.error.stack).length<500?t:t.substring(0,500)),void 0===e[r]&&(e[r]=!0,this.onNewError(r))}))}addListener(...e){let t=e[0],r=e[1],n=e[2],a=(e=window.event)=>n(e);if(t.addEventListener)t.addEventListener(r,a,!0);else{var s=\\"on\\"+r;if(t.attachEvent)t.attachEvent(s,a);else{let r=t[s];t[s]=()=>{a.apply(this,...e),\\"function\\"==typeof r&&r.apply(this,...e)}}}}}}PerformanceEventManager=e})();;\\n    var performanceEventManager = new PerformanceEventManager.default();\\n    \\n<\\/script>\\n<div id=\\"ad\\" data-html-dimensions=\\"650x130\\"><div style=\\"width:100%;height:100%;opacity:1\\" class=\\"\\"><div style=\\"width:100%;height:100%\\" data-testid=\\"app-layout-container\\" data-has-hydrated=\\"false\\" class=\\"tw\\"><div data-testid=\\"gridContainer\\" class=\\"layout-container flex items-center overflow-hidden relative bg-white w-full h-full border-gray-400 border justify-center dark:bg-black-800\\"><div data-testid=\\"percIdentifierPixel\\" class=\\"h-[1px] w-[1px] fixed bottom-0 left-0 bg-zinc-400 z-10\\"><\\/div><div class=\\"adchoices-container z-30 absolute top-0 right-0\\"><\\/div><div class=\\"h-full relative w-full\\" data-testid=\\"gridWrapper\\" style=\\"direction:ltr\\"><div data-region-type=\\"trigger\\" class=\\"h-full\\"><div data-testid=\\"gridRegion\\" class=\\"w-full h-full border-gray-400\\"><div data-testid=\\"adLink\\" class=\\"focus-outline\\" id=\\"adLink\\"><a style=\\"background:transparent url(&quot;https://m.media-amazon.com/images/G/01/d16g/kpw/transparent-1x1.png&quot;) repeat 0 0;bottom:0;cursor:pointer;left:0;position:absolute;right:0;top:0;z-index:20\\" role=\\"link\\" aria-label=\\"Sponsored ad. Click to learn more information.\\" href=\\"https://aax-eu.amazon.in/x/c/JEKnkX2O3a5CirlPitVoWrwAAAGSpDDRgAMAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICCuh55-/https://www.amazon.in/stores/page/4235CFCC-F407-4CD6-9B20-FF148B8F7CB3\\" target=\\"_top\\"><\\/a><\\/div><div data-testid=\\"\\" data-identifier=\\"product-collection\\" data-current-screen=\\"banner-lg\\" class=\\"grid w-full h-full items-center px-0 bg-zinc-100\\" style=\\"grid-template-areas:&#x27;custom-image inset-carousel&#x27;;grid-template-columns:auto minmax(0, 1fr);grid-template-rows:auto\\"><div class=\\"w-full h-full grid-custom-image flex h-full items-center min-w-0 min-h-0 w-full relative justify-center overflow-hidden\\"><div aria-hidden=\\"true\\" class=\\"min-w-0 min-h-0 relative w-full h-full\\"><picture class=\\"flex h-full w-full justify-center items-center\\"><source type=\\"image/webp\\" data-testid=\\"lowResWebpSource\\" srcSet=\\" https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL10_SX650_SY130_FMwebp_.jpg 1x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL10_SX1300_SY260_FMwebp_.jpg 2x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL10_SX1950_SY390_FMwebp_.jpg 3x,\\"/><source type=\\"image/jpeg\\" data-testid=\\"lowResJpegSource\\" srcSet=\\" https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL10_SX650_SY130_.jpg 1x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL10_SX1300_SY260_.jpg 2x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL10_SX1950_SY390_.jpg 3x,\\"/><source type=\\"image/avif\\" data-testid=\\"lowResAvifSource\\" srcSet=\\" https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL10_SX650_SY130_FMavif_.jpg 1x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL10_SX1300_SY260_FMavif_.jpg 2x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL10_SX1950_SY390_FMavif_.jpg 3x,\\"/><img class=\\"min-w-0 min-h-0 w-full h-full object-contain\\" style=\\"background-color:transparent\\" loading=\\"eager\\" alt=\\"Redmi A3 (Midnight Black, 3GB RAM, 64GB Storage) | Premium Halo Design | 90Hz Display | Powerful 4G G36 Processor\\" data-testid=\\"pictureLowQuality\\" src=\\" https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_SX650_SY130_.jpg 1x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_SX1300_SY260_.jpg 2x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_SX1950_SY390_.jpg 3x,\\"/><\\/picture><picture data-testid=\\"customImage\\" data-image-scale=\\"horizontal\\" data-image-type=\\"static\\" class=\\"flex left-0 right-0 absolute top-0 bottom-0 justify-center items-center\\"><source type=\\"image/webp\\" data-testid=\\"webpSource\\" srcSet=\\" https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL95_SX650_SY130_FMwebp_.jpg 1x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL95_SX1300_SY260_FMwebp_.jpg 2x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL95_SX1950_SY390_FMwebp_.jpg 3x,\\"/><source type=\\"image/jpeg\\" data-testid=\\"jpegSource\\" srcSet=\\" https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL95_SX650_SY130_.jpg 1x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL95_SX1300_SY260_.jpg 2x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL95_SX1950_SY390_.jpg 3x,\\"/><source type=\\"image/avif\\" data-testid=\\"avifSource\\" srcSet=\\" https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL95_SX650_SY130_FMavif_.jpg 1x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL95_SX1300_SY260_FMavif_.jpg 2x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL95_SX1950_SY390_FMavif_.jpg 3x,\\"/><img class=\\"min-w-0 min-h-0 w-full h-full mrc-btr-creative object-contain\\" style=\\"background-color:transparent\\" loading=\\"eager\\" alt=\\"Redmi A3 (Midnight Black, 3GB RAM, 64GB Storage) | Premium Halo Design | 90Hz Display | Powerful 4G G36 Processor\\" data-testid=\\"pictureHighQuality\\" src=\\" https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_SX650_SY130_.jpg 1x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_SX1300_SY260_.jpg 2x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO'... 43752 more characters,
+      _detached: false,
+      _childFrames: Set(0) {},
+      _page: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    'request@2d16ccf9a8324a4c849a7cf9cc39570b' => Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: [Map],
+      _type: 'Request',
+      _guid: 'request@2d16ccf9a8324a4c849a7cf9cc39570b',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _redirectedFrom: null,
+      _redirectedTo: null,
+      _failureText: null,
+      _provisionalHeaders: [RawHeaders],
+      _actualHeadersPromise: undefined,
+      _timing: [Object],
+      _fallbackOverrides: {},
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    'frame@c605c312dff3e5a1a89414a8a858fd9d' => Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: Map(0) {},
+      _type: 'Frame',
+      _guid: 'frame@c605c312dff3e5a1a89414a8a858fd9d',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: [Frame],
+      _url: 'https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/sf-1.50.ca4a82db.html',
+      _name: '        {\n' +
+        '            "placementName" :   "Detail_dp-ads-center-promo_Desktop",\n' +
+        '            "renderingId":      "6825ae83-cd92-4fba-bc9e-497c320a7c52",\n' +
+        '            "creative": {"flow":"XSP_CLIENT_SIDE","url":"https://aax-eu.amazon.in/e/xsp/getAd?placementId=3fa6ae61-e017-444f-9a6f-e9b39addf953&src=511&rj=%7B%7D&slot=dp-ads-center-promo&rid=0101597918ddcd969957e9f935fee201c08df159d7f2c49fff0d348be88b307867ff","size":null,"mediaType":"D"},\n' +
+        '            "pageType":         "Detail",\n' +
+        '            "subPageType":      "Desktop",\n' +
+        '            "slotName" :        "dp-ads-center-promo",\n' +
+        '            "arid" :            "74676b8124804bcb9cb81a0f62fb0a03",\n' +
+        '                "placementId":     "3fa6ae61-e017-444f-9a6f-e9b39addf953",\n' +
+        '            "size" :            {\n' +
+        '                                    "width": "970px",\n' +
+        '                                    "height" : "250px"\n' +
+        '                                },\n' +
+        '            "allowedSizes" :    [{"width":"970px", "height":"250px"}],\n' +
+        '            "firePixelsAfter" : "criticalFeature",\n' +
+        '            "isCardsFlow": false,\n' +
+        '            "aaxInstrPixelUrl": "",\n' +
+        '            "fallbackStaticAdImgUrl": "",\n' +
+        '            "fallbackStaticAdClickUrl": "",\n' +
+        '            "fallbackStaticAdExtraStyle": "",\n' +
+        '            "adFeedbackInfo":         {\n' +
+        '            "adProgramId": "1027", \n' +
+        '            "endPoint": "/af/feedback-link",\n' +
+        '            "boolFeedback": true,\n' +
+        `            "sponsoredText": "Sponsored         <b id=\\"ape_Detail_dp-ads-center-promo_Desktop_feedbackIcon\\" style=\\"display: inline-block;\\n                                         vertical-align: text-bottom;\\n                                         margin: 1px 0px;\\n                                         width: 14px;\\n                                         height: 12px;\\n                                         background: url('https://m.media-amazon.com/images/G/01/ad-feedback/info_icon_1Xsprite.png') 0px 0px no-repeat scroll transparent;\\"/>\\n",\n` +
+        '            "adFeedbackOnTop":false\n' +
+        '        }\n' +
+        ',\n' +
+        '            "adPlacementMetaData":         {\n' +
+        '            "pageUrl": "aHR0cHM6Ly93d3cuYW1hem9uLmluL1BPQ08tQzY1LU1hdHRlLUJsYWNrLTEyOEdCL2RwL0IwQ1FHOU40WjMvcmVmPXNyXzFfMV9zc3BhP2RpYj1leUoySWpvaU1TSjkual9FUkM1ZVk5UWtkRzh1SzR3S2VfU3E1V0ZtNmlYZTVHVno0VnRVUnNEY04tUlo5ckFhb25LOTZFR2JCNjAza05Cdjd2SnZaQnBMWWFSNXRkWkN3bDJBZDJZOVluNTBVX1pCdUZOVTFVc3hXVGpkaTVPMUMzbEZRRmdpZEFKdlZxMHdBb3lVX3g0SWJ1bjFPS3dreTFXRV9IMllFcl9uMFN0eEFKNjBObHZhRjVKaUdxSE1UUzNiMWIzOS05V21aT3JSOWlTRlFya1ZYR2NCWUgzVFVjX3JLR2t6RkltdVpndUFoTjctYlJKMC5DVFduRHFqZzM2TTZYVXBNeGhGSElvTVBfZVZ1M0RHRFppQmhYNXFmeVhrJmRpYl90YWc9c2Uma2V5d29yZHM9UE9DTytDNjUmbnNkT3B0T3V0UGFyYW09dHJ1ZSZwc2M9MSZxaWQ9MTcyOTMzMTUwNyZzcF9jc2Q9ZDJsa1oyVjBUbUZ0WlQxemNGOWhkR1kmc3I9OC0xLXNwb25z",\n' +
+        '            "adElementId": "ape_Detail_dp-ads-center-promo_Desktop_placement",\n' +
+        '            "pageType": "Detail",\n' +
+        '            "slotName": "dp-ads-center-promo"\n' +
+        '        }\n' +
+        ',\n' +
+        '            "adCreativeMetaData":         {\n' +
+        '            "adProgramId": "1027",\n' +
+        '            "adCreativeId": "0",\n' +
+        '            "adId": "300235737366832",\n' +
+        '            "adCreativeDetails": [],\n' +
+        '            "adNetwork": "cs"\n' +
+        '        }\n' +
+        ',\n' +
+        '            "advertisementStyle":     {\n' +
+        '        "position": "absolute",\n' +
+        '        "top": "4.5px",\n' +
+        '        "right": "0px",\n' +
+        '        "display": "inline-block",\n' +
+        '        "font": "11px \\"Amazon Ember Regular\\", \\"Amazon Ember\\", Arial",\n' +
+        '        "color": "rgb(85,85,85)",\n' +
+        '        "text-align": "right"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "feedbackDivStyle": { "position": "relative", "height": "18px"},\n' +
+        '            "abpStatus": "0",\n' +
+        '            "abpAcceptable": "true",\n' +
+        '                "mediaType": "D",\n' +
+        '            "adUnitPlacementId":"ape_Detail_dp-ads-center-promo_Desktop_placement",\n' +
+        '            "adUnitIframeId":"ape_Detail_dp-ads-center-promo_Desktop_iframe",\n' +
+        '                "defaultSize":"970x250",\n' +
+        '            "weblabTreatments":"{\\"ADPT_SF_LIGHTADS_REFACTOR_903064\\":\\"C\\",\\"ADPT_SF_ADSP_VIDEO_833419\\":\\"C\\",\\"A2I_HOMEPAGE_CARD_THEMING_360311\\":\\"T1\\",\\"ADPT_SF_CLIENT_LATENCY_2023Q3_737747\\":\\"C\\",\\"ADPT_SF_CLIENT_LATENCY_2023Q1_632539\\":\\"C\\",\\"ADPT_SF_APE_WW_MOBILE_SEARCH_ZOETROPE_EPB_EXP_792200\\":\\"C\\",\\"ADPT_SF_H1_VIDEO_ADS_MOCK_940184\\":\\"C\\",\\"ADPT_SF_PLACEMENT_STYLESHEET_1047425\\":\\"C\\",\\"ADPT_SF_BTR_PIXEL_997225\\":\\"C\\",\\"ADPT_SF_SERVER_SIDE_SPONSORED_LABEL_998980\\":\\"C\\",\\"ADPT_SF_UNIQUE_DIV_ID_1012703\\":\\"T1\\",\\"ADPT_SF_MASH_API_DEPRECATION_1051249\\":\\"C\\",\\"ADPT_SF_RESIZE_ASPECT_RATIO_909226\\":\\"T1\\",\\"ADPT_SF_USE_ADDETAILS_SCOPE_1025572\\":\\"T1\\",\\"ADPT_SF_DEFAULT_SPONSORED_LABEL_863363\\":\\"C\\",\\"ADPT_SF_ADREPORTER_1058579\\":\\"C\\",\\"ADPT_SF_ENABLE_BLANKADS_DETECTION_990833\\":\\"C\\",\\"ADPT_SF_WD1_VIDEO_ADS_MOCK_1037066\\":\\"C\\",\\"ADPT_SF_TRANSPARENCY_INFO_MANDATORY_FOR_EU_712921\\":\\"C\\"}",\n' +
+        '            "blankAdsConfig":     {\n' +
+        '      "blankAdsScriptUrl": "https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/blankAds/blankAds.37728466.js"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "scope": "Detail_dp-ads-center-promo_Desktop"\n' +
+        '        }\n',
+      _detached: false,
+      _childFrames: Set(0) {},
+      _page: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    'request@ed839d88317e39bc53b5c6c41e0bd738' => Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: [Map],
+      _type: 'Request',
+      _guid: 'request@ed839d88317e39bc53b5c6c41e0bd738',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _redirectedFrom: null,
+      _redirectedTo: null,
+      _failureText: null,
+      _provisionalHeaders: [RawHeaders],
+      _actualHeadersPromise: undefined,
+      _timing: [Object],
+      _fallbackOverrides: {},
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    'frame@ba32ae71ddb430991fe06b6af26bd2ce' => Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: Map(0) {},
+      _type: 'Frame',
+      _guid: 'frame@ba32ae71ddb430991fe06b6af26bd2ce',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: [Frame],
+      _url: 'https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/sf-1.50.ca4a82db.html',
+      _name: '        {\n' +
+        '            "placementName" :   "Detail_customer-reviews-top_Glance",\n' +
+        '            "renderingId":      "d290b659-d803-4a76-b6bf-49ae91ee42d2",\n' +
+        '            "creative": {"flow":"XSP_CLIENT_SIDE","url":"https://aax-eu.amazon.in/e/xsp/getAd?placementId=c9a09184-bad8-4206-80a7-f9db64ba2bb1&src=511&rj=%7B%7D&slot=customer-reviews-top&rid=0101597918ddcd969957e9f935fee201c08df159d7f2c49fff0d348be88b307867ff","size":null,"mediaType":"D"},\n' +
+        '            "pageType":         "Detail",\n' +
+        '            "subPageType":      "Glance",\n' +
+        '            "slotName" :        "customer-reviews-top",\n' +
+        '            "arid" :            "35f9eb205c5d44cda63182948f59c813",\n' +
+        '                "placementId":     "c9a09184-bad8-4206-80a7-f9db64ba2bb1",\n' +
+        '            "size" :            {\n' +
+        '                                    "width": "300",\n' +
+        '                                    "height" : "250"\n' +
+        '                                },\n' +
+        '            "allowedSizes" :    [{"width":"305px", "height":"255px"},{"width":"305px", "height":"250px"}],\n' +
+        '            "firePixelsAfter" : "criticalFeature",\n' +
+        '            "isCardsFlow": false,\n' +
+        '            "aaxInstrPixelUrl": "",\n' +
+        '            "fallbackStaticAdImgUrl": "",\n' +
+        '            "fallbackStaticAdClickUrl": "",\n' +
+        '            "fallbackStaticAdExtraStyle": "",\n' +
+        '            "adFeedbackInfo":         {\n' +
+        '            "adProgramId": "1027", \n' +
+        '            "endPoint": "/af/feedback-link",\n' +
+        '            "boolFeedback": true,\n' +
+        `            "sponsoredText": "Sponsored         <b id=\\"ape_Detail_customer-reviews-top_Glance_feedbackIcon\\" style=\\"display: inline-block;\\n                                         vertical-align: text-bottom;\\n                                         margin: 1px 0px;\\n                                         width: 14px;\\n                                         height: 12px;\\n                                         background: url('https://m.media-amazon.com/images/G/01/ad-feedback/info_icon_1Xsprite.png') 0px 0px no-repeat scroll transparent;\\"/>\\n",\n` +
+        '            "adFeedbackOnTop":false\n' +
+        '        }\n' +
+        ',\n' +
+        '            "adPlacementMetaData":         {\n' +
+        '            "pageUrl": "aHR0cHM6Ly93d3cuYW1hem9uLmluL1BPQ08tQzY1LU1hdHRlLUJsYWNrLTEyOEdCL2RwL0IwQ1FHOU40WjMvcmVmPXNyXzFfMV9zc3BhP2RpYj1leUoySWpvaU1TSjkual9FUkM1ZVk5UWtkRzh1SzR3S2VfU3E1V0ZtNmlYZTVHVno0VnRVUnNEY04tUlo5ckFhb25LOTZFR2JCNjAza05Cdjd2SnZaQnBMWWFSNXRkWkN3bDJBZDJZOVluNTBVX1pCdUZOVTFVc3hXVGpkaTVPMUMzbEZRRmdpZEFKdlZxMHdBb3lVX3g0SWJ1bjFPS3dreTFXRV9IMllFcl9uMFN0eEFKNjBObHZhRjVKaUdxSE1UUzNiMWIzOS05V21aT3JSOWlTRlFya1ZYR2NCWUgzVFVjX3JLR2t6RkltdVpndUFoTjctYlJKMC5DVFduRHFqZzM2TTZYVXBNeGhGSElvTVBfZVZ1M0RHRFppQmhYNXFmeVhrJmRpYl90YWc9c2Uma2V5d29yZHM9UE9DTytDNjUmbnNkT3B0T3V0UGFyYW09dHJ1ZSZwc2M9MSZxaWQ9MTcyOTMzMTUwNyZzcF9jc2Q9ZDJsa1oyVjBUbUZ0WlQxemNGOWhkR1kmc3I9OC0xLXNwb25z",\n' +
+        '            "adElementId": "ape_Detail_customer-reviews-top_Glance_placement",\n' +
+        '            "pageType": "Detail",\n' +
+        '            "slotName": "customer-reviews-top"\n' +
+        '        }\n' +
+        ',\n' +
+        '            "adCreativeMetaData":         {\n' +
+        '            "adProgramId": "1027",\n' +
+        '            "adCreativeId": "0",\n' +
+        '            "adId": "300235737366832",\n' +
+        '            "adCreativeDetails": [],\n' +
+        '            "adNetwork": "cs"\n' +
+        '        }\n' +
+        ',\n' +
+        '            "advertisementStyle":     {\n' +
+        '        "position": "absolute",\n' +
+        '        "top": "4.5px",\n' +
+        '        "right": "0px",\n' +
+        '        "display": "inline-block",\n' +
+        '        "font": "11px \\"Amazon Ember Regular\\", \\"Amazon Ember\\", Arial",\n' +
+        '        "color": "rgb(85,85,85)",\n' +
+        '        "text-align": "right"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "feedbackDivStyle": {"position":"relative","top": "-2px","height":"17px"},\n' +
+        '            "abpStatus": "0",\n' +
+        '            "abpAcceptable": "true",\n' +
+        '                "mediaType": "D",\n' +
+        '            "adUnitPlacementId":"ape_Detail_customer-reviews-top_Glance_placement",\n' +
+        '            "adUnitIframeId":"ape_Detail_customer-reviews-top_Glance_iframe",\n' +
+        '                "defaultSize":"300x250",\n' +
+        '            "weblabTreatments":"{\\"ADPT_SF_LIGHTADS_REFACTOR_903064\\":\\"C\\",\\"ADPT_SF_ADSP_VIDEO_833419\\":\\"C\\",\\"A2I_HOMEPAGE_CARD_THEMING_360311\\":\\"T1\\",\\"ADPT_SF_CLIENT_LATENCY_2023Q3_737747\\":\\"C\\",\\"ADPT_SF_CLIENT_LATENCY_2023Q1_632539\\":\\"C\\",\\"ADPT_SF_APE_WW_MOBILE_SEARCH_ZOETROPE_EPB_EXP_792200\\":\\"C\\",\\"ADPT_SF_H1_VIDEO_ADS_MOCK_940184\\":\\"C\\",\\"ADPT_SF_PLACEMENT_STYLESHEET_1047425\\":\\"C\\",\\"ADPT_SF_BTR_PIXEL_997225\\":\\"C\\",\\"ADPT_SF_SERVER_SIDE_SPONSORED_LABEL_998980\\":\\"C\\",\\"ADPT_SF_UNIQUE_DIV_ID_1012703\\":\\"T1\\",\\"ADPT_SF_MASH_API_DEPRECATION_1051249\\":\\"C\\",\\"ADPT_SF_RESIZE_ASPECT_RATIO_909226\\":\\"T1\\",\\"ADPT_SF_USE_ADDETAILS_SCOPE_1025572\\":\\"T1\\",\\"ADPT_SF_DEFAULT_SPONSORED_LABEL_863363\\":\\"C\\",\\"ADPT_SF_ADREPORTER_1058579\\":\\"C\\",\\"ADPT_SF_ENABLE_BLANKADS_DETECTION_990833\\":\\"C\\",\\"ADPT_SF_WD1_VIDEO_ADS_MOCK_1037066\\":\\"C\\",\\"ADPT_SF_TRANSPARENCY_INFO_MANDATORY_FOR_EU_712921\\":\\"C\\"}",\n' +
+        '            "blankAdsConfig":     {\n' +
+        '      "blankAdsScriptUrl": "https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/blankAds/blankAds.37728466.js"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "scope": "Detail_customer-reviews-top_Glance"\n' +
+        '        }\n',
+      _detached: false,
+      _childFrames: Set(0) {},
+      _page: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    'request@370503283f9ef8e1bbb2c15fb6d41089' => Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: [Map],
+      _type: 'Request',
+      _guid: 'request@370503283f9ef8e1bbb2c15fb6d41089',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _redirectedFrom: null,
+      _redirectedTo: null,
+      _failureText: null,
+      _provisionalHeaders: [RawHeaders],
+      _actualHeadersPromise: undefined,
+      _timing: [Object],
+      _fallbackOverrides: {},
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    'frame@1880ddbb5da9c0ecc826aa9bf0b254a1' => Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: Map(0) {},
+      _type: 'Frame',
+      _guid: 'frame@1880ddbb5da9c0ecc826aa9bf0b254a1',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: [Frame],
+      _url: 'https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/sf-1.50.ca4a82db.html',
+      _name: '        {\n' +
+        '            "placementName" :   "Detail_ad-endcap-1_Glance",\n' +
+        '            "renderingId":      "433bcf26-dc47-4597-8b7e-d654e35f48fb",\n' +
+        '            "creative": {"flow":"XSP_CLIENT_SIDE","url":"https://aax-eu.amazon.in/e/xsp/getAd?placementId=052361f4-9d91-4d02-bbea-0203083d3697&src=511&rj=%7B%7D&slot=ad-endcap-1&rid=0101597918ddcd969957e9f935fee201c08df159d7f2c49fff0d348be88b307867ff","size":null,"mediaType":"D"},\n' +
+        '            "pageType":         "Detail",\n' +
+        '            "subPageType":      "Glance",\n' +
+        '            "slotName" :        "ad-endcap-1",\n' +
+        '            "arid" :            "dec578359a934642bfbdb9a35680ad6c",\n' +
+        '                "placementId":     "052361f4-9d91-4d02-bbea-0203083d3697",\n' +
+        '            "size" :            {\n' +
+        '                                    "width": "100%",\n' +
+        '                                    "height" : "90px"\n' +
+        '                                },\n' +
+        '            "allowedSizes" :    [{"width":"728px","height":"90px"}],\n' +
+        '            "firePixelsAfter" : "windowOnLoad",\n' +
+        '            "isCardsFlow": false,\n' +
+        '            "aaxInstrPixelUrl": "",\n' +
+        '            "fallbackStaticAdImgUrl": "",\n' +
+        '            "fallbackStaticAdClickUrl": "",\n' +
+        '            "fallbackStaticAdExtraStyle": "",\n' +
+        '            "adFeedbackInfo":         {\n' +
+        '            "adProgramId": "1027", \n' +
+        '            "endPoint": "/af/feedback-link",\n' +
+        '            "boolFeedback": true,\n' +
+        `            "sponsoredText": "Sponsored         <b id=\\"ape_Detail_ad-endcap-1_Glance_feedbackIcon\\" style=\\"display: inline-block;\\n                                         vertical-align: text-bottom;\\n                                         margin: 1px 0px;\\n                                         width: 14px;\\n                                         height: 12px;\\n                                         background: url('https://m.media-amazon.com/images/G/01/ad-feedback/info_icon_1Xsprite.png') 0px 0px no-repeat scroll transparent;\\"/>\\n",\n` +
+        '            "adFeedbackOnTop":false\n' +
+        '        }\n' +
+        ',\n' +
+        '            "adPlacementMetaData":         {\n' +
+        '            "pageUrl": "aHR0cHM6Ly93d3cuYW1hem9uLmluL1BPQ08tQzY1LU1hdHRlLUJsYWNrLTEyOEdCL2RwL0IwQ1FHOU40WjMvcmVmPXNyXzFfMV9zc3BhP2RpYj1leUoySWpvaU1TSjkual9FUkM1ZVk5UWtkRzh1SzR3S2VfU3E1V0ZtNmlYZTVHVno0VnRVUnNEY04tUlo5ckFhb25LOTZFR2JCNjAza05Cdjd2SnZaQnBMWWFSNXRkWkN3bDJBZDJZOVluNTBVX1pCdUZOVTFVc3hXVGpkaTVPMUMzbEZRRmdpZEFKdlZxMHdBb3lVX3g0SWJ1bjFPS3dreTFXRV9IMllFcl9uMFN0eEFKNjBObHZhRjVKaUdxSE1UUzNiMWIzOS05V21aT3JSOWlTRlFya1ZYR2NCWUgzVFVjX3JLR2t6RkltdVpndUFoTjctYlJKMC5DVFduRHFqZzM2TTZYVXBNeGhGSElvTVBfZVZ1M0RHRFppQmhYNXFmeVhrJmRpYl90YWc9c2Uma2V5d29yZHM9UE9DTytDNjUmbnNkT3B0T3V0UGFyYW09dHJ1ZSZwc2M9MSZxaWQ9MTcyOTMzMTUwNyZzcF9jc2Q9ZDJsa1oyVjBUbUZ0WlQxemNGOWhkR1kmc3I9OC0xLXNwb25z",\n' +
+        '            "adElementId": "ape_Detail_ad-endcap-1_Glance_placement",\n' +
+        '            "pageType": "Detail",\n' +
+        '            "slotName": "ad-endcap-1"\n' +
+        '        }\n' +
+        ',\n' +
+        '            "adCreativeMetaData":         {\n' +
+        '            "adProgramId": "1027",\n' +
+        '            "adCreativeId": "0",\n' +
+        '            "adId": "300235406798532",\n' +
+        '            "adCreativeDetails": [],\n' +
+        '            "adNetwork": "cs"\n' +
+        '        }\n' +
+        ',\n' +
+        '            "advertisementStyle":     {\n' +
+        '        "position": "absolute",\n' +
+        '        "top": "4.5px",\n' +
+        '        "right": "0px",\n' +
+        '        "display": "inline-block",\n' +
+        '        "font": "11px \\"Amazon Ember Regular\\", \\"Amazon Ember\\", Arial",\n' +
+        '        "color": "rgb(85,85,85)",\n' +
+        '        "text-align": "right"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "feedbackDivStyle":     {\n' +
+        '        "position": "relative",\n' +
+        '        "height": "14px",\n' +
+        '        "top": "2px"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "abpStatus": "0",\n' +
+        '            "abpAcceptable": "true",\n' +
+        '                "mediaType": "D",\n' +
+        '            "adUnitPlacementId":"ape_Detail_ad-endcap-1_Glance_placement",\n' +
+        '            "adUnitIframeId":"ape_Detail_ad-endcap-1_Glance_iframe",\n' +
+        '                "defaultSize":"728x90",\n' +
+        '            "weblabTreatments":"{\\"ADPT_SF_LIGHTADS_REFACTOR_903064\\":\\"C\\",\\"ADPT_SF_ADSP_VIDEO_833419\\":\\"C\\",\\"A2I_HOMEPAGE_CARD_THEMING_360311\\":\\"T1\\",\\"ADPT_SF_CLIENT_LATENCY_2023Q3_737747\\":\\"C\\",\\"ADPT_SF_CLIENT_LATENCY_2023Q1_632539\\":\\"C\\",\\"ADPT_SF_APE_WW_MOBILE_SEARCH_ZOETROPE_EPB_EXP_792200\\":\\"C\\",\\"ADPT_SF_H1_VIDEO_ADS_MOCK_940184\\":\\"C\\",\\"ADPT_SF_PLACEMENT_STYLESHEET_1047425\\":\\"C\\",\\"ADPT_SF_BTR_PIXEL_997225\\":\\"C\\",\\"ADPT_SF_SERVER_SIDE_SPONSORED_LABEL_998980\\":\\"C\\",\\"ADPT_SF_UNIQUE_DIV_ID_1012703\\":\\"T1\\",\\"ADPT_SF_MASH_API_DEPRECATION_1051249\\":\\"C\\",\\"ADPT_SF_RESIZE_ASPECT_RATIO_909226\\":\\"T1\\",\\"ADPT_SF_USE_ADDETAILS_SCOPE_1025572\\":\\"T1\\",\\"ADPT_SF_DEFAULT_SPONSORED_LABEL_863363\\":\\"C\\",\\"ADPT_SF_ADREPORTER_1058579\\":\\"C\\",\\"ADPT_SF_ENABLE_BLANKADS_DETECTION_990833\\":\\"C\\",\\"ADPT_SF_WD1_VIDEO_ADS_MOCK_1037066\\":\\"C\\",\\"ADPT_SF_TRANSPARENCY_INFO_MANDATORY_FOR_EU_712921\\":\\"C\\"}",\n' +
+        '            "blankAdsConfig":     {\n' +
+        '      "blankAdsScriptUrl": "https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/blankAds/blankAds.37728466.js"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "scope": "Detail_ad-endcap-1_Glance"\n' +
+        '        }\n',
+      _detached: false,
+      _childFrames: Set(0) {},
+      _page: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    'request@274c7f78130462441cab463a7c45a100' => Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: [Map],
+      _type: 'Request',
+      _guid: 'request@274c7f78130462441cab463a7c45a100',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _redirectedFrom: null,
+      _redirectedTo: null,
+      _failureText: null,
+      _provisionalHeaders: [RawHeaders],
+      _actualHeadersPromise: undefined,
+      _timing: [Object],
+      _fallbackOverrides: {},
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    'frame@eb188941f315195e1569ef7fce1e27d3' => Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: Map(0) {},
+      _type: 'Frame',
+      _guid: 'frame@eb188941f315195e1569ef7fce1e27d3',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: [Frame],
+      _url: '',
+      _name: '',
+      _detached: false,
+      _childFrames: Set(0) {},
+      _page: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    'frame@a9b6e3bda74c4074f41cd75315e153c7' => Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: Map(0) {},
+      _type: 'Frame',
+      _guid: 'frame@a9b6e3bda74c4074f41cd75315e153c7',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: [Frame],
+      _url: '',
+      _name: '',
+      _detached: false,
+      _childFrames: Set(0) {},
+      _page: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    'frame@ef5f6d323bc59d6ed7434a1f6f5c934a' => Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: Map(0) {},
+      _type: 'Frame',
+      _guid: 'frame@ef5f6d323bc59d6ed7434a1f6f5c934a',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: [Frame],
+      _url: '',
+      _name: '',
+      _detached: false,
+      _childFrames: Set(0) {},
+      _page: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    }
+  },
+  _type: 'Page',
+  _guid: 'page@f4a19a0330cf8098b3b6e3c52ccf99f3',
+  _channel: EventEmitter {
+    _events: [Object: null prototype] {
+      bindingCall: [Function (anonymous)],
+      close: [Function (anonymous)],
+      crash: [Function (anonymous)],
+      download: [Function (anonymous)],
+      fileChooser: [Function (anonymous)],
+      frameAttached: [Function (anonymous)],
+      frameDetached: [Function (anonymous)],
+      locatorHandlerTriggered: [Function (anonymous)],
+      route: [Function (anonymous)],
+      video: [Function (anonymous)],
+      webSocket: [Function (anonymous)],
+      worker: [Function (anonymous)]
+    },
+    _eventsCount: 12,
+    _maxListeners: undefined,
+    _object: [Circular *1],
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  },
+  _initializer: {
+    mainFrame: EventEmitter {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _object: [Frame],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    viewportSize: { width: 1280, height: 720 },
+    isClosed: false,
+    opener: EventEmitter {
+      _events: [Object: null prototype],
+      _eventsCount: 12,
+      _maxListeners: undefined,
+      _object: [Page],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    }
+  },
+  _logger: undefined,
+  _instrumentation: {},
+  _eventToSubscriptionMapping: Map(7) {
+    'console' => 'console',
+    'dialog' => 'dialog',
+    'request' => 'request',
+    'response' => 'response',
+    'requestfinished' => 'requestFinished',
+    'requestfailed' => 'requestFailed',
+    'filechooser' => 'fileChooser'
+  },
+  _wasCollected: false,
+  _browserContext: <ref *3> BrowserContext {
+    _events: [Object: null prototype] { close: [Function] },
+    _eventsCount: 1,
+    _maxListeners: 0,
+    _connection: <ref *2> Connection {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      _objects: [Map],
+      onmessage: [Function (anonymous)],
+      _lastId: 25,
+      _callbacks: [Map],
+      _rootObject: [Root],
+      _closedError: undefined,
+      _isRemote: true,
+      _localUtils: [LocalUtils],
+      _rawBuffers: false,
+      toImpl: undefined,
+      _tracingCount: 0,
+      _instrumentation: {},
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _parent: Browser {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Root],
+      _objects: [Map],
+      _type: 'Browser',
+      _guid: 'browser@028a693fe4d6009a80478554b9c5166a',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _contexts: [Set],
+      _isConnected: true,
+      _closedPromise: [Promise],
+      _shouldCloseConnectionOnClose: true,
+      _browserType: [BrowserType],
+      _options: {},
+      _name: 'chromium',
+      _path: undefined,
+      _connectHeaders: [Array],
+      _closeReason: undefined,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _objects: Map(8) {
+      'request-context@d013705b6e4e9a7a5b6bc83a6c34e98b' => [APIRequestContext],
+      'tracing@568d1bb4535354b03d63bcea560e0ce5' => [Tracing],
+      'page@f9050680ac582e130efc638426fdda9b' => [Page],
+      'worker@7d115a0f5cdeb096abcc92b36a03cedd' => [Worker],
+      'worker@3c4844946a2256dede02ac40c14b24d6' => [Worker],
+      'worker@39ace9d79b986c7b77ecc3787dc12dc5' => [Worker],
+      'worker@20adeb2320225ecb68db91271a4f4fe6' => [Worker],
+      'page@f4a19a0330cf8098b3b6e3c52ccf99f3' => [Circular *1]
+    },
+    _type: 'BrowserContext',
+    _guid: 'browser-context@7408f97257107a826d54573a8c3ad63a',
+    _channel: EventEmitter {
+      _events: [Object: null prototype],
+      _eventsCount: 13,
+      _maxListeners: undefined,
+      _object: [Circular *3],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _initializer: {
+      isChromium: true,
+      requestContext: [EventEmitter],
+      tracing: [EventEmitter]
+    },
+    _logger: undefined,
+    _instrumentation: {},
+    _eventToSubscriptionMapping: Map(6) {
+      'console' => 'console',
+      'dialog' => 'dialog',
+      'request' => 'request',
+      'response' => 'response',
+      'requestfinished' => 'requestFinished',
+      'requestfailed' => 'requestFailed'
+    },
+    _wasCollected: false,
+    _pages: Set(2) { [Page], [Circular *1] },
+    _routes: [],
+    _browser: Browser {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Root],
+      _objects: [Map],
+      _type: 'Browser',
+      _guid: 'browser@028a693fe4d6009a80478554b9c5166a',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _contexts: [Set],
+      _isConnected: true,
+      _closedPromise: [Promise],
+      _shouldCloseConnectionOnClose: true,
+      _browserType: [BrowserType],
+      _options: {},
+      _name: 'chromium',
+      _path: undefined,
+      _connectHeaders: [Array],
+      _closeReason: undefined,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _browserType: BrowserType {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Root],
+      _objects: Map(0) {},
+      _type: 'BrowserType',
+      _guid: 'browser-type@769af71770b3c98af9f56123f23083b0',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _serverLauncher: [BrowserServerLauncherImpl],
+      _contexts: [Set],
+      _playwright: [Playwright],
+      _defaultContextOptions: [Object],
+      _defaultContextTimeout: 0,
+      _defaultContextNavigationTimeout: 0,
+      _defaultLaunchOptions: [Object],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _bindings: Map(0) {},
+    _timeoutSettings: TimeoutSettings {
+      _parent: undefined,
+      _defaultTimeout: 0,
+      _defaultNavigationTimeout: 0
+    },
+    _ownerPage: undefined,
+    _closedPromise: Promise {
+      <pending>,
+      [Symbol(async_id_symbol)]: 683,
+      [Symbol(trigger_async_id_symbol)]: 681,
+      [Symbol(kResourceStore)]: undefined
+    },
+    _options: {
+      acceptDownloads: 'accept',
+      bypassCSP: false,
+      colorScheme: 'light',
+      hasTouch: false,
+      ignoreHTTPSErrors: false,
+      isMobile: false,
+      javaScriptEnabled: true,
+      locale: 'en-US',
+      offline: false,
+      viewport: [Object],
+      serviceWorkers: 'allow',
+      noDefaultViewport: false,
+      extraHTTPHeaders: undefined,
+      storageState: undefined,
+      recordHar: undefined,
+      reducedMotion: undefined,
+      forcedColors: undefined,
+      clientCertificates: undefined
+    },
+    request: APIRequestContext {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *3],
+      _objects: Map(0) {},
+      _type: 'APIRequestContext',
+      _guid: 'request-context@d013705b6e4e9a7a5b6bc83a6c34e98b',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _request: undefined,
+      _tracing: [Tracing],
+      _closeReason: undefined,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    tracing: Tracing {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *3],
+      _objects: Map(0) {},
+      _type: 'Tracing',
+      _guid: 'tracing@568d1bb4535354b03d63bcea560e0ce5',
+      _channel: [EventEmitter],
+      _initializer: {},
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _includeSources: false,
+      _tracesDir: undefined,
+      _stacksId: undefined,
+      _isTracing: false,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    clock: Clock { _browserContext: [Circular *3] },
+    _backgroundPages: Set(0) {},
+    _serviceWorkers: Set(4) { [Worker], [Worker], [Worker], [Worker] },
+    _isChromium: true,
+    _harRecorders: Map(0) {},
+    _closeWasCalled: false,
+    _closeReason: undefined,
+    _harRouters: [],
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kReusedContext)]: true
+  },
+  _ownedContext: undefined,
+  _mainFrame: <ref *4> Frame {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: 0,
+    _connection: <ref *2> Connection {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      _objects: [Map],
+      onmessage: [Function (anonymous)],
+      _lastId: 25,
+      _callbacks: [Map],
+      _rootObject: [Root],
+      _closedError: undefined,
+      _isRemote: true,
+      _localUtils: [LocalUtils],
+      _rawBuffers: false,
+      toImpl: undefined,
+      _tracingCount: 0,
+      _instrumentation: {},
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _parent: [Circular *1],
+    _objects: Map(2) {
+      'request@1f07b13212563d4ab549421026c44bb3' => [Request],
+      'request@3423e0ba45e91681b62f5b5502dc2321' => [Request]
+    },
+    _type: 'Frame',
+    _guid: 'frame@acaaeabe822a0e0e8388bfa828a7ef1d',
+    _channel: EventEmitter {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _object: [Circular *4],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _initializer: { url: '', name: '', loadStates: [Array] },
+    _logger: undefined,
+    _instrumentation: {},
+    _eventToSubscriptionMapping: Map(0) {},
+    _wasCollected: false,
+    _eventEmitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _loadStates: Set(2) { 'commit', 'domcontentloaded' },
+    _parentFrame: null,
+    _url: 'https://www.amazon.in/POCO-C65-Matte-Black-128GB/dp/B0CQG9N4Z3/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.j_ERC5eY9QkdG8uK4wKe_Sq5WFm6iXe5GVz4VtURsDcN-RZ9rAaonK96EGbB603kNBv7vJvZBpLYaR5tdZCwl2Ad2Y9Yn50U_ZBuFNU1UsxWTjdi5O1C3lFQFgidAJvVq0wAoyU_x4Ibun1OKwky1WE_H2YEr_n0StxAJ60NlvaF5JiGqHMTS3b1b39-9WmZOrR9iSFQrkVXGcBYH3TUc_rKGkzFImuZguAhN7-bRJ0.CTWnDqjg36M6XUpMxhFHIoMP_eVu3DGDZiBhX5qfyXk&dib_tag=se&keywords=POCO+C65&nsdOptOutParam=true&qid=1729331507&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1',
+    _name: '',
+    _detached: false,
+    _childFrames: Set(8) {
+      [Frame],
+      [Frame],
+      [Frame],
+      [Frame],
+      [Frame],
+      [Frame],
+      [Frame],
+      [Frame]
+    },
+    _page: [Circular *1],
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  },
+  _frames: Set(9) {
+    <ref *4> Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: [Map],
+      _type: 'Frame',
+      _guid: 'frame@acaaeabe822a0e0e8388bfa828a7ef1d',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: null,
+      _url: 'https://www.amazon.in/POCO-C65-Matte-Black-128GB/dp/B0CQG9N4Z3/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.j_ERC5eY9QkdG8uK4wKe_Sq5WFm6iXe5GVz4VtURsDcN-RZ9rAaonK96EGbB603kNBv7vJvZBpLYaR5tdZCwl2Ad2Y9Yn50U_ZBuFNU1UsxWTjdi5O1C3lFQFgidAJvVq0wAoyU_x4Ibun1OKwky1WE_H2YEr_n0StxAJ60NlvaF5JiGqHMTS3b1b39-9WmZOrR9iSFQrkVXGcBYH3TUc_rKGkzFImuZguAhN7-bRJ0.CTWnDqjg36M6XUpMxhFHIoMP_eVu3DGDZiBhX5qfyXk&dib_tag=se&keywords=POCO+C65&nsdOptOutParam=true&qid=1729331507&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1',
+      _name: '',
+      _detached: false,
+      _childFrames: [Set],
+      _page: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: Map(0) {},
+      _type: 'Frame',
+      _guid: 'frame@90567e134235e174b8ead06f54ff304f',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: [Frame],
+      _url: 'https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/sf-1.50.ca4a82db.html',
+      _name: '        {\n' +
+        '            "placementName" :   "Detail_ams-detail-right-v2_desktop",\n' +
+        '            "renderingId":      "905f7149-b6dc-414e-aba0-c29ae5fcddc9",\n' +
+        '            "creative": {"flow":"XSP_CLIENT_SIDE","url":"https://aax-eu.amazon.in/e/xsp/getAd?placementId=34cf2689-d2ff-4ee1-a85d-479e92b51189&src=511&rj=%7B%7D&slot=ams-detail-right-v2&rid=0101597918ddcd969957e9f935fee201c08df159d7f2c49fff0d348be88b307867ff","size":{"height":250,"width":244},"mediaType":"D"},\n' +
+        '            "pageType":         "Detail",\n' +
+        '            "subPageType":      "desktop",\n' +
+        '            "slotName" :        "ams-detail-right-v2",\n' +
+        '            "arid" :            "b45f80d49542403f8dd7b88f5c1692b7",\n' +
+        '                "placementId":     "34cf2689-d2ff-4ee1-a85d-479e92b51189",\n' +
+        '            "size" :            {\n' +
+        '                                    "width": "244",\n' +
+        '                                    "height" : "250"\n' +
+        '                                },\n' +
+        '            "allowedSizes" :    [{"width":"100%","height":"135px"}, {"width":"100%","height":"250px"}, {"width":"245px","height":"135px"}, {"width":"244px","height":"250px"},  {"width":"245px","height":"250px"}],\n' +
+        '            "firePixelsAfter" : "A:ready",\n' +
+        '            "isCardsFlow": false,\n' +
+        '                "btrPixelUrl":      "https://aes.eu-west.ono.axp.amazon-adsystem.com/x/px?t=btr&bi=v1_CGrnR0kY-fjsxwqbX_gN_AvXflUkSeQKr4h9nmHTrpOtApxn1q0iAc8X5QFKmhKO24cG0otank-WhQr8Py5_XmEb_0_jNqiJThFVNh8vFgr7Rdgm4GUmx6c1DxS-YLz5GdbSY0-t6ZZPRhJ_wgqDFhocaBRSXZ0mVQk9BPBiBkHYn7bo0AprAQblYMWxa-ZsA28AaY6bz55bQ3V2ZcFWY_INjs-01tQ8RRXMNegh0QYNsYMulremAVIpl068tj4mYSSwb7qT7F80jxBcZ444pXr4BAGZnDTtEduS3JjPHbgDFhXxuNuv9juDVSrfE6Oi6-MB1rk9D7mC-bfUEvC1DZXXvF_2iilgvqcqqT67Sk0J0Og%3D&c=${AAX_PAYLOAD}",\n' +
+        '            "aaxInstrPixelUrl": "",\n' +
+        '            "fallbackStaticAdImgUrl": "",\n' +
+        '            "fallbackStaticAdClickUrl": "",\n' +
+        '            "fallbackStaticAdExtraStyle": "",\n' +
+        '            "adFeedbackInfo":         {\n' +
+        '            "adProgramId": "1004", \n' +
+        '            "endPoint": "/af/feedback-link",\n' +
+        '            "boolFeedback": true,\n' +
+        `            "sponsoredText": "Sponsored         <b id=\\"ape_Detail_ams-detail-right-v2_desktop_feedbackIcon\\" style=\\"display: inline-block;\\n                                         vertical-align: text-bottom;\\n                                         margin: 1px 0px;\\n                                         width: 14px;\\n                                         height: 12px;\\n                                         background: url('https://m.media-amazon.com/images/G/01/ad-feedback/info_icon_1Xsprite.png') 0px 0px no-repeat scroll transparent;\\"/>\\n",\n` +
+        '            "adFeedbackOnTop":false\n' +
+        '        }\n' +
+        ',\n' +
+        '            "adPlacementMetaData":         {\n' +
+        '            "pageUrl": "aHR0cHM6Ly93d3cuYW1hem9uLmluL1BPQ08tQzY1LU1hdHRlLUJsYWNrLTEyOEdCL2RwL0IwQ1FHOU40WjMvcmVmPXNyXzFfMV9zc3BhP2RpYj1leUoySWpvaU1TSjkual9FUkM1ZVk5UWtkRzh1SzR3S2VfU3E1V0ZtNmlYZTVHVno0VnRVUnNEY04tUlo5ckFhb25LOTZFR2JCNjAza05Cdjd2SnZaQnBMWWFSNXRkWkN3bDJBZDJZOVluNTBVX1pCdUZOVTFVc3hXVGpkaTVPMUMzbEZRRmdpZEFKdlZxMHdBb3lVX3g0SWJ1bjFPS3dreTFXRV9IMllFcl9uMFN0eEFKNjBObHZhRjVKaUdxSE1UUzNiMWIzOS05V21aT3JSOWlTRlFya1ZYR2NCWUgzVFVjX3JLR2t6RkltdVpndUFoTjctYlJKMC5DVFduRHFqZzM2TTZYVXBNeGhGSElvTVBfZVZ1M0RHRFppQmhYNXFmeVhrJmRpYl90YWc9c2Uma2V5d29yZHM9UE9DTytDNjUmbnNkT3B0T3V0UGFyYW09dHJ1ZSZwc2M9MSZxaWQ9MTcyOTMzMTUwNyZzcF9jc2Q9ZDJsa1oyVjBUbUZ0WlQxemNGOWhkR1kmc3I9OC0xLXNwb25z",\n' +
+        '            "adElementId": "ape_Detail_ams-detail-right-v2_desktop_placement",\n' +
+        '            "pageType": "Detail",\n' +
+        '            "slotName": "ams-detail-right-v2"\n' +
+        '        }\n' +
+        ',\n' +
+        '            "adCreativeMetaData":         {\n' +
+        '            "adProgramId": "1004",\n' +
+        '            "adCreativeId": "591711630946038013",\n' +
+        '            "adId": "580866592162528542",\n' +
+        '            "adCreativeDetails": [],\n' +
+        '            "adNetwork": "cs"\n' +
+        '        }\n' +
+        ',\n' +
+        '            "advertisementStyle":     {\n' +
+        '        "position": "absolute",\n' +
+        '        "top": "4.5px",\n' +
+        '        "right": "0px",\n' +
+        '        "display": "inline-block",\n' +
+        '        "font": "11px \\"Amazon Ember Regular\\", \\"Amazon Ember\\", Arial",\n' +
+        '        "color": "rgb(85,85,85)",\n' +
+        '        "text-align": "right"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "feedbackDivStyle":     {\n' +
+        '        "position": "relative",\n' +
+        '        "height": "14px",\n' +
+        '        "top": "2px"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "abpStatus": "0",\n' +
+        '            "abpAcceptable": "true",\n' +
+        '                "mediaType": "D",\n' +
+        '                "brandNameEncoded": "Apple",\n' +
+        '            "adUnitPlacementId":"ape_Detail_ams-detail-right-v2_desktop_placement",\n' +
+        '            "adUnitIframeId":"ape_Detail_ams-detail-right-v2_desktop_iframe",\n' +
+        '                "defaultSize":"245x250",\n' +
+        '            "weblabTreatments":"{\\"ADPT_SF_LIGHTADS_REFACTOR_903064\\":\\"C\\",\\"ADPT_SF_ADSP_VIDEO_833419\\":\\"C\\",\\"A2I_HOMEPAGE_CARD_THEMING_360311\\":\\"T1\\",\\"ADPT_SF_CLIENT_LATENCY_2023Q3_737747\\":\\"C\\",\\"ADPT_SF_CLIENT_LATENCY_2023Q1_632539\\":\\"C\\",\\"ADPT_SF_APE_WW_MOBILE_SEARCH_ZOETROPE_EPB_EXP_792200\\":\\"C\\",\\"ADPT_SF_H1_VIDEO_ADS_MOCK_940184\\":\\"C\\",\\"ADPT_SF_PLACEMENT_STYLESHEET_1047425\\":\\"C\\",\\"ADPT_SF_BTR_PIXEL_997225\\":\\"C\\",\\"ADPT_SF_SERVER_SIDE_SPONSORED_LABEL_998980\\":\\"C\\",\\"ADPT_SF_UNIQUE_DIV_ID_1012703\\":\\"T1\\",\\"ADPT_SF_MASH_API_DEPRECATION_1051249\\":\\"C\\",\\"ADPT_SF_RESIZE_ASPECT_RATIO_909226\\":\\"T1\\",\\"ADPT_SF_USE_ADDETAILS_SCOPE_1025572\\":\\"T1\\",\\"ADPT_SF_DEFAULT_SPONSORED_LABEL_863363\\":\\"C\\",\\"ADPT_SF_ADREPORTER_1058579\\":\\"C\\",\\"ADPT_SF_ENABLE_BLANKADS_DETECTION_990833\\":\\"C\\",\\"ADPT_SF_WD1_VIDEO_ADS_MOCK_1037066\\":\\"C\\",\\"ADPT_SF_TRANSPARENCY_INFO_MANDATORY_FOR_EU_712921\\":\\"C\\"}",\n' +
+        '            "blankAdsConfig":     {\n' +
+        '      "blankAdsScriptUrl": "https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/blankAds/blankAds.37728466.js"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "scope": "Detail_ams-detail-right-v2_desktop"\n' +
+        '        }\n',
+      _detached: false,
+      _childFrames: Set(0) {},
+      _page: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: Map(0) {},
+      _type: 'Frame',
+      _guid: 'frame@7d95f31cb6b3eac9ffafe229b2ba526c',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: [Frame],
+      _url: 'https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/sf-1.50.ca4a82db.html',
+      _name: '        {\n' +
+        '            "placementName" :   "Detail_hero-quick-promo_Desktop",\n' +
+        '            "renderingId":      "666b78e7-20bd-4f22-b85f-c862cd3b3472",\n' +
+        '            "creative": {"flow":"SERVER_SIDE","url":null,"size":null,"mediaType":"D"},\n' +
+        '            "pageType":         "Detail",\n' +
+        '            "subPageType":      "Desktop",\n' +
+        '            "slotName" :        "hero-quick-promo",\n' +
+        '            "arid" :            "0211f3213fff41cd95675b1af0e94c27",\n' +
+        '                "placementId":     "09f69e71-4fc0-456b-8215-188e3bb2c49e",\n' +
+        '            "size" :            {\n' +
+        '                                    "width": "100%",\n' +
+        '                                    "height" : "130px"\n' +
+        '                                },\n' +
+        '            "allowedSizes" :    [{"width":"650px","height":"130px"}, {"width":"100%","height":"169px"}, {"width":"300px","height":"250px"}],\n' +
+        '            "firePixelsAfter" : "A:ready",\n' +
+        '            "isCardsFlow": false,\n' +
+        '                "aaxImpPixelUrl":      "https://aax-eu.amazon.in/e/xsp/imp?b=REKnkX2O3a5CirlPitVoWrwAAAGSpDDRNQMAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICCuh55-",\n' +
+        '            "aaxInstrPixelUrl": "https://aax-eu.amazon.in/x/px/REKnkX2O3a5CirlPitVoWrwAAAGSpDDRNQMAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICCuh55-/",\n' +
+        '                "htmlContentEncoded": "\\u003C!doctype html>\\n<html lang=\\"en\\" class=\\"\\">\\n<head>\\n    <meta charset=\\"UTF-8\\">\\n    <title><\\/title>\\n    <link rel=\\"stylesheet\\" href=\\"https://m.media-amazon.com/images/I/517R0bLEnxL.css\\">\\n\\n<link rel=\\"stylesheet\\" href=\\"https://m.media-amazon.com/images/I/31fN1YiGgQL.css\\">\\n    <style>#ad { visibility: hidden; }<\\/style>\\n    \\n<\\/head>\\n<body>\\n\\n<script>\\n    var PerformanceEventManager;(()=>{var e={};{var t=e;Object.defineProperty(t,\\"__esModule\\",{value:!0}),t.default=t.VISUAL_COMPLETENESS_LATENCY=t.UNCAUGHT_ERROR=t.CREATIVE_LOAD_LATENCY=void 0;let r=t.UNCAUGHT_ERROR=\\"uncaughtError\\";t.CREATIVE_LOAD_LATENCY=\\"creativeLoadLatency\\",t.VISUAL_COMPLETENESS_LATENCY=\\"visualCompletenessLatency\\",t.default=class{constructor(e){if(this.events={[r]:{}},this.timers={},this.onNewError=()=>{},this.window=e&&e.window||\\"undefined\\"!=typeof window&&window,!this.window||!this.window.document)throw new Error(\\"Window and/or document is not defined\\");this.trackLoadLatency(),this.trackVisualCompletenessLatency(),this.addErrorListener()}trackLoadLatency(){this.timers.creativeLoadLatency=new Date}trackVisualCompletenessLatency(){this.timers.visualCompletenessLatency=new Date}addErrorListener(){let e=this.events[r];this.addListener(this.window,\\"error\\",(t=>{let r=t.message;t.error&&t.error.stack&&(r=(t=t.message+\\" : \\"+t.error.stack).length<500?t:t.substring(0,500)),void 0===e[r]&&(e[r]=!0,this.onNewError(r))}))}addListener(...e){let t=e[0],r=e[1],n=e[2],a=(e=window.event)=>n(e);if(t.addEventListener)t.addEventListener(r,a,!0);else{var s=\\"on\\"+r;if(t.attachEvent)t.attachEvent(s,a);else{let r=t[s];t[s]=()=>{a.apply(this,...e),\\"function\\"==typeof r&&r.apply(this,...e)}}}}}}PerformanceEventManager=e})();;\\n    var performanceEventManager = new PerformanceEventManager.default();\\n    \\n<\\/script>\\n<div id=\\"ad\\" data-html-dimensions=\\"650x130\\"><div style=\\"width:100%;height:100%;opacity:1\\" class=\\"\\"><div style=\\"width:100%;height:100%\\" data-testid=\\"app-layout-container\\" data-has-hydrated=\\"false\\" class=\\"tw\\"><div data-testid=\\"gridContainer\\" class=\\"layout-container flex items-center overflow-hidden relative bg-white w-full h-full border-gray-400 border justify-center dark:bg-black-800\\"><div data-testid=\\"percIdentifierPixel\\" class=\\"h-[1px] w-[1px] fixed bottom-0 left-0 bg-zinc-400 z-10\\"><\\/div><div class=\\"adchoices-container z-30 absolute top-0 right-0\\"><\\/div><div class=\\"h-full relative w-full\\" data-testid=\\"gridWrapper\\" style=\\"direction:ltr\\"><div data-region-type=\\"trigger\\" class=\\"h-full\\"><div data-testid=\\"gridRegion\\" class=\\"w-full h-full border-gray-400\\"><div data-testid=\\"adLink\\" class=\\"focus-outline\\" id=\\"adLink\\"><a style=\\"background:transparent url(&quot;https://m.media-amazon.com/images/G/01/d16g/kpw/transparent-1x1.png&quot;) repeat 0 0;bottom:0;cursor:pointer;left:0;position:absolute;right:0;top:0;z-index:20\\" role=\\"link\\" aria-label=\\"Sponsored ad. Click to learn more information.\\" href=\\"https://aax-eu.amazon.in/x/c/JEKnkX2O3a5CirlPitVoWrwAAAGSpDDRgAMAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICCuh55-/https://www.amazon.in/stores/page/4235CFCC-F407-4CD6-9B20-FF148B8F7CB3\\" target=\\"_top\\"><\\/a><\\/div><div data-testid=\\"\\" data-identifier=\\"product-collection\\" data-current-screen=\\"banner-lg\\" class=\\"grid w-full h-full items-center px-0 bg-zinc-100\\" style=\\"grid-template-areas:&#x27;custom-image inset-carousel&#x27;;grid-template-columns:auto minmax(0, 1fr);grid-template-rows:auto\\"><div class=\\"w-full h-full grid-custom-image flex h-full items-center min-w-0 min-h-0 w-full relative justify-center overflow-hidden\\"><div aria-hidden=\\"true\\" class=\\"min-w-0 min-h-0 relative w-full h-full\\"><picture class=\\"flex h-full w-full justify-center items-center\\"><source type=\\"image/webp\\" data-testid=\\"lowResWebpSource\\" srcSet=\\" https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL10_SX650_SY130_FMwebp_.jpg 1x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL10_SX1300_SY260_FMwebp_.jpg 2x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL10_SX1950_SY390_FMwebp_.jpg 3x,\\"/><source type=\\"image/jpeg\\" data-testid=\\"lowResJpegSource\\" srcSet=\\" https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL10_SX650_SY130_.jpg 1x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL10_SX1300_SY260_.jpg 2x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL10_SX1950_SY390_.jpg 3x,\\"/><source type=\\"image/avif\\" data-testid=\\"lowResAvifSource\\" srcSet=\\" https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL10_SX650_SY130_FMavif_.jpg 1x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL10_SX1300_SY260_FMavif_.jpg 2x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL10_SX1950_SY390_FMavif_.jpg 3x,\\"/><img class=\\"min-w-0 min-h-0 w-full h-full object-contain\\" style=\\"background-color:transparent\\" loading=\\"eager\\" alt=\\"Redmi A3 (Midnight Black, 3GB RAM, 64GB Storage) | Premium Halo Design | 90Hz Display | Powerful 4G G36 Processor\\" data-testid=\\"pictureLowQuality\\" src=\\" https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_SX650_SY130_.jpg 1x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_SX1300_SY260_.jpg 2x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_SX1950_SY390_.jpg 3x,\\"/><\\/picture><picture data-testid=\\"customImage\\" data-image-scale=\\"horizontal\\" data-image-type=\\"static\\" class=\\"flex left-0 right-0 absolute top-0 bottom-0 justify-center items-center\\"><source type=\\"image/webp\\" data-testid=\\"webpSource\\" srcSet=\\" https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL95_SX650_SY130_FMwebp_.jpg 1x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL95_SX1300_SY260_FMwebp_.jpg 2x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL95_SX1950_SY390_FMwebp_.jpg 3x,\\"/><source type=\\"image/jpeg\\" data-testid=\\"jpegSource\\" srcSet=\\" https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL95_SX650_SY130_.jpg 1x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL95_SX1300_SY260_.jpg 2x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL95_SX1950_SY390_.jpg 3x,\\"/><source type=\\"image/avif\\" data-testid=\\"avifSource\\" srcSet=\\" https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL95_SX650_SY130_FMavif_.jpg 1x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL95_SX1300_SY260_FMavif_.jpg 2x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_QL95_SX1950_SY390_FMavif_.jpg 3x,\\"/><img class=\\"min-w-0 min-h-0 w-full h-full mrc-btr-creative object-contain\\" style=\\"background-color:transparent\\" loading=\\"eager\\" alt=\\"Redmi A3 (Midnight Black, 3GB RAM, 64GB Storage) | Premium Halo Design | 90Hz Display | Powerful 4G G36 Processor\\" data-testid=\\"pictureHighQuality\\" src=\\" https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_SX650_SY130_.jpg 1x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO2,255,255,255_SX1300_SY260_.jpg 2x, https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0032e94d-f085-472e-bd7b-f300cc9fa2e4._CR0,0,1200,628_BL0_BO'... 43752 more characters,
+      _detached: false,
+      _childFrames: Set(0) {},
+      _page: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: Map(0) {},
+      _type: 'Frame',
+      _guid: 'frame@c605c312dff3e5a1a89414a8a858fd9d',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: [Frame],
+      _url: 'https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/sf-1.50.ca4a82db.html',
+      _name: '        {\n' +
+        '            "placementName" :   "Detail_dp-ads-center-promo_Desktop",\n' +
+        '            "renderingId":      "6825ae83-cd92-4fba-bc9e-497c320a7c52",\n' +
+        '            "creative": {"flow":"XSP_CLIENT_SIDE","url":"https://aax-eu.amazon.in/e/xsp/getAd?placementId=3fa6ae61-e017-444f-9a6f-e9b39addf953&src=511&rj=%7B%7D&slot=dp-ads-center-promo&rid=0101597918ddcd969957e9f935fee201c08df159d7f2c49fff0d348be88b307867ff","size":null,"mediaType":"D"},\n' +
+        '            "pageType":         "Detail",\n' +
+        '            "subPageType":      "Desktop",\n' +
+        '            "slotName" :        "dp-ads-center-promo",\n' +
+        '            "arid" :            "74676b8124804bcb9cb81a0f62fb0a03",\n' +
+        '                "placementId":     "3fa6ae61-e017-444f-9a6f-e9b39addf953",\n' +
+        '            "size" :            {\n' +
+        '                                    "width": "970px",\n' +
+        '                                    "height" : "250px"\n' +
+        '                                },\n' +
+        '            "allowedSizes" :    [{"width":"970px", "height":"250px"}],\n' +
+        '            "firePixelsAfter" : "criticalFeature",\n' +
+        '            "isCardsFlow": false,\n' +
+        '            "aaxInstrPixelUrl": "",\n' +
+        '            "fallbackStaticAdImgUrl": "",\n' +
+        '            "fallbackStaticAdClickUrl": "",\n' +
+        '            "fallbackStaticAdExtraStyle": "",\n' +
+        '            "adFeedbackInfo":         {\n' +
+        '            "adProgramId": "1027", \n' +
+        '            "endPoint": "/af/feedback-link",\n' +
+        '            "boolFeedback": true,\n' +
+        `            "sponsoredText": "Sponsored         <b id=\\"ape_Detail_dp-ads-center-promo_Desktop_feedbackIcon\\" style=\\"display: inline-block;\\n                                         vertical-align: text-bottom;\\n                                         margin: 1px 0px;\\n                                         width: 14px;\\n                                         height: 12px;\\n                                         background: url('https://m.media-amazon.com/images/G/01/ad-feedback/info_icon_1Xsprite.png') 0px 0px no-repeat scroll transparent;\\"/>\\n",\n` +
+        '            "adFeedbackOnTop":false\n' +
+        '        }\n' +
+        ',\n' +
+        '            "adPlacementMetaData":         {\n' +
+        '            "pageUrl": "aHR0cHM6Ly93d3cuYW1hem9uLmluL1BPQ08tQzY1LU1hdHRlLUJsYWNrLTEyOEdCL2RwL0IwQ1FHOU40WjMvcmVmPXNyXzFfMV9zc3BhP2RpYj1leUoySWpvaU1TSjkual9FUkM1ZVk5UWtkRzh1SzR3S2VfU3E1V0ZtNmlYZTVHVno0VnRVUnNEY04tUlo5ckFhb25LOTZFR2JCNjAza05Cdjd2SnZaQnBMWWFSNXRkWkN3bDJBZDJZOVluNTBVX1pCdUZOVTFVc3hXVGpkaTVPMUMzbEZRRmdpZEFKdlZxMHdBb3lVX3g0SWJ1bjFPS3dreTFXRV9IMllFcl9uMFN0eEFKNjBObHZhRjVKaUdxSE1UUzNiMWIzOS05V21aT3JSOWlTRlFya1ZYR2NCWUgzVFVjX3JLR2t6RkltdVpndUFoTjctYlJKMC5DVFduRHFqZzM2TTZYVXBNeGhGSElvTVBfZVZ1M0RHRFppQmhYNXFmeVhrJmRpYl90YWc9c2Uma2V5d29yZHM9UE9DTytDNjUmbnNkT3B0T3V0UGFyYW09dHJ1ZSZwc2M9MSZxaWQ9MTcyOTMzMTUwNyZzcF9jc2Q9ZDJsa1oyVjBUbUZ0WlQxemNGOWhkR1kmc3I9OC0xLXNwb25z",\n' +
+        '            "adElementId": "ape_Detail_dp-ads-center-promo_Desktop_placement",\n' +
+        '            "pageType": "Detail",\n' +
+        '            "slotName": "dp-ads-center-promo"\n' +
+        '        }\n' +
+        ',\n' +
+        '            "adCreativeMetaData":         {\n' +
+        '            "adProgramId": "1027",\n' +
+        '            "adCreativeId": "0",\n' +
+        '            "adId": "300235737366832",\n' +
+        '            "adCreativeDetails": [],\n' +
+        '            "adNetwork": "cs"\n' +
+        '        }\n' +
+        ',\n' +
+        '            "advertisementStyle":     {\n' +
+        '        "position": "absolute",\n' +
+        '        "top": "4.5px",\n' +
+        '        "right": "0px",\n' +
+        '        "display": "inline-block",\n' +
+        '        "font": "11px \\"Amazon Ember Regular\\", \\"Amazon Ember\\", Arial",\n' +
+        '        "color": "rgb(85,85,85)",\n' +
+        '        "text-align": "right"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "feedbackDivStyle": { "position": "relative", "height": "18px"},\n' +
+        '            "abpStatus": "0",\n' +
+        '            "abpAcceptable": "true",\n' +
+        '                "mediaType": "D",\n' +
+        '            "adUnitPlacementId":"ape_Detail_dp-ads-center-promo_Desktop_placement",\n' +
+        '            "adUnitIframeId":"ape_Detail_dp-ads-center-promo_Desktop_iframe",\n' +
+        '                "defaultSize":"970x250",\n' +
+        '            "weblabTreatments":"{\\"ADPT_SF_LIGHTADS_REFACTOR_903064\\":\\"C\\",\\"ADPT_SF_ADSP_VIDEO_833419\\":\\"C\\",\\"A2I_HOMEPAGE_CARD_THEMING_360311\\":\\"T1\\",\\"ADPT_SF_CLIENT_LATENCY_2023Q3_737747\\":\\"C\\",\\"ADPT_SF_CLIENT_LATENCY_2023Q1_632539\\":\\"C\\",\\"ADPT_SF_APE_WW_MOBILE_SEARCH_ZOETROPE_EPB_EXP_792200\\":\\"C\\",\\"ADPT_SF_H1_VIDEO_ADS_MOCK_940184\\":\\"C\\",\\"ADPT_SF_PLACEMENT_STYLESHEET_1047425\\":\\"C\\",\\"ADPT_SF_BTR_PIXEL_997225\\":\\"C\\",\\"ADPT_SF_SERVER_SIDE_SPONSORED_LABEL_998980\\":\\"C\\",\\"ADPT_SF_UNIQUE_DIV_ID_1012703\\":\\"T1\\",\\"ADPT_SF_MASH_API_DEPRECATION_1051249\\":\\"C\\",\\"ADPT_SF_RESIZE_ASPECT_RATIO_909226\\":\\"T1\\",\\"ADPT_SF_USE_ADDETAILS_SCOPE_1025572\\":\\"T1\\",\\"ADPT_SF_DEFAULT_SPONSORED_LABEL_863363\\":\\"C\\",\\"ADPT_SF_ADREPORTER_1058579\\":\\"C\\",\\"ADPT_SF_ENABLE_BLANKADS_DETECTION_990833\\":\\"C\\",\\"ADPT_SF_WD1_VIDEO_ADS_MOCK_1037066\\":\\"C\\",\\"ADPT_SF_TRANSPARENCY_INFO_MANDATORY_FOR_EU_712921\\":\\"C\\"}",\n' +
+        '            "blankAdsConfig":     {\n' +
+        '      "blankAdsScriptUrl": "https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/blankAds/blankAds.37728466.js"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "scope": "Detail_dp-ads-center-promo_Desktop"\n' +
+        '        }\n',
+      _detached: false,
+      _childFrames: Set(0) {},
+      _page: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: Map(0) {},
+      _type: 'Frame',
+      _guid: 'frame@ba32ae71ddb430991fe06b6af26bd2ce',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: [Frame],
+      _url: 'https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/sf-1.50.ca4a82db.html',
+      _name: '        {\n' +
+        '            "placementName" :   "Detail_customer-reviews-top_Glance",\n' +
+        '            "renderingId":      "d290b659-d803-4a76-b6bf-49ae91ee42d2",\n' +
+        '            "creative": {"flow":"XSP_CLIENT_SIDE","url":"https://aax-eu.amazon.in/e/xsp/getAd?placementId=c9a09184-bad8-4206-80a7-f9db64ba2bb1&src=511&rj=%7B%7D&slot=customer-reviews-top&rid=0101597918ddcd969957e9f935fee201c08df159d7f2c49fff0d348be88b307867ff","size":null,"mediaType":"D"},\n' +
+        '            "pageType":         "Detail",\n' +
+        '            "subPageType":      "Glance",\n' +
+        '            "slotName" :        "customer-reviews-top",\n' +
+        '            "arid" :            "35f9eb205c5d44cda63182948f59c813",\n' +
+        '                "placementId":     "c9a09184-bad8-4206-80a7-f9db64ba2bb1",\n' +
+        '            "size" :            {\n' +
+        '                                    "width": "300",\n' +
+        '                                    "height" : "250"\n' +
+        '                                },\n' +
+        '            "allowedSizes" :    [{"width":"305px", "height":"255px"},{"width":"305px", "height":"250px"}],\n' +
+        '            "firePixelsAfter" : "criticalFeature",\n' +
+        '            "isCardsFlow": false,\n' +
+        '            "aaxInstrPixelUrl": "",\n' +
+        '            "fallbackStaticAdImgUrl": "",\n' +
+        '            "fallbackStaticAdClickUrl": "",\n' +
+        '            "fallbackStaticAdExtraStyle": "",\n' +
+        '            "adFeedbackInfo":         {\n' +
+        '            "adProgramId": "1027", \n' +
+        '            "endPoint": "/af/feedback-link",\n' +
+        '            "boolFeedback": true,\n' +
+        `            "sponsoredText": "Sponsored         <b id=\\"ape_Detail_customer-reviews-top_Glance_feedbackIcon\\" style=\\"display: inline-block;\\n                                         vertical-align: text-bottom;\\n                                         margin: 1px 0px;\\n                                         width: 14px;\\n                                         height: 12px;\\n                                         background: url('https://m.media-amazon.com/images/G/01/ad-feedback/info_icon_1Xsprite.png') 0px 0px no-repeat scroll transparent;\\"/>\\n",\n` +
+        '            "adFeedbackOnTop":false\n' +
+        '        }\n' +
+        ',\n' +
+        '            "adPlacementMetaData":         {\n' +
+        '            "pageUrl": "aHR0cHM6Ly93d3cuYW1hem9uLmluL1BPQ08tQzY1LU1hdHRlLUJsYWNrLTEyOEdCL2RwL0IwQ1FHOU40WjMvcmVmPXNyXzFfMV9zc3BhP2RpYj1leUoySWpvaU1TSjkual9FUkM1ZVk5UWtkRzh1SzR3S2VfU3E1V0ZtNmlYZTVHVno0VnRVUnNEY04tUlo5ckFhb25LOTZFR2JCNjAza05Cdjd2SnZaQnBMWWFSNXRkWkN3bDJBZDJZOVluNTBVX1pCdUZOVTFVc3hXVGpkaTVPMUMzbEZRRmdpZEFKdlZxMHdBb3lVX3g0SWJ1bjFPS3dreTFXRV9IMllFcl9uMFN0eEFKNjBObHZhRjVKaUdxSE1UUzNiMWIzOS05V21aT3JSOWlTRlFya1ZYR2NCWUgzVFVjX3JLR2t6RkltdVpndUFoTjctYlJKMC5DVFduRHFqZzM2TTZYVXBNeGhGSElvTVBfZVZ1M0RHRFppQmhYNXFmeVhrJmRpYl90YWc9c2Uma2V5d29yZHM9UE9DTytDNjUmbnNkT3B0T3V0UGFyYW09dHJ1ZSZwc2M9MSZxaWQ9MTcyOTMzMTUwNyZzcF9jc2Q9ZDJsa1oyVjBUbUZ0WlQxemNGOWhkR1kmc3I9OC0xLXNwb25z",\n' +
+        '            "adElementId": "ape_Detail_customer-reviews-top_Glance_placement",\n' +
+        '            "pageType": "Detail",\n' +
+        '            "slotName": "customer-reviews-top"\n' +
+        '        }\n' +
+        ',\n' +
+        '            "adCreativeMetaData":         {\n' +
+        '            "adProgramId": "1027",\n' +
+        '            "adCreativeId": "0",\n' +
+        '            "adId": "300235737366832",\n' +
+        '            "adCreativeDetails": [],\n' +
+        '            "adNetwork": "cs"\n' +
+        '        }\n' +
+        ',\n' +
+        '            "advertisementStyle":     {\n' +
+        '        "position": "absolute",\n' +
+        '        "top": "4.5px",\n' +
+        '        "right": "0px",\n' +
+        '        "display": "inline-block",\n' +
+        '        "font": "11px \\"Amazon Ember Regular\\", \\"Amazon Ember\\", Arial",\n' +
+        '        "color": "rgb(85,85,85)",\n' +
+        '        "text-align": "right"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "feedbackDivStyle": {"position":"relative","top": "-2px","height":"17px"},\n' +
+        '            "abpStatus": "0",\n' +
+        '            "abpAcceptable": "true",\n' +
+        '                "mediaType": "D",\n' +
+        '            "adUnitPlacementId":"ape_Detail_customer-reviews-top_Glance_placement",\n' +
+        '            "adUnitIframeId":"ape_Detail_customer-reviews-top_Glance_iframe",\n' +
+        '                "defaultSize":"300x250",\n' +
+        '            "weblabTreatments":"{\\"ADPT_SF_LIGHTADS_REFACTOR_903064\\":\\"C\\",\\"ADPT_SF_ADSP_VIDEO_833419\\":\\"C\\",\\"A2I_HOMEPAGE_CARD_THEMING_360311\\":\\"T1\\",\\"ADPT_SF_CLIENT_LATENCY_2023Q3_737747\\":\\"C\\",\\"ADPT_SF_CLIENT_LATENCY_2023Q1_632539\\":\\"C\\",\\"ADPT_SF_APE_WW_MOBILE_SEARCH_ZOETROPE_EPB_EXP_792200\\":\\"C\\",\\"ADPT_SF_H1_VIDEO_ADS_MOCK_940184\\":\\"C\\",\\"ADPT_SF_PLACEMENT_STYLESHEET_1047425\\":\\"C\\",\\"ADPT_SF_BTR_PIXEL_997225\\":\\"C\\",\\"ADPT_SF_SERVER_SIDE_SPONSORED_LABEL_998980\\":\\"C\\",\\"ADPT_SF_UNIQUE_DIV_ID_1012703\\":\\"T1\\",\\"ADPT_SF_MASH_API_DEPRECATION_1051249\\":\\"C\\",\\"ADPT_SF_RESIZE_ASPECT_RATIO_909226\\":\\"T1\\",\\"ADPT_SF_USE_ADDETAILS_SCOPE_1025572\\":\\"T1\\",\\"ADPT_SF_DEFAULT_SPONSORED_LABEL_863363\\":\\"C\\",\\"ADPT_SF_ADREPORTER_1058579\\":\\"C\\",\\"ADPT_SF_ENABLE_BLANKADS_DETECTION_990833\\":\\"C\\",\\"ADPT_SF_WD1_VIDEO_ADS_MOCK_1037066\\":\\"C\\",\\"ADPT_SF_TRANSPARENCY_INFO_MANDATORY_FOR_EU_712921\\":\\"C\\"}",\n' +
+        '            "blankAdsConfig":     {\n' +
+        '      "blankAdsScriptUrl": "https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/blankAds/blankAds.37728466.js"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "scope": "Detail_customer-reviews-top_Glance"\n' +
+        '        }\n',
+      _detached: false,
+      _childFrames: Set(0) {},
+      _page: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: Map(0) {},
+      _type: 'Frame',
+      _guid: 'frame@1880ddbb5da9c0ecc826aa9bf0b254a1',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: [Frame],
+      _url: 'https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/sf-1.50.ca4a82db.html',
+      _name: '        {\n' +
+        '            "placementName" :   "Detail_ad-endcap-1_Glance",\n' +
+        '            "renderingId":      "433bcf26-dc47-4597-8b7e-d654e35f48fb",\n' +
+        '            "creative": {"flow":"XSP_CLIENT_SIDE","url":"https://aax-eu.amazon.in/e/xsp/getAd?placementId=052361f4-9d91-4d02-bbea-0203083d3697&src=511&rj=%7B%7D&slot=ad-endcap-1&rid=0101597918ddcd969957e9f935fee201c08df159d7f2c49fff0d348be88b307867ff","size":null,"mediaType":"D"},\n' +
+        '            "pageType":         "Detail",\n' +
+        '            "subPageType":      "Glance",\n' +
+        '            "slotName" :        "ad-endcap-1",\n' +
+        '            "arid" :            "dec578359a934642bfbdb9a35680ad6c",\n' +
+        '                "placementId":     "052361f4-9d91-4d02-bbea-0203083d3697",\n' +
+        '            "size" :            {\n' +
+        '                                    "width": "100%",\n' +
+        '                                    "height" : "90px"\n' +
+        '                                },\n' +
+        '            "allowedSizes" :    [{"width":"728px","height":"90px"}],\n' +
+        '            "firePixelsAfter" : "windowOnLoad",\n' +
+        '            "isCardsFlow": false,\n' +
+        '            "aaxInstrPixelUrl": "",\n' +
+        '            "fallbackStaticAdImgUrl": "",\n' +
+        '            "fallbackStaticAdClickUrl": "",\n' +
+        '            "fallbackStaticAdExtraStyle": "",\n' +
+        '            "adFeedbackInfo":         {\n' +
+        '            "adProgramId": "1027", \n' +
+        '            "endPoint": "/af/feedback-link",\n' +
+        '            "boolFeedback": true,\n' +
+        `            "sponsoredText": "Sponsored         <b id=\\"ape_Detail_ad-endcap-1_Glance_feedbackIcon\\" style=\\"display: inline-block;\\n                                         vertical-align: text-bottom;\\n                                         margin: 1px 0px;\\n                                         width: 14px;\\n                                         height: 12px;\\n                                         background: url('https://m.media-amazon.com/images/G/01/ad-feedback/info_icon_1Xsprite.png') 0px 0px no-repeat scroll transparent;\\"/>\\n",\n` +
+        '            "adFeedbackOnTop":false\n' +
+        '        }\n' +
+        ',\n' +
+        '            "adPlacementMetaData":         {\n' +
+        '            "pageUrl": "aHR0cHM6Ly93d3cuYW1hem9uLmluL1BPQ08tQzY1LU1hdHRlLUJsYWNrLTEyOEdCL2RwL0IwQ1FHOU40WjMvcmVmPXNyXzFfMV9zc3BhP2RpYj1leUoySWpvaU1TSjkual9FUkM1ZVk5UWtkRzh1SzR3S2VfU3E1V0ZtNmlYZTVHVno0VnRVUnNEY04tUlo5ckFhb25LOTZFR2JCNjAza05Cdjd2SnZaQnBMWWFSNXRkWkN3bDJBZDJZOVluNTBVX1pCdUZOVTFVc3hXVGpkaTVPMUMzbEZRRmdpZEFKdlZxMHdBb3lVX3g0SWJ1bjFPS3dreTFXRV9IMllFcl9uMFN0eEFKNjBObHZhRjVKaUdxSE1UUzNiMWIzOS05V21aT3JSOWlTRlFya1ZYR2NCWUgzVFVjX3JLR2t6RkltdVpndUFoTjctYlJKMC5DVFduRHFqZzM2TTZYVXBNeGhGSElvTVBfZVZ1M0RHRFppQmhYNXFmeVhrJmRpYl90YWc9c2Uma2V5d29yZHM9UE9DTytDNjUmbnNkT3B0T3V0UGFyYW09dHJ1ZSZwc2M9MSZxaWQ9MTcyOTMzMTUwNyZzcF9jc2Q9ZDJsa1oyVjBUbUZ0WlQxemNGOWhkR1kmc3I9OC0xLXNwb25z",\n' +
+        '            "adElementId": "ape_Detail_ad-endcap-1_Glance_placement",\n' +
+        '            "pageType": "Detail",\n' +
+        '            "slotName": "ad-endcap-1"\n' +
+        '        }\n' +
+        ',\n' +
+        '            "adCreativeMetaData":         {\n' +
+        '            "adProgramId": "1027",\n' +
+        '            "adCreativeId": "0",\n' +
+        '            "adId": "300235406798532",\n' +
+        '            "adCreativeDetails": [],\n' +
+        '            "adNetwork": "cs"\n' +
+        '        }\n' +
+        ',\n' +
+        '            "advertisementStyle":     {\n' +
+        '        "position": "absolute",\n' +
+        '        "top": "4.5px",\n' +
+        '        "right": "0px",\n' +
+        '        "display": "inline-block",\n' +
+        '        "font": "11px \\"Amazon Ember Regular\\", \\"Amazon Ember\\", Arial",\n' +
+        '        "color": "rgb(85,85,85)",\n' +
+        '        "text-align": "right"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "feedbackDivStyle":     {\n' +
+        '        "position": "relative",\n' +
+        '        "height": "14px",\n' +
+        '        "top": "2px"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "abpStatus": "0",\n' +
+        '            "abpAcceptable": "true",\n' +
+        '                "mediaType": "D",\n' +
+        '            "adUnitPlacementId":"ape_Detail_ad-endcap-1_Glance_placement",\n' +
+        '            "adUnitIframeId":"ape_Detail_ad-endcap-1_Glance_iframe",\n' +
+        '                "defaultSize":"728x90",\n' +
+        '            "weblabTreatments":"{\\"ADPT_SF_LIGHTADS_REFACTOR_903064\\":\\"C\\",\\"ADPT_SF_ADSP_VIDEO_833419\\":\\"C\\",\\"A2I_HOMEPAGE_CARD_THEMING_360311\\":\\"T1\\",\\"ADPT_SF_CLIENT_LATENCY_2023Q3_737747\\":\\"C\\",\\"ADPT_SF_CLIENT_LATENCY_2023Q1_632539\\":\\"C\\",\\"ADPT_SF_APE_WW_MOBILE_SEARCH_ZOETROPE_EPB_EXP_792200\\":\\"C\\",\\"ADPT_SF_H1_VIDEO_ADS_MOCK_940184\\":\\"C\\",\\"ADPT_SF_PLACEMENT_STYLESHEET_1047425\\":\\"C\\",\\"ADPT_SF_BTR_PIXEL_997225\\":\\"C\\",\\"ADPT_SF_SERVER_SIDE_SPONSORED_LABEL_998980\\":\\"C\\",\\"ADPT_SF_UNIQUE_DIV_ID_1012703\\":\\"T1\\",\\"ADPT_SF_MASH_API_DEPRECATION_1051249\\":\\"C\\",\\"ADPT_SF_RESIZE_ASPECT_RATIO_909226\\":\\"T1\\",\\"ADPT_SF_USE_ADDETAILS_SCOPE_1025572\\":\\"T1\\",\\"ADPT_SF_DEFAULT_SPONSORED_LABEL_863363\\":\\"C\\",\\"ADPT_SF_ADREPORTER_1058579\\":\\"C\\",\\"ADPT_SF_ENABLE_BLANKADS_DETECTION_990833\\":\\"C\\",\\"ADPT_SF_WD1_VIDEO_ADS_MOCK_1037066\\":\\"C\\",\\"ADPT_SF_TRANSPARENCY_INFO_MANDATORY_FOR_EU_712921\\":\\"C\\"}",\n' +
+        '            "blankAdsConfig":     {\n' +
+        '      "blankAdsScriptUrl": "https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/blankAds/blankAds.37728466.js"\n' +
+        '    }\n' +
+        ',\n' +
+        '            "scope": "Detail_ad-endcap-1_Glance"\n' +
+        '        }\n',
+      _detached: false,
+      _childFrames: Set(0) {},
+      _page: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: Map(0) {},
+      _type: 'Frame',
+      _guid: 'frame@eb188941f315195e1569ef7fce1e27d3',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: [Frame],
+      _url: '',
+      _name: '',
+      _detached: false,
+      _childFrames: Set(0) {},
+      _page: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: Map(0) {},
+      _type: 'Frame',
+      _guid: 'frame@a9b6e3bda74c4074f41cd75315e153c7',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: [Frame],
+      _url: '',
+      _name: '',
+      _detached: false,
+      _childFrames: Set(0) {},
+      _page: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: Map(0) {},
+      _type: 'Frame',
+      _guid: 'frame@ef5f6d323bc59d6ed7434a1f6f5c934a',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: [Frame],
+      _url: '',
+      _name: '',
+      _detached: false,
+      _childFrames: Set(0) {},
+      _page: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    }
+  },
+  _workers: Set(0) {},
+  _closed: false,
+  _closedOrCrashedScope: LongStandingScope {
+    _terminateError: undefined,
+    _closeError: undefined,
+    _terminatePromises: Map(0) {},
+    _isClosed: false
+  },
+  _viewportSize: { width: 1280, height: 720 },
+  _routes: [],
+  accessibility: Accessibility {
+    _channel: EventEmitter {
+      _events: [Object: null prototype],
+      _eventsCount: 12,
+      _maxListeners: undefined,
+      _object: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    }
+  },
+  coverage: Coverage {
+    _channel: EventEmitter {
+      _events: [Object: null prototype],
+      _eventsCount: 12,
+      _maxListeners: undefined,
+      _object: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    }
+  },
+  keyboard: Keyboard { _page: [Circular *1] },
+  mouse: Mouse { _page: [Circular *1] },
+  request: <ref *5> APIRequestContext {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: 0,
+    _connection: <ref *2> Connection {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      _objects: [Map],
+      onmessage: [Function (anonymous)],
+      _lastId: 25,
+      _callbacks: [Map],
+      _rootObject: [Root],
+      _closedError: undefined,
+      _isRemote: true,
+      _localUtils: [LocalUtils],
+      _rawBuffers: false,
+      toImpl: undefined,
+      _tracingCount: 0,
+      _instrumentation: {},
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _parent: <ref *3> BrowserContext {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Browser],
+      _objects: [Map],
+      _type: 'BrowserContext',
+      _guid: 'browser-context@7408f97257107a826d54573a8c3ad63a',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: [Map],
+      _wasCollected: false,
+      _pages: [Set],
+      _routes: [],
+      _browser: [Browser],
+      _browserType: [BrowserType],
+      _bindings: Map(0) {},
+      _timeoutSettings: [TimeoutSettings],
+      _ownerPage: undefined,
+      _closedPromise: [Promise],
+      _options: [Object],
+      request: [Circular *5],
+      tracing: [Tracing],
+      clock: [Clock],
+      _backgroundPages: Set(0) {},
+      _serviceWorkers: [Set],
+      _isChromium: true,
+      _harRecorders: Map(0) {},
+      _closeWasCalled: false,
+      _closeReason: undefined,
+      _harRouters: [],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kReusedContext)]: true
+    },
+    _objects: Map(0) {},
+    _type: 'APIRequestContext',
+    _guid: 'request-context@d013705b6e4e9a7a5b6bc83a6c34e98b',
+    _channel: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _object: [Circular *5],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _initializer: { tracing: [EventEmitter] },
+    _logger: undefined,
+    _instrumentation: {},
+    _eventToSubscriptionMapping: Map(0) {},
+    _wasCollected: false,
+    _request: undefined,
+    _tracing: Tracing {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [BrowserContext],
+      _objects: Map(0) {},
+      _type: 'Tracing',
+      _guid: 'tracing@568d1bb4535354b03d63bcea560e0ce5',
+      _channel: [EventEmitter],
+      _initializer: {},
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _includeSources: false,
+      _tracesDir: undefined,
+      _stacksId: undefined,
+      _isTracing: false,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _closeReason: undefined,
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  },
+  touchscreen: Touchscreen { _page: [Circular *1] },
+  clock: <ref *6> Clock {
+    _browserContext: <ref *3> BrowserContext {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Browser],
+      _objects: [Map],
+      _type: 'BrowserContext',
+      _guid: 'browser-context@7408f97257107a826d54573a8c3ad63a',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: [Map],
+      _wasCollected: false,
+      _pages: [Set],
+      _routes: [],
+      _browser: [Browser],
+      _browserType: [BrowserType],
+      _bindings: Map(0) {},
+      _timeoutSettings: [TimeoutSettings],
+      _ownerPage: undefined,
+      _closedPromise: [Promise],
+      _options: [Object],
+      request: [APIRequestContext],
+      tracing: [Tracing],
+      clock: [Circular *6],
+      _backgroundPages: Set(0) {},
+      _serviceWorkers: [Set],
+      _isChromium: true,
+      _harRecorders: Map(0) {},
+      _closeWasCalled: false,
+      _closeReason: undefined,
+      _harRouters: [],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kReusedContext)]: true
+    }
+  },
+  _bindings: Map(0) {},
+  _timeoutSettings: TimeoutSettings {
+    _parent: TimeoutSettings {
+      _parent: undefined,
+      _defaultTimeout: 0,
+      _defaultNavigationTimeout: 0
+    },
+    _defaultTimeout: undefined,
+    _defaultNavigationTimeout: undefined
+  },
+  _video: null,
+  _opener: <ref *7> Page {
+    _events: [Object: null prototype] { close: [Function], crash: [Function] },
+    _eventsCount: 2,
+    _maxListeners: 0,
+    _connection: <ref *2> Connection {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      _objects: [Map],
+      onmessage: [Function (anonymous)],
+      _lastId: 25,
+      _callbacks: [Map],
+      _rootObject: [Root],
+      _closedError: undefined,
+      _isRemote: true,
+      _localUtils: [LocalUtils],
+      _rawBuffers: false,
+      toImpl: undefined,
+      _tracingCount: 0,
+      _instrumentation: {},
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _parent: <ref *3> BrowserContext {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Browser],
+      _objects: [Map],
+      _type: 'BrowserContext',
+      _guid: 'browser-context@7408f97257107a826d54573a8c3ad63a',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: [Map],
+      _wasCollected: false,
+      _pages: [Set],
+      _routes: [],
+      _browser: [Browser],
+      _browserType: [BrowserType],
+      _bindings: Map(0) {},
+      _timeoutSettings: [TimeoutSettings],
+      _ownerPage: undefined,
+      _closedPromise: [Promise],
+      _options: [Object],
+      request: [APIRequestContext],
+      tracing: [Tracing],
+      clock: [Clock],
+      _backgroundPages: Set(0) {},
+      _serviceWorkers: [Set],
+      _isChromium: true,
+      _harRecorders: Map(0) {},
+      _closeWasCalled: false,
+      _closeReason: undefined,
+      _harRouters: [],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kReusedContext)]: true
+    },
+    _objects: Map(17) {
+      'frame@dfec721b0946792c6502a5293d8fecb7' => [Frame],
+      'request@efeb2069f7e95aed06324130258908cf' => [Request],
+      'request@e9305e4bfac26fc2b567d94cefa38e66' => [Request],
+      'frame@137756695df4d004d40cc5b95fc59d55' => [Frame],
+      'request@31bffc7c628302b7a88ddc88ce47e36f' => [Request],
+      'request@064ae5225ca5fadfc28170a6f2c602ad' => [Request],
+      'frame@6464c0b7fb9ada871f67193f387ff204' => [Frame],
+      'request@25e520fb8b699b94f787287fd69543c5' => [Request],
+      'frame@24d5fe010c57811f0859d05f128ac8e1' => [Frame],
+      'frame@800fe3af3eb93800a9b95286e62f8853' => [Frame],
+      'frame@fa04ac74dd1dcf0f63b7d24f2974f652' => [Frame],
+      'frame@e538e6a66153d943e4dbf6c372c1e23d' => [Frame],
+      'request@6fc73dd0b3ec00d39012b7126c286059' => [Request],
+      'frame@a1f15c77fb5f21e1b0c8bdc2ae60aeb8' => [Frame],
+      'request@2e2bcca5fc298cef2e0458a3f98ddc6f' => [Request],
+      'frame@818ba02ffc249f57d9d1b3a594b07b69' => [Frame],
+      'request@d910123e6547273234015b6ad274d713' => [Request]
+    },
+    _type: 'Page',
+    _guid: 'page@f9050680ac582e130efc638426fdda9b',
+    _channel: EventEmitter {
+      _events: [Object: null prototype],
+      _eventsCount: 12,
+      _maxListeners: undefined,
+      _object: [Circular *7],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _initializer: {
+      mainFrame: [EventEmitter],
+      viewportSize: [Object],
+      isClosed: false
+    },
+    _logger: undefined,
+    _instrumentation: {},
+    _eventToSubscriptionMapping: Map(7) {
+      'console' => 'console',
+      'dialog' => 'dialog',
+      'request' => 'request',
+      'response' => 'response',
+      'requestfinished' => 'requestFinished',
+      'requestfailed' => 'requestFailed',
+      'filechooser' => 'fileChooser'
+    },
+    _wasCollected: false,
+    _browserContext: <ref *3> BrowserContext {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Browser],
+      _objects: [Map],
+      _type: 'BrowserContext',
+      _guid: 'browser-context@7408f97257107a826d54573a8c3ad63a',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: [Map],
+      _wasCollected: false,
+      _pages: [Set],
+      _routes: [],
+      _browser: [Browser],
+      _browserType: [BrowserType],
+      _bindings: Map(0) {},
+      _timeoutSettings: [TimeoutSettings],
+      _ownerPage: undefined,
+      _closedPromise: [Promise],
+      _options: [Object],
+      request: [APIRequestContext],
+      tracing: [Tracing],
+      clock: [Clock],
+      _backgroundPages: Set(0) {},
+      _serviceWorkers: [Set],
+      _isChromium: true,
+      _harRecorders: Map(0) {},
+      _closeWasCalled: false,
+      _closeReason: undefined,
+      _harRouters: [],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kReusedContext)]: true
+    },
+    _ownedContext: undefined,
+    _mainFrame: Frame {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [Circular *7],
+      _objects: Map(0) {},
+      _type: 'Frame',
+      _guid: 'frame@dfec721b0946792c6502a5293d8fecb7',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _eventEmitter: [EventEmitter],
+      _loadStates: [Set],
+      _parentFrame: null,
+      _url: 'https://www.amazon.in/s?k=POCO+C65&ref=nb_sb_noss',
+      _name: '',
+      _detached: false,
+      _childFrames: [Set],
+      _page: [Circular *7],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _frames: Set(8) {
+      [Frame],
+      [Frame],
+      [Frame],
+      [Frame],
+      [Frame],
+      [Frame],
+      [Frame],
+      [Frame]
+    },
+    _workers: Set(0) {},
+    _closed: false,
+    _closedOrCrashedScope: LongStandingScope {
+      _terminateError: undefined,
+      _closeError: undefined,
+      _terminatePromises: Map(0) {},
+      _isClosed: false
+    },
+    _viewportSize: { width: 1280, height: 720 },
+    _routes: [],
+    accessibility: Accessibility { _channel: [EventEmitter] },
+    coverage: Coverage { _channel: [EventEmitter] },
+    keyboard: Keyboard { _page: [Circular *7] },
+    mouse: Mouse { _page: [Circular *7] },
+    request: <ref *5> APIRequestContext {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _connection: [Connection],
+      _parent: [BrowserContext],
+      _objects: Map(0) {},
+      _type: 'APIRequestContext',
+      _guid: 'request-context@d013705b6e4e9a7a5b6bc83a6c34e98b',
+      _channel: [EventEmitter],
+      _initializer: [Object],
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _wasCollected: false,
+      _request: undefined,
+      _tracing: [Tracing],
+      _closeReason: undefined,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    touchscreen: Touchscreen { _page: [Circular *7] },
+    clock: <ref *6> Clock { _browserContext: [BrowserContext] },
+    _bindings: Map(0) {},
+    _timeoutSettings: TimeoutSettings {
+      _parent: [TimeoutSettings],
+      _defaultTimeout: undefined,
+      _defaultNavigationTimeout: undefined
+    },
+    _video: null,
+    _opener: null,
+    _closeReason: undefined,
+    _closeWasCalled: false,
+    _harRouters: [],
+    _locatorHandlers: Map(0) {},
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  },
+  _closeReason: undefined,
+  _closeWasCalled: false,
+  _harRouters: [],
+  _locatorHandlers: Map(0) {},
+  [Symbol(shapeMode)]: false,
+  [Symbol(kCapture)]: false
+}
+Add to cart title name           POCO C65 (Matte Black 4GB RAM 128GB Storage)                 
+Add to cart product price 13,998.

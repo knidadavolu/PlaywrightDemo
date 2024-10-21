@@ -1,0 +1,37 @@
+print the item name POCO C65
+count of product is  20
+Product 0: POCO C65 (Matte Black 4GB RAM 128GB Storage)
+matching product found POCO C65 (Matte Black 4GB RAM 128GB Storage)
+Product 1: Lava Yuva 3 (Cosmic Lavender, 4+4*GB + 128GB)|Segment's Most Affordable Smartphone with 128 GB (UFS 2.2) Storage | 90Hz Punch Hole Display|13MP AI Triple Camera|Side Fingerprint Sensor |Bloatware Free
+Product 2: POCO C65 (Pastel Blue 4GB RAM 128GB Storage)
+matching product found POCO C65 (Pastel Blue 4GB RAM 128GB Storage)
+Error selecting product page.waitForTimeout: Test timeout of 30000ms exceeded.
+    at SelectProducts.selectProduct (c:\Users\vramasubbu\Framework\PlaywrightDemo\src\pages\SelectProduct.ts:29:24)
+    at c:\Users\vramasubbu\Framework\PlaywrightDemo\tests\tests-web\amazonTest.spec.ts:48:19 {
+  name: 'Error',
+  [Symbol(step)]: {
+    stepId: 'pw:api@22',
+    location: {
+      file: 'c:\\Users\\vramasubbu\\Framework\\PlaywrightDemo\\src\\pages\\SelectProduct.ts',
+      line: 29,
+      column: 24,
+      function: 'SelectProducts.selectProduct'
+    },
+    category: 'pw:api',
+    title: 'page.waitForTimeout',
+    apiName: 'page.waitForTimeout',
+    params: { timeout: 5000 },
+    canNestByTime: true,
+    boxedStack: undefined,
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729333435777,
+    error: {
+      message: 'Error: page.waitForTimeout: Test timeout of 30000ms exceeded.',
+      stack: 'Error: page.waitForTimeout: Test timeout of 30000ms exceeded.\n' +
+        '    at SelectProducts.selectProduct (c:\\Users\\vramasubbu\\Framework\\PlaywrightDemo\\src\\pages\\SelectProduct.ts:29:24)\n' +
+        '    at c:\\Users\\vramasubbu\\Framework\\PlaywrightDemo\\tests\\tests-web\\amazonTest.spec.ts:48:19'
+    }
+  }
+}
+new page is : undefined

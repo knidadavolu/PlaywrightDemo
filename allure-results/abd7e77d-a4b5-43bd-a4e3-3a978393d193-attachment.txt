@@ -1,0 +1,11 @@
+print the item name POCO C65
+count of product is  20
+Product 0: POCO C65 (Matte Black 4GB RAM 128GB Storage)
+matching product found POCO C65 (Matte Black 4GB RAM 128GB Storage)
+Product 1: Lava Yuva 3 (Cosmic Lavender, 4+4*GB + 128GB)|Segment's Most Affordable Smartphone with 128 GB (UFS 2.2) Storage | 90Hz Punch Hole Display|13MP AI Triple Camera|Side Fingerprint Sensor |Bloatware Free
+Product 2: POCO C65 (Pastel Blue 4GB RAM 128GB Storage)
+matching product found POCO C65 (Pastel Blue 4GB RAM 128GB Storage)
+Product 3: POCO C65 (Matte Black 4GB RAM 128GB Storage)
+matching product found POCO C65 (Matte Black 4GB RAM 128GB Storage)
+Product 4: POCO C65 (Pastel Green 4GB RAM 128GB Storage)
+matching product found POCO C65 (Pastel Green 4GB RAM 128GB Storage)

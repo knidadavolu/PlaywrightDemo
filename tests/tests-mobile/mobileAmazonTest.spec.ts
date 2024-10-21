@@ -42,4 +42,15 @@ test("Mobile Execution Amazon Web Page", async ({ page }) => {
   await searchProduct.goToSearch();
   await searchProduct.productSearch(data.productName);
   await searchProduct.validateSearchItem(data.productName);
+
+  // Select Product page and Cart to Cart Page
+  const selectProductPage = pomMaager.getProductPage();
+  await selectProductPage.selectProduct(data.modelName);
+  const cartPagevalidation = pomMaager.getCartPage();
+  if (cartPagevalidation) {
+    await cartPagevalidation.goToCartPage();
+    await cartPagevalidation.validateCartPage();
+  } else {
+    throw new Error("addingToCart is not initialized");
+  }
 });

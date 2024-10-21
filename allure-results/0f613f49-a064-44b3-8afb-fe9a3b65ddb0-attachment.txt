@@ -1,0 +1,5 @@
+print the item name POCO C65
+Error selecting product page.waitForLoadState: Test ended.
+    at SelectProducts.selectProduct (c:\Users\vramasubbu\Framework\PlaywrightDemo\src\pages\SelectProduct.ts:17:21)
+    at c:\Users\vramasubbu\Framework\PlaywrightDemo\tests\tests-web\amazonTest.spec.ts:48:43
+new page is : undefined
