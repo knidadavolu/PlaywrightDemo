@@ -1,0 +1,25 @@
+print the item name iPhone
+count of product is  18
+Product 0: Apple iPhone 15 (128 GB) - Black
+Product 1: Apple iPhone 16 (128 GB) - Ultramarine
+Product 2: Apple iPhone 13 (128GB) - Starlight
+matching product found Apple iPhone 13 (128GB) - Starlight
+Product 3: Apple iPhone 13 (128GB) - Midnight
+Product 4: Apple iPhone 13 (128GB) - Blue
+Product 5: Apple iPhone 13 (128GB) - Pink
+Product 6: Apple iPhone 13 (128GB) - (Product) RED
+Product 7: Apple iPhone 13 (128GB) - Green
+Product 8: Apple iPhone 16 Pro (128 GB) - Desert Titanium
+Product 9: Apple iPhone 16 Pro (128 GB) - Black Titanium
+Product 10: Apple iPhone 15 (128 GB) - Blue
+Product 11: Apple iPhone 16 (128 GB) - Black
+Product 12: Apple iPhone 16 (128 GB) - Ultramarine
+Product 13: Apple iPhone 15 (128 GB) - Black
+Product 14: Apple iPhone 14 (128 GB) - Blue
+Product 15: Apple iPhone 16 (128 GB) - Teal
+Product 16: Apple iPhone 15 (128 GB) - Green
+Product 17: Apple iPhone 16 (128 GB) - Pink
+cart page price value is  69900
+ cart page quantity value is  1
+expected totla is  69900
+ actual totla amount 69900
