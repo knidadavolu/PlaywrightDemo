@@ -25,7 +25,7 @@ export class SelectProducts {
       if (mobileName?.toLowerCase().includes(modelName.toLowerCase())) {
         console.log("matching product found", mobileName);
         await this.addToCartLocator.waitFor({ state: "visible" });
-        this.page.waitForTimeout(3000);
+        await this.page.waitForTimeout(3000);
         await this.addToCartLocator.click();
         await this.addToCartLocator.waitFor({ state: "visible" });
       }
