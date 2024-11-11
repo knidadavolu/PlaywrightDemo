@@ -5,7 +5,6 @@ export class SelectProducts {
   addToCartLocator: Locator;
   page: Page;
 
-  // newPage: Page | undefined;
   constructor(page: Page) {
     this.page = page;
     this.productsNameLocator = page.locator(

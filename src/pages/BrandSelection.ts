@@ -27,8 +27,6 @@ export class BrandSelection {
 
     for (let i = 0; i < brandCound; i++) {
       await this.select_brand.nth(i).allTextContents();
-      //const brandCheckBox:Locator = this.select_brand.filter({hasText:brandName}).locator('input[type="checkbox"]');
-      //const isCheckboxVisible= await listOfBrand.isVisible();
       if (listOfBrand.includes(brandName.toLowerCase())) {
         await this.select_brand.locator(".a-expander-prompt").click();
         const brandCheckBox: Locator = await this.select_brand
@@ -37,15 +35,11 @@ export class BrandSelection {
           .locator('input[type="checkbox"]');
         console.log(brandCheckBox.count());
         console.log(`print the checkboxx ${brandCheckBox}`);
-
-        //const brandCheckBox = await this.select_brand.locator('input[type="checkbox"]');
-
         await brandCheckBox.check();
         console.log(`brand ${brandName} check box is checked `);
         expect(brandCheckBox).toBeChecked();
       } else {
         console.log(`brand ${brandName} check box is not checked `);
-        //  expect(isCheckboxVisible).toBeTruthy();
       }
     }
   }

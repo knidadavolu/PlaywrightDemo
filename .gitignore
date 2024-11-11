@@ -2,3 +2,6 @@
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+node_modules/
+allure-results/
+allure-report

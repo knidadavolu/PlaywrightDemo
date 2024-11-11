@@ -30,12 +30,6 @@ test.afterEach(async ({ page }, testInfo) => {
 test("Amazon Web Page", async ({ page }) => {
   const pomMaager: POManager = new POManager(page);
 
-  /*const loginPage = pomMaager.getLoginPage();
-  await page.goto("https://www.amazon.in/");
-  await loginPage.login(data.useremail,data.password);
-  await loginPage.loginValidation();
-  await page.context().storageState({path:authFile})*/
-
   const searchProduct = pomMaager.getserachProduct();
   await searchProduct.goToSearch();
   await searchProduct.productSearch(data.productName);
